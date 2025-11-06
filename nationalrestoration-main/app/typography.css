@@ -1,0 +1,162 @@
+/* Base text styles with improved readability */
+.readable-text {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Text with enhanced contrast */
+.high-contrast-text {
+  color: hsl(var(--foreground));
+  font-weight: 500;
+}
+
+/* Text with subtle shadow for better visibility on varied backgrounds */
+.text-shadow-sm {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow-md {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* Light text with shadow for dark backgrounds */
+.light-text-shadow {
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark text with subtle shadow for light backgrounds */
+.dark-text-shadow {
+  color: hsl(var(--foreground));
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+/* Text with background for maximum readability */
+.text-with-bg {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.text-with-dark-bg {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Gradient background for text on complex backgrounds */
+.text-gradient-bg {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}
+
+/* Outlined text for extreme contrast needs */
+.text-outline-sm {
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.text-outline-md {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Improved link visibility */
+.readable-link {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.15em;
+  font-weight: 500;
+}
+
+.readable-link:hover,
+.readable-link:focus {
+  text-decoration-thickness: 0.15em;
+}
+
+/* Improved letter spacing for better readability */
+.improved-letter-spacing {
+  letter-spacing: 0.01em;
+}
+
+/* Improved line height for better readability */
+.improved-line-height {
+  line-height: 1.6;
+}
+
+/* Container with improved text background */
+.readable-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.readable-container-dark {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Focus visible improvements */
+.focus-visible:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+}
+
+/* Tablet-specific typography enhancements */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .tablet-readable-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .tablet-heading {
+    letter-spacing: -0.01em;
+    font-weight: 700;
+  }
+}
+
+/* Mobile-specific typography enhancements */
+@media (max-width: 639px) {
+  .mobile-readable-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+  }
+}
+
+/* High contrast text container */
+.high-contrast-text-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* High contrast heading */
+.high-contrast-heading {
+  color: hsl(var(--foreground));
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.75rem;
+}
+
+/* High contrast paragraph */
+.high-contrast-paragraph {
+  color: hsl(var(--foreground) / 0.9);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
