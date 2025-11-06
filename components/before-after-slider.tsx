@@ -85,14 +85,15 @@ export default function BeforeAfterSlider({
 
       {/* After image (clipped) */}
       <div className="absolute inset-0 overflow-hidden" style={{ width: `${sliderPosition}%` }}>
-        <Image
-          src={afterSrc || "/placeholder.svg"}
-          alt={afterAlt}
-          fill
-          className="object-cover"
-          sizes="100vw"
-          style={{ width: "100vw" }}
-        />
+        <div className="absolute inset-0" style={{ width: "100vw" }}>
+          <Image
+            src={afterSrc || "/placeholder.svg"}
+            alt={afterAlt}
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+        </div>
         <div className="absolute inset-0 bg-black/10" />
         <div className="absolute bottom-8 left-8 bg-primary text-white px-4 py-2 rounded-lg font-bold">AFTER</div>
       </div>
