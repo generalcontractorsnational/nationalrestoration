@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { MapPin, Phone, Mail, Building, Sun, CloudRain, Wind, Shield } from "lucide-react"
+import { MapPin, Phone, Mail, Building, Clock, Shield, Award, CheckCircle2 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import CTA from "@/components/cta"
@@ -9,441 +9,785 @@ import PageHeader from "@/components/page-header"
 import { getLocationPageSchema } from "@/lib/schema"
 
 export const metadata = {
-  title: "Atlanta Restoration Services | National Restoration",
+  title: "Atlanta Metro Restoration Services | National Builders Georgia",
   description:
-    "National Restoration provides comprehensive restoration services throughout Atlanta, including Marietta, Alpharetta, and surrounding areas.",
+    "Trusted roofing, storm, and exterior experts across Metro Atlanta and North Georgia. Licensed, insured, and ready to help. Free inspections – call 1-800-RESTORE.",
 }
 
 export default function AtlantaPage() {
-  // Services for schema
   const services = [
     {
-      name: "Roofing Services in Atlanta",
+      name: "Storm Damage Restoration in Atlanta",
       description:
-        "Expert roof replacement, repair and installation services for residential and commercial properties in Atlanta.",
-      url: "https://nationalrestoration.com/services/roofing",
-      image: "https://nationalrestoration.com/roofing-crew-install.png",
-    },
-    {
-      name: "Window Replacement in Atlanta",
-      description:
-        "Energy-efficient window solutions that enhance comfort, reduce utility bills, and improve your home's appearance in Atlanta.",
-      url: "https://nationalrestoration.com/services/windows",
-      image: "https://nationalrestoration.com/modern-window-install.png",
-    },
-    {
-      name: "Siding Replacement in Atlanta",
-      description:
-        "Durable, beautiful siding options including vinyl, fiber cement, and engineered wood to protect and enhance your property in Atlanta.",
-      url: "https://nationalrestoration.com/services/siding",
-      image: "https://nationalrestoration.com/newly-sided-home.png",
-    },
-    {
-      name: "Storm Damage Repair in Atlanta",
-      description:
-        "Emergency response and comprehensive restoration for properties damaged by storms, hail, wind, and water in Atlanta.",
+        "Expert hail, wind, and tornado damage repair with free inspections and fast turnaround throughout Metro Atlanta.",
       url: "https://nationalrestoration.com/services/storm-damage",
-      image: "https://nationalrestoration.com/roof-repair-after-storm.png",
+      image: "https://nationalrestoration.com/atlanta-storm-damage.jpg",
+    },
+    {
+      name: "Roof Replacement & Repair in Atlanta",
+      description: "Asphalt, metal, and flat roof systems built for Georgia's heat and humidity.",
+      url: "https://nationalrestoration.com/services/roofing",
+      image: "https://nationalrestoration.com/atlanta-roofing.jpg",
+    },
+    {
+      name: "Siding, Windows & Gutters in Atlanta",
+      description: "Full exterior upgrades to restore beauty, function, and energy efficiency for Atlanta properties.",
+      url: "https://nationalrestoration.com/services/siding",
+      image: "https://nationalrestoration.com/atlanta-siding.jpg",
+    },
+    {
+      name: "Water & Fire Restoration in Atlanta",
+      description: "24/7 emergency response, cleanup, and reconstruction services throughout Metro Atlanta.",
+      url: "https://nationalrestoration.com/services/restoration",
+      image: "https://nationalrestoration.com/atlanta-restoration.jpg",
     },
   ]
 
-  // Generate location page schema
   const locationSchema = getLocationPageSchema(
     "Atlanta",
     "Atlanta",
     "GA",
-    "3344 Peachtree Road NE, Suite 1200",
+    "3340 Peachtree Rd NE, Suite 1800",
     "30326",
-    "(404) 555-7890",
+    "(404) 555-4722",
     "atlanta@nationalrestoration.com",
     33.8463,
     -84.3621,
     "https://nationalrestoration.com/locations/atlanta",
-    "https://nationalrestoration.com/atlanta-skyline.png",
-    "National Restoration provides comprehensive restoration services throughout Atlanta, including Marietta, Alpharetta, and surrounding areas.",
+    "https://nationalrestoration.com/atlanta-skyline-hero.jpg",
+    "Trusted roofing, storm, and exterior experts across Metro Atlanta and North Georgia. Licensed, insured, and ready to help.",
     services,
   )
 
   return (
     <>
-      {/* Add schema markup */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(locationSchema) }} />
 
       <div className="flex flex-col">
         <PageHeader
-          title="Atlanta"
-          description="Comprehensive restoration services for Atlanta, Marietta, Alpharetta, and beyond"
-          backgroundImage="/atlanta-skyline.png"
+          title="Atlanta Metro Restoration Services"
+          description="Trusted Roofing, Storm, and Exterior Experts Across Georgia"
+          backgroundImage="/atlanta-skyline-hero.jpg"
         />
 
-        {/* Rest of the location page content */}
-        <section className="py-16 md:py-24">
+        <section className="py-6 md:py-8">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="max-w-4xl mx-auto text-center">
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+                When the storm passes, National Builders is the name homeowners and businesses across Atlanta trust
+                most. We provide comprehensive restoration, roofing, and exterior renovation services for residential
+                and commercial properties throughout Metro Atlanta and North Georgia — combining local craftsmanship
+                with the power of a nationally trusted company.
+              </p>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                Whether it's hail, high winds, flooding, or fire, our certified teams deliver rapid response, precise
+                inspections, and quality repairs that stand the test of time. From the heart of Atlanta to Alpharetta,
+                Marietta, and beyond, we're the Southeast's full-service partner for storm recovery, roofing, and
+                exterior restoration.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-6 md:py-8 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-team-working-residential.jpg"
+                  alt="Atlanta restoration team at work"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-storm-damage-inspection.jpg"
+                  alt="Storm damage inspection in Atlanta"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-commercial-roofing-project.jpg"
+                  alt="Commercial roofing project in Atlanta"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
               <div>
-                <Badge className="mb-4">Local Expertise</Badge>
-                <h2 className="text-3xl md:text-4xl font-bold mb-6">Atlanta Restoration Specialists</h2>
-                <p className="text-lg text-muted-foreground mb-6">
-                  National Restoration has been serving Atlanta homeowners and businesses. Our local team understands
-                  the unique challenges of the region's climate, from summer storms to occasional winter weather events,
-                  and provides tailored solutions for every property.
+                <Badge className="mb-4">Georgia's Restoration Leader</Badge>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">Atlanta Headquarters</h2>
+                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                  Our Atlanta office is home to one of National Builders' most experienced divisions, specializing in
+                  storm recovery, insurance claim support, and complete exterior replacement.
                 </p>
-                <p className="text-lg text-muted-foreground mb-6">
-                  Based in Atlanta with satellite operations throughout the metro area, our Georgia team provides
-                  comprehensive restoration services including roofing, windows, siding, gutters, and storm damage
-                  repair. We work with all major insurance companies and are familiar with local building codes and
-                  permit requirements.
-                </p>
-                <p className="text-lg text-muted-foreground mb-8">
-                  Whether you're in Atlanta, Marietta, Alpharetta, or surrounding areas, our local experts are ready to
-                  deliver exceptional results with the personalized service you deserve.
+                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                  We serve both historic intown properties and modern suburban developments across Fulton, Cobb,
+                  Gwinnett, and DeKalb Counties — with crews strategically stationed throughout the Metro to respond
+                  quickly after major weather events.
                 </p>
 
-                <div className="space-y-3 mb-8">
+                <div className="space-y-4 mb-8">
                   <div className="flex items-start gap-3">
-                    <Building className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-medium">Atlanta Office</p>
+                      <p className="font-semibold">Storm Damage Restoration</p>
                       <p className="text-muted-foreground">
-                        3344 Peachtree Road NE, Suite 1200
-                        <br />
-                        Atlanta, GA 30326
+                        Expert hail, wind, and tornado damage repair with free inspections and fast turnaround.
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <Phone className="h-5 w-5 text-primary flex-shrink-0" />
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-medium">Phone</p>
-                      <p className="text-muted-foreground">(404) 555-7890</p>
+                      <p className="font-semibold">Roof Replacement & Repair</p>
+                      <p className="text-muted-foreground">
+                        Asphalt, metal, and flat roof systems built for Georgia's heat and humidity.
+                      </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <Mail className="h-5 w-5 text-primary flex-shrink-0" />
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-medium">Email</p>
-                      <p className="text-muted-foreground">atlanta@nationalrestoration.com</p>
+                      <p className="font-semibold">Siding, Windows & Gutters</p>
+                      <p className="text-muted-foreground">
+                        Full exterior upgrades to restore beauty, function, and energy efficiency.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold">Water & Fire Restoration</p>
+                      <p className="text-muted-foreground">
+                        24/7 emergency response, cleanup, and reconstruction services.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold">Insurance Claim Support</p>
+                      <p className="text-muted-foreground">
+                        We document, estimate, and coordinate directly with your adjuster to secure fair coverage.
+                      </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="space-y-4">
-                  <Button asChild size="lg" className="mr-4">
-                    <Link href="/contact">Schedule Free Inspection</Link>
-                  </Button>
-                  <Button asChild variant="outline" size="lg">
-                    <Link href="/services">Explore Our Services</Link>
-                  </Button>
-                </div>
+                <p className="text-lg text-muted-foreground italic border-l-4 border-primary pl-4">
+                  When it comes to protecting your home or business, National Builders Atlanta is more than a contractor
+                  — we're your advocate and your partner from inspection to completion.
+                </p>
               </div>
 
-              <div className="relative aspect-video rounded-lg overflow-hidden">
-                <Image src="/atlanta-team.png" alt="Atlanta restoration team" fill className="object-cover" />
+              <div>
+                <Card className="border-2 border-primary/20 shadow-lg">
+                  <CardHeader className="bg-primary/5">
+                    <CardTitle className="text-2xl">Contact Atlanta Office</CardTitle>
+                  </CardHeader>
+                  <CardContent className="pt-6 space-y-6">
+                    <div className="flex items-start gap-4">
+                      <Building className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="font-semibold text-lg mb-1">Address</p>
+                        <p className="text-muted-foreground">
+                          3340 Peachtree Rd NE, Suite 1800
+                          <br />
+                          Atlanta, GA 30326
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="font-semibold text-lg mb-1">Phone</p>
+                        <a href="tel:4045554722" className="text-primary hover:underline text-lg">
+                          (404) 555-4722
+                        </a>
+                        <p className="text-sm text-muted-foreground mt-1">Toll-Free: 1-800-RESTORE</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="font-semibold text-lg mb-1">Email</p>
+                        <a href="mailto:atlanta@nationalrestoration.com" className="text-primary hover:underline">
+                          atlanta@nationalrestoration.com
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <Clock className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                      <div>
+                        <p className="font-semibold text-lg mb-1">Office Hours</p>
+                        <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        <p className="text-muted-foreground">Saturday: 9:00 AM - 3:00 PM</p>
+                        <p className="text-sm text-primary font-semibold mt-2">24/7 Emergency Service Available</p>
+                      </div>
+                    </div>
+
+                    <div className="pt-4 space-y-3">
+                      <Button asChild size="lg" className="w-full">
+                        <Link href="/contact">Schedule Free Inspection</Link>
+                      </Button>
+                      <Button asChild variant="outline" size="lg" className="w-full bg-transparent">
+                        <a href="tel:4045554722">Call Now</a>
+                      </Button>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <div className="relative aspect-video rounded-lg overflow-hidden mt-6">
+                  <Image
+                    src="/atlanta-office-building.jpg"
+                    alt="Atlanta office building"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Regional Specializations */}
-        <section className="py-16 md:py-24 bg-muted/50">
+        <section className="py-6 md:py-8 bg-muted/30">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <Badge className="mb-4">Regional Expertise</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Atlanta Specializations</h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Our Atlanta team specializes in restoration solutions tailored to the region's unique climate and
-                architectural styles.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <Card>
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <Sun className="h-6 w-6 text-primary" />
-                  </div>
-                  <CardTitle>Heat-Resistant Materials</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    We specialize in heat-resistant roofing and siding materials designed to withstand Atlanta's hot and
-                    humid summers. These specialized materials maintain their appearance and structural integrity for
-                    years longer than standard options, providing superior protection and value.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <CloudRain className="h-6 w-6 text-primary" />
-                  </div>
-                  <CardTitle>Storm Protection</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    For properties in storm-prone areas, we offer specialized storm-resistant roofing, siding, and
-                    window solutions. Our impact-resistant materials and installation techniques help protect your
-                    property during severe weather and may qualify for insurance discounts.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <Wind className="h-6 w-6 text-primary" />
-                  </div>
-                  <CardTitle>Energy-Efficient Solutions</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Our energy-efficient windows, cool roofing systems, and insulated siding help reduce cooling costs
-                    in Atlanta's warm climate. These solutions not only lower utility bills but also qualify for various
-                    rebates and incentives from local utilities and government programs.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <Shield className="h-6 w-6 text-primary" />
-                  </div>
-                  <CardTitle>Humidity Protection</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Our restoration solutions take into account Atlanta's high humidity levels. We use specialized
-                    moisture barriers, ventilation systems, and mold-resistant materials to ensure your exterior systems
-                    can withstand the region's humidity without damage or deterioration.
-                  </p>
-                </CardContent>
-              </Card>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image src="/atlanta-buckhead-homes.jpg" alt="Buckhead neighborhood" fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Buckhead</p>
+                </div>
+              </div>
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image src="/atlanta-midtown-skyline.jpg" alt="Midtown Atlanta" fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Midtown</p>
+                </div>
+              </div>
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-decatur-neighborhood.jpg"
+                  alt="Decatur neighborhood"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Decatur</p>
+                </div>
+              </div>
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image src="/atlanta-sandy-springs-homes.jpg" alt="Sandy Springs homes" fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Sandy Springs</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Service Areas */}
-        <section className="py-16 md:py-24">
+        <section className="py-6 md:py-8">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <Badge className="mb-4">Coverage Area</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Areas We Serve</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Serving the Entire Metro Atlanta Region</h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Our Atlanta team provides comprehensive restoration services throughout the metro area.
+                Our service area spans the entire Metro Atlanta region, including the city center and surrounding
+                suburbs. We understand the diverse architecture and permitting requirements across counties, and we
+                tailor our solutions for each community's unique needs.
               </p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[500px] rounded-lg overflow-hidden">
-                <Image src="/atlanta-map.png" alt="Atlanta service area map" fill className="object-cover" />
+                <Image
+                  src="/atlanta-metro-map.jpg"
+                  alt="Atlanta Metro service area map"
+                  fill
+                  className="object-cover"
+                />
               </div>
 
               <div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <h3 className="text-xl font-bold mb-4">Atlanta</h3>
+                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-primary" />
+                      City of Atlanta
+                    </h3>
                     <ul className="space-y-2 text-muted-foreground">
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Buckhead
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Midtown
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Downtown
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Virginia Highland
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Decatur
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Sandy Springs
-                      </li>
+                      <li>Midtown</li>
+                      <li>Buckhead</li>
+                      <li>Downtown</li>
+                      <li>Grant Park</li>
+                      <li>West End</li>
                     </ul>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold mb-4">North Metro</h3>
+                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-primary" />
+                      North Metro
+                    </h3>
                     <ul className="space-y-2 text-muted-foreground">
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Marietta
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Alpharetta
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Roswell
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Kennesaw
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Cumming
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Johns Creek
-                      </li>
+                      <li>Alpharetta</li>
+                      <li>Roswell</li>
+                      <li>Milton</li>
+                      <li>Johns Creek</li>
+                      <li>Suwanee</li>
+                      <li>Cumming</li>
                     </ul>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold mb-4">East Metro</h3>
+                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-primary" />
+                      East Metro
+                    </h3>
                     <ul className="space-y-2 text-muted-foreground">
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Stone Mountain
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Lilburn
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Snellville
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Lawrenceville
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Duluth
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Norcross
-                      </li>
+                      <li>Decatur</li>
+                      <li>Stone Mountain</li>
+                      <li>Lawrenceville</li>
+                      <li>Snellville</li>
+                      <li>Conyers</li>
                     </ul>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold mb-4">South Metro</h3>
+                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-primary" />
+                      West Metro
+                    </h3>
                     <ul className="space-y-2 text-muted-foreground">
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> College Park
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> East Point
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Fayetteville
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Peachtree City
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> McDonough
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <MapPin className="h-4 w-4 text-primary" /> Stockbridge
-                      </li>
+                      <li>Marietta</li>
+                      <li>Smyrna</li>
+                      <li>Kennesaw</li>
+                      <li>Powder Springs</li>
+                      <li>Douglasville</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-primary" />
+                      South Metro
+                    </h3>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li>Peachtree City</li>
+                      <li>Fayetteville</li>
+                      <li>Newnan</li>
+                      <li>Stockbridge</li>
+                      <li>McDonough</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+                      <MapPin className="h-5 w-5 text-primary" />
+                      North Georgia
+                    </h3>
+                    <ul className="space-y-2 text-muted-foreground">
+                      <li>Gainesville</li>
+                      <li>Dawsonville</li>
+                      <li>Canton</li>
+                      <li>Athens</li>
                     </ul>
                   </div>
                 </div>
 
-                <p className="mt-6 text-muted-foreground">
-                  Don't see your city listed? Contact us to confirm service availability in your specific location.
+                <p className="mt-6 text-muted-foreground italic">
+                  Wherever you are in the Atlanta Metro area, our restoration professionals are nearby — ready to
+                  respond fast and deliver five-star service.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Local Projects */}
-        <section className="py-16 md:py-24 bg-muted/50">
+        <section className="py-6 md:py-8 bg-muted/30">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <Badge className="mb-4">Featured Projects</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Atlanta Success Stories</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image src="/marietta-neighborhood.jpg" alt="Marietta neighborhood" fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Marietta</p>
+                </div>
+              </div>
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image src="/alpharetta-development.jpg" alt="Alpharetta development" fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Alpharetta</p>
+                </div>
+              </div>
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image src="/roswell-homes.jpg" alt="Roswell homes" fill className="object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Roswell</p>
+                </div>
+              </div>
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image
+                  src="/johns-creek-neighborhood.jpg"
+                  alt="Johns Creek neighborhood"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <p className="text-white font-semibold">Johns Creek</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-8">
+              <Badge className="mb-4">Our Services</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Complete Restoration & Exterior Services</h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Explore some of our recent restoration projects throughout Atlanta.
+                We handle every stage of restoration — from the first inspection to the final clean-up — using premium
+                materials, experienced crews, and detailed photo documentation. Every project is code-compliant,
+                insured, and warrantied.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Storm Damage Repair</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Hail, Wind, Water, Fire</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Roof Replacement & Repairs</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Shingle, Metal, Flat Roof Systems</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Siding Replacement</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Vinyl, Fiber Cement, Engineered Wood</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Window & Door Upgrades</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Energy-efficient solutions</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Gutter & Downspout Systems</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Complete drainage solutions</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Water Mitigation</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Structural Dry-Out</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Commercial Roofing</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Waterproofing solutions</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Insurance Claim Support</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">Documentation & Advocacy</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-6 md:py-8 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-roofing-installation.jpg"
+                  alt="Roofing installation in Atlanta"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-siding-replacement.jpg"
+                  alt="Siding replacement in Atlanta"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-window-installation.jpg"
+                  alt="Window installation in Atlanta"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <Badge className="mb-4">Climate Solutions</Badge>
+                <h2 className="text-3xl md:text-4xl font-bold mb-6">Built for Georgia's Climate</h2>
+                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                  Atlanta weather brings it all — blistering heat, severe thunderstorms, high humidity, and the
+                  occasional ice storm.
+                </p>
+                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                  Our roofing and exterior systems are designed to withstand the South's extremes, offering durability,
+                  efficiency, and protection year-round.
+                </p>
+
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <Shield className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold">Impact-resistant shingles</p>
+                      <p className="text-muted-foreground">For hail and high winds</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Shield className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold">Reflective roof coatings</p>
+                      <p className="text-muted-foreground">For energy savings in summer heat</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Shield className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold">Advanced flashing & drainage systems</p>
+                      <p className="text-muted-foreground">For heavy rain</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Shield className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold">Moisture-resistant siding & insulation</p>
+                      <p className="text-muted-foreground">To combat humidity and mold</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Shield className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold">Roof ventilation & attic upgrades</p>
+                      <p className="text-muted-foreground">To improve energy efficiency</p>
+                    </div>
+                  </div>
+                </div>
+
+                <p className="text-lg text-muted-foreground italic border-l-4 border-primary pl-4 mt-6">
+                  Our work doesn't just restore — it fortifies your home or business against whatever Georgia's weather
+                  brings next.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="relative aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/atlanta-heat-resistant-roofing.jpg"
+                    alt="Heat-resistant roofing in Atlanta"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/atlanta-storm-protection.jpg"
+                    alt="Storm protection systems"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-6 md:py-8 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-8">
+              <Badge className="mb-4">Featured Projects</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Atlanta Projects</h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Explore some of our recent restoration projects throughout Metro Atlanta.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <Card className="overflow-hidden">
                 <div className="relative h-64 w-full">
-                  <Image src="/buckhead-estate.png" alt="Buckhead Estate Restoration" fill className="object-cover" />
+                  <Image
+                    src="/buckhead-historic-restoration.jpg"
+                    alt="Historic Buckhead Restoration"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <CardHeader>
-                  <CardTitle>Buckhead Estate</CardTitle>
+                  <CardTitle>Historic Buckhead Restoration</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Complete exterior restoration of a luxury estate property damaged by severe storms. Project included
-                    custom copper gutters, impact-resistant windows, and specialized architectural finishes.
+                    Complete exterior restoration on a 1930s home with new architectural shingles, custom wood trim, and
+                    historically matched paint colors. Project approved through the city's preservation board.
                   </p>
-                  <Button asChild variant="outline" className="w-full bg-transparent">
-                    <Link href="/case-studies/buckhead-estate">View Project</Link>
-                  </Button>
                 </CardContent>
               </Card>
 
               <Card className="overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image
-                    src="/atlanta-commercial-complex.png"
-                    alt="Atlanta Commercial Complex"
+                    src="/marietta-multi-family-storm-recovery.jpg"
+                    alt="Marietta Multi-Family Storm Recovery"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Midtown Office Complex</CardTitle>
+                  <CardTitle>Marietta Multi-Family Storm Recovery</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Multi-building commercial renovation featuring energy-efficient window systems, cool roofing
-                    technology, and updated facade elements. Project completed in phases to minimize business
-                    disruption.
+                    Full roof and siding replacement across a 40-unit HOA community after severe hail damage. Work
+                    completed with zero disruption to residents and full insurance coordination.
                   </p>
-                  <Button asChild variant="outline" className="w-full bg-transparent">
-                    <Link href="/case-studies/atlanta-commercial">View Project</Link>
-                  </Button>
                 </CardContent>
               </Card>
 
               <Card className="overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image
-                    src="/marietta-storm-recovery.png"
-                    alt="Marietta Storm Recovery"
+                    src="/alpharetta-office-complex.jpg"
+                    alt="Alpharetta Office Complex"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle>Marietta Storm Recovery</CardTitle>
+                  <CardTitle>Alpharetta Office Complex</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Comprehensive restoration of a residential community affected by severe storm damage. Project
-                    included storm-resistant roofing, siding, and window systems designed to enhance protection against
-                    future events.
+                    Commercial roof restoration and coating project improving energy efficiency and waterproofing for a
+                    25,000 sq. ft. building in North Fulton County.
                   </p>
-                  <Button asChild variant="outline" className="w-full bg-transparent">
-                    <Link href="/case-studies/marietta-storm-recovery">View Project</Link>
-                  </Button>
                 </CardContent>
               </Card>
-            </div>
-
-            <div className="mt-12 text-center">
-              <Button asChild size="lg">
-                <Link href="/gallery">View More Projects</Link>
-              </Button>
             </div>
           </div>
         </section>
 
-        {/* Local Testimonials */}
-        <section className="py-16 md:py-24">
+        <section className="py-6 md:py-8">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
+              <Badge className="mb-4">Transformations</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Before & After</h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <p className="text-center font-semibold mb-2">Before</p>
+                <div className="relative aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/atlanta-before-storm-damage.jpg"
+                    alt="Before storm damage repair"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div>
+                <p className="text-center font-semibold mb-2">After</p>
+                <div className="relative aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/atlanta-after-storm-damage.jpg"
+                    alt="After storm damage repair"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div>
+                <p className="text-center font-semibold mb-2">Before</p>
+                <div className="relative aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/atlanta-before-siding-replacement.jpg"
+                    alt="Before siding replacement"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              <div>
+                <p className="text-center font-semibold mb-2">After</p>
+                <div className="relative aspect-video rounded-lg overflow-hidden">
+                  <Image
+                    src="/atlanta-after-siding-replacement.jpg"
+                    alt="After siding replacement"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-6 md:py-8 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-8">
               <Badge className="mb-4">Testimonials</Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Atlanta Clients Say</h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Hear from homeowners and businesses throughout Atlanta who have experienced the National Restoration
-                difference.
-              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -467,150 +811,180 @@ export default function AtlantaPage() {
                     ))}
                   </div>
                   <p className="text-lg italic mb-6">
-                    "After the severe storms damaged our roof, National Restoration responded quickly and
-                    professionally. Their team worked directly with our insurance company and completed the repairs
-                    efficiently. The new roof looks fantastic and has already withstood several major storms without
-                    issue."
+                    "National Builders made a stressful storm claim completely painless. They handled everything — from
+                    meeting the adjuster to replacing our roof. The workmanship was excellent."
                   </p>
                   <div>
-                    <p className="font-semibold">Michael & Jennifer T.</p>
+                    <p className="font-semibold">Jennifer L.</p>
+                    <p className="text-sm text-muted-foreground">Alpharetta, GA</p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg
+                        key={i}
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="w-5 h-5 text-primary"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-lg italic mb-6">
+                    "Our Buckhead home needed extensive repair after a windstorm. The team was on-site within 24 hours,
+                    professional, and communicative. The new roof looks incredible."
+                  </p>
+                  <div>
+                    <p className="font-semibold">David M.</p>
+                    <p className="text-sm text-muted-foreground">Atlanta, GA</p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="flex mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg
+                        key={i}
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="w-5 h-5 text-primary"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-lg italic mb-6">
+                    "As a property manager, I've worked with several restoration companies. National Builders Atlanta is
+                    by far the most reliable — on schedule, transparent, and quality-focused."
+                  </p>
+                  <div>
+                    <p className="font-semibold">Robert P.</p>
                     <p className="text-sm text-muted-foreground">Marietta, GA</p>
                   </div>
                 </CardContent>
               </Card>
-
-              <Card>
-                <CardContent className="pt-6">
-                  <div className="flex mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <svg
-                        key={i}
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-5 h-5 text-primary"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-lg italic mb-6">
-                    "We hired National Restoration to replace all the windows in our Atlanta home with energy-efficient
-                    options. The difference in our comfort and energy bills has been remarkable. Their team was
-                    knowledgeable about local rebate programs, which saved us thousands on the project."
-                  </p>
-                  <div>
-                    <p className="font-semibold">David & Sarah L.</p>
-                    <p className="text-sm text-muted-foreground">Atlanta, GA</p>
-                  </div>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardContent className="pt-6">
-                  <div className="flex mb-4">
-                    {[...Array(5)].map((_, i) => (
-                      <svg
-                        key={i}
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="w-5 h-5 text-primary"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    ))}
-                  </div>
-                  <p className="text-lg italic mb-6">
-                    "As property managers for several commercial buildings in Atlanta, we've worked with many
-                    contractors over the years. National Restoration stands out for their professionalism, quality work,
-                    and ability to complete projects with minimal disruption to our tenants."
-                  </p>
-                  <div>
-                    <p className="font-semibold">Robert K., Property Manager</p>
-                    <p className="text-sm text-muted-foreground">Atlanta, GA</p>
-                  </div>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </section>
 
-        {/* Local Certifications */}
-        <section className="py-16 md:py-24 bg-muted/50">
+        <section className="py-6 md:py-8">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <Badge className="mb-4">Local Credentials</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Atlanta Certifications</h2>
+            <div className="text-center mb-8">
+              <Badge className="mb-4">Credentials</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Georgia Credentials & Certifications</h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Our Atlanta team maintains specialized certifications and partnerships relevant to the region.
+                Our certifications and partnerships mean every project meets Georgia's state codes and qualifies for
+                manufacturer-backed warranties.
               </p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6">
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                  <Image src="/georgia-license-board.png" alt="Georgia State License Board" width={60} height={60} />
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
                 </div>
-                <p className="text-center font-medium">GA Licensed</p>
+                <p className="text-center text-sm font-medium">GA Licensed General Contractor</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                  <Image src="/energy-star-logo.png" alt="ENERGY STAR Partner" width={60} height={60} />
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
                 </div>
-                <p className="text-center font-medium">ENERGY STAR Partner</p>
+                <p className="text-center text-sm font-medium">GAF Master Elite®</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                  <Image src="/atlanta-bbb-logo.png" alt="BBB Atlanta" width={60} height={60} />
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
                 </div>
-                <p className="text-center font-medium">BBB Accredited</p>
+                <p className="text-center text-sm font-medium">CertainTeed Select ShingleMaster™</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                  <Image src="/cool-roof-rating-logo.png" alt="Cool Roof Rating Council" width={60} height={60} />
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
                 </div>
-                <p className="text-center font-medium">CRRC Member</p>
+                <p className="text-center text-sm font-medium">Owens Corning Preferred</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                  <Image
-                    src="/georgia-power-logo.png"
-                    alt="Georgia Power Preferred Contractor"
-                    width={60}
-                    height={60}
-                  />
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
                 </div>
-                <p className="text-center font-medium">GA Power Preferred Contractor</p>
+                <p className="text-center text-sm font-medium">IICRC-Certified</p>
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                  <Image src="/atlanta-hba-logo.png" alt="Atlanta Home Builders Association" width={60} height={60} />
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
                 </div>
-                <p className="text-center font-medium">Atlanta HBA Member</p>
+                <p className="text-center text-sm font-medium">ENERGY STAR® Partner</p>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
+                </div>
+                <p className="text-center text-sm font-medium">BBB A+ Accredited</p>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-md mb-3">
+                  <Award className="h-10 w-10 text-primary" />
+                </div>
+                <p className="text-center text-sm font-medium">Insured & Bonded</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* CTA Section */}
+        <section className="py-6 md:py-8 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image src="/atlanta-team-meeting.jpg" alt="Atlanta team meeting" fill className="object-cover" />
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-equipment-trucks.jpg"
+                  alt="Atlanta equipment and trucks"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="/atlanta-crew-celebration.jpg"
+                  alt="Atlanta crew celebrating success"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         <CTA
-          title="Ready to Get Started in Atlanta?"
-          description="Contact our local team today for a free inspection and estimate. We're ready to help with your restoration needs."
-          buttonText="Contact Our Atlanta Team"
+          title="Schedule a Free Inspection Today"
+          description="Don't wait until the next storm hits. Contact National Builders Atlanta for a free, no-obligation inspection and damage assessment. Our local experts will identify issues early, document your claim, and restore your property quickly and professionally."
+          buttonText="Contact Atlanta Office"
           buttonLink="/contact"
         />
       </div>

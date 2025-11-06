@@ -10,10 +10,12 @@ import MobileNav from "@/components/mobile-nav"
 import { PropertyProvider } from "@/contexts/property-context"
 import { AssessmentProvider } from "@/contexts/assessment-context"
 import { usePathname } from "next/navigation"
+import EmergencyBanner from "@/components/emergency-banner"
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
   const isAssessmentTool = pathname?.includes("/storm-damage-assessment")
+  const isHomePage = pathname === "/"
 
   // Scroll to top on route change
   useEffect(() => {
@@ -45,6 +47,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
     <PropertyProvider>
       <AssessmentProvider>
         <div className="flex flex-col min-h-screen">
+          {isHomePage && <EmergencyBanner />}
           <header className="sticky top-0 z-50">
             <Header />
           </header>
