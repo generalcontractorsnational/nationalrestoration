@@ -10,7 +10,7 @@ import PageHeader from "@/components/page-header"
 export const metadata = {
   title: "Service Locations | National Restoration",
   description:
-    "National Restoration provides services across Southern California, Washington D.C. Metro, Ohio, and Dallas-Fort Worth. Find your local office.",
+    "National Restoration provides services across Southern California, Washington D.C. Metro, Ohio, Dallas-Fort Worth, St. Louis, and Pittsburgh. Find your local office.",
 }
 
 export default function LocationsPage() {
@@ -242,6 +242,89 @@ export default function LocationsPage() {
                 </div>
                 <Button asChild className="w-full">
                   <Link href="/locations/texas">View Details</Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden">
+              <div className="relative h-64 w-full">
+                <Image
+                  src="/st-louis-gateway-arch-skyline.jpg"
+                  alt="St. Louis Metro Office"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <CardHeader>
+                <div className="flex items-center gap-2 mb-2">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  <CardTitle>St. Louis Metro</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-6">
+                  Serving St. Louis, St. Charles, O'Fallon, and Southern Illinois with comprehensive restoration
+                  services tailored to the Midwest's unique climate and diverse architectural styles.
+                </p>
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-start gap-3">
+                    <Building className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-muted-foreground">
+                      12345 Olive Blvd, Suite 200
+                      <br />
+                      St. Louis, MO 63141
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Phone className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-muted-foreground">(314) 555-8765</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Mail className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-muted-foreground">stlouis@nationalrestoration.com</span>
+                  </div>
+                </div>
+                <Button asChild className="w-full">
+                  <Link href="/locations/st-louis">View Details</Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden">
+              <div className="relative h-64 w-full">
+                <Image src="/pittsburgh-skyline-hero.jpg" alt="Pittsburgh Metro Office" fill className="object-cover" />
+              </div>
+              <CardHeader>
+                <div className="flex items-center gap-2 mb-2">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  <CardTitle>Pittsburgh Metro</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-6">
+                  Serving Pittsburgh and Western Pennsylvania with comprehensive restoration services designed for the
+                  region's freeze-thaw cycles, steep-slope roofs, and historic architecture.
+                </p>
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-start gap-3">
+                    <Building className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                    <span className="text-muted-foreground">
+                      525 William Penn Place, Suite 300
+                      <br />
+                      Pittsburgh, PA 15219
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Phone className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-muted-foreground">(412) 555-4782</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Mail className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-muted-foreground">pittsburgh@nationalrestoration.com</span>
+                  </div>
+                </div>
+                <Button asChild className="w-full">
+                  <Link href="/locations/pittsburgh">View Details</Link>
                 </Button>
               </CardContent>
             </Card>

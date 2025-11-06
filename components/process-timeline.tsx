@@ -33,6 +33,8 @@ export default function ProcessTimeline() {
       description: "We coordinate with your insurance adjuster for proper damage assessment.",
       details:
         "Our project manager can attend the adjuster's inspection at your request, walking through all damage areas to ensure nothing is missed and providing technical expertise about necessary repairs.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-bDCwBO2AL3ZXZerw4E4b66UNMvecQE.png",
+      imageAlt: "Contractor and insurance adjuster meeting at residential property",
     },
     {
       id: "restoration",
@@ -41,6 +43,8 @@ export default function ProcessTimeline() {
       description: "Licensed, bonded, and insured team completes quality repairs.",
       details:
         "We handle all permits, use high-quality materials, and complete most projects in just a few days while following all safety guidelines. No surprise costs – work stays within insurance budget.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-QmzHdNU1NraBnQGMJ3agqo1TGbO9dG.png",
+      imageAlt: "Construction crew working on residential property at dusk",
     },
     {
       id: "completion",
@@ -119,6 +123,16 @@ export default function ProcessTimeline() {
           transition={{ duration: 0.3 }}
           className="bg-muted/30 rounded-xl p-3 sm:p-4 md:p-6 max-w-3xl mx-auto surface-elevated border"
         >
+          {steps[activeStep].image && (
+            <div className="mb-4 sm:mb-6 rounded-lg overflow-hidden shadow-premium-lg">
+              <img
+                src={steps[activeStep].image || "/placeholder.svg"}
+                alt={steps[activeStep].imageAlt || steps[activeStep].title}
+                className="w-full h-auto object-cover"
+                loading="lazy"
+              />
+            </div>
+          )}
           <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center bg-primary text-white flex-shrink-0 shadow-md">
               {steps[activeStep].icon}

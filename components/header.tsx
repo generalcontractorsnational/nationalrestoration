@@ -25,8 +25,6 @@ import {
   Info,
   MapPin,
   LayoutDashboard,
-  Phone,
-  Clock,
   UserCircle,
   HardHat,
   Handshake,
@@ -168,43 +166,7 @@ function Header() {
   }, [])
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="w-full bg-gradient-to-r from-destructive via-destructive/95 to-destructive/90 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent_50%)]" />
-        <div className="container flex h-14 sm:h-12 items-center justify-between px-3 sm:px-6 lg:px-8 relative z-10 gap-2">
-          <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-            <div
-              className={cn(
-                "p-1 sm:p-1.5 rounded-full bg-white/20 transition-transform duration-300 flex-shrink-0",
-                isAnimating && "scale-110",
-              )}
-            >
-              <AlertTriangle className="h-4 w-4 sm:h-4 sm:w-4" />
-            </div>
-            <div className="flex items-center gap-1.5 sm:gap-3 min-w-0">
-              <span className="font-semibold text-xs sm:text-sm md:text-base whitespace-nowrap">
-                Emergency Storm Damage?
-              </span>
-              <div className="hidden xs:flex items-center gap-1 sm:gap-1.5 text-xs opacity-90">
-                <Clock className="h-3 w-3" />
-                <span className="whitespace-nowrap">24/7</span>
-              </div>
-            </div>
-          </div>
-          <Button
-            asChild
-            size="sm"
-            className="bg-white text-destructive hover:bg-white/90 font-semibold shadow-lg h-8 sm:h-9 flex-shrink-0 px-2 sm:px-3"
-          >
-            <a href="tel:1-800-737-8673" className="flex items-center gap-1 sm:gap-1.5">
-              <Phone className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
-              <span className="hidden sm:inline text-xs">Call:</span>
-              <span className="text-xs sm:text-sm font-bold whitespace-nowrap">1-800-RESTORE</span>
-            </a>
-          </Button>
-        </div>
-      </div>
-
+    <header className="w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center flex-shrink-0">
           <Image
@@ -358,6 +320,20 @@ function Header() {
                         active={isActive("/locations/texas")}
                       >
                         Dallas-Fort Worth
+                      </MobileNavLink>
+                      <MobileNavLink
+                        href="/locations/st-louis"
+                        onClick={() => setIsOpen(false)}
+                        active={isActive("/locations/st-louis")}
+                      >
+                        St. Louis Metro
+                      </MobileNavLink>
+                      <MobileNavLink
+                        href="/locations/pittsburgh"
+                        onClick={() => setIsOpen(false)}
+                        active={isActive("/locations/pittsburgh")}
+                      >
+                        Pittsburgh
                       </MobileNavLink>
                     </MobileNavSection>
 
@@ -514,6 +490,12 @@ function Header() {
                     </TabletMenuLink>
                     <TabletMenuLink href="/locations/texas" active={isActive("/locations/texas")}>
                       Dallas-Fort Worth
+                    </TabletMenuLink>
+                    <TabletMenuLink href="/locations/st-louis" active={isActive("/locations/st-louis")}>
+                      St. Louis Metro
+                    </TabletMenuLink>
+                    <TabletMenuLink href="/locations/pittsburgh" active={isActive("/locations/pittsburgh")}>
+                      Pittsburgh
                     </TabletMenuLink>
                   </div>
                 </TabletMenuItem>
@@ -718,7 +700,7 @@ function Header() {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="navigation-menu-content">
                   <div className="w-[600px] p-6">
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-3 gap-4">
                       {/* Atlanta */}
                       <Link
                         href="/locations/atlanta"
@@ -795,6 +777,44 @@ function Header() {
                           <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                             <div className="font-semibold text-lg mb-1">Dallas-Fort Worth</div>
                             <p className="text-xs opacity-90">Dallas, Fort Worth, Arlington, Plano</p>
+                          </div>
+                        </div>
+                      </Link>
+
+                      <Link
+                        href="/locations/st-louis"
+                        className="group relative overflow-hidden rounded-lg border border-border bg-card hover:shadow-lg transition-all duration-300"
+                      >
+                        <div className="aspect-[4/3] relative overflow-hidden bg-muted">
+                          <Image
+                            src="/st-louis-gateway-arch-skyline.jpg"
+                            alt="St. Louis Metro"
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                          <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                            <div className="font-semibold text-lg mb-1">St. Louis</div>
+                            <p className="text-xs opacity-90">St. Louis, St. Charles, O'Fallon</p>
+                          </div>
+                        </div>
+                      </Link>
+
+                      <Link
+                        href="/locations/pittsburgh"
+                        className="group relative overflow-hidden rounded-lg border border-border bg-card hover:shadow-lg transition-all duration-300"
+                      >
+                        <div className="aspect-[4/3] relative overflow-hidden bg-muted">
+                          <Image
+                            src="/pittsburgh-skyline-hero.jpg"
+                            alt="Pittsburgh Metro"
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                          <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                            <div className="font-semibold text-lg mb-1">Pittsburgh</div>
+                            <p className="text-xs opacity-90">Pittsburgh, Cranberry, Mt. Lebanon</p>
                           </div>
                         </div>
                       </Link>

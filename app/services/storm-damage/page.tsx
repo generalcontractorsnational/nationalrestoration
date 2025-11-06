@@ -1,11 +1,26 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Check, Clock, ArrowRight, Shield, AlertTriangle, CloudRain, Wind } from "lucide-react"
+import {
+  Check,
+  Clock,
+  Shield,
+  Phone,
+  FileText,
+  Wrench,
+  Award,
+  Users,
+  Zap,
+  Wind,
+  Droplets,
+  Snowflake,
+  Flame,
+  TreeDeciduous,
+  Tornado,
+} from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import PageHeader from "@/components/page-header"
-import ServiceProcess from "@/components/service-process"
+import CTA from "@/components/cta"
 
 export const metadata = {
   title: "Storm Damage Repair Services | National Restoration",
@@ -14,730 +29,699 @@ export const metadata = {
 }
 
 export default function StormDamagePage() {
-  const emergencyProcessSteps = [
-    {
-      title: "24/7 Emergency Response",
-      description: "Our team responds immediately to secure your property and prevent further damage.",
-      icon: <AlertTriangle className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Damage Assessment",
-      description: "We thoroughly document all damage for insurance purposes and create a restoration plan.",
-      icon: <Clock className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Insurance Coordination",
-      description: "Our specialists work directly with your insurance company to maximize your claim.",
-      icon: <Shield className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Emergency Repairs",
-      description: "We quickly implement temporary repairs to prevent additional damage to your property.",
-      icon: <Check className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Complete Restoration",
-      description: "Our skilled craftsmen restore your property to pre-storm condition or better.",
-      icon: <Check className="h-6 w-6 text-primary" />,
-    },
-  ]
-
   return (
-    <div className="flex flex-col">
-      <PageHeader
-        title="Storm Damage Repair"
-        description="Emergency response and comprehensive restoration for storm-damaged properties"
-        backgroundImage="/storm-damaged-home-roof.jpg"
-      />
-
-      {/* Emergency Banner */}
-      <div className="bg-destructive text-destructive-foreground py-4">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-lg font-medium">
-            24/7 Emergency Storm Damage Response: Call{" "}
-            <a href="tel:1-800-737-8673" className="font-bold underline">
-              1-800-RESTORE
-            </a>
-          </p>
-        </div>
-      </div>
-
-      {/* Overview Section */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <Badge className="mb-4">Emergency Response</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Comprehensive Storm Damage Restoration</h2>
-              <p className="text-lg text-foreground mb-6">
-                When severe weather strikes, immediate action is crucial to minimize damage and protect your property.
-                National Restoration provides rapid emergency response and complete restoration services for homes and
-                businesses affected by storms.
-              </p>
-              <p className="text-lg text-foreground mb-6">
-                Our experienced team handles all types of storm damage, from roof and siding damage caused by high winds
-                and hail to water intrusion and structural issues. We work directly with your insurance company to
-                ensure your claim is processed efficiently and you receive the coverage you deserve.
-              </p>
-              <p className="text-lg text-foreground mb-8">
-                With our 24/7 emergency services and nationwide coverage, we're ready to respond whenever and wherever
-                disaster strikes. Trust National Restoration to restore your property quickly, safely, and with the
-                highest quality craftsmanship.
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-                <Card className="bg-muted/30">
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-lg">Storm Damage Services</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-1">
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Emergency Tarping
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Roof Damage Repair
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Siding Replacement
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Water Extraction
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Structural Repairs
-                      </li>
-                    </ul>
-                  </CardContent>
-                </Card>
-
-                <Card className="bg-muted/30">
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-lg">Insurance Assistance</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-1">
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Damage Documentation
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Claim Filing Support
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Adjuster Meetings
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Scope of Work Review
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Supplement Negotiation
-                      </li>
-                    </ul>
-                  </CardContent>
-                </Card>
-              </div>
-
-              <div className="flex flex-wrap gap-4">
-                <Button asChild size="lg">
-                  <Link href="/contact">Request Emergency Service</Link>
-                </Button>
-                <Button asChild variant="outline" size="lg">
-                  <a href="tel:1-800-737-8673">Call 1-800-RESTORE</a>
-                </Button>
-              </div>
-            </div>
-
-            <div className="relative aspect-video rounded-lg overflow-hidden shadow-xl">
-              <Image
-                src="/roofing-crew-restoration.jpg"
-                alt="Emergency storm damage response"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Types of Storm Damage */}
-      <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Damage Types</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Types of Storm Damage We Repair</h2>
-            <p className="text-lg text-foreground max-w-3xl mx-auto">
-              We handle all types of storm-related damage to restore your property to pre-storm condition or better.
+    <>
+      <div className="flex flex-col">
+        {/* Emergency Banner */}
+        <div className="bg-destructive text-destructive-foreground py-3">
+          <div className="container mx-auto px-4 text-center">
+            <p className="text-lg font-medium">
+              24/7 Emergency Storm Damage Response: Call{" "}
+              <a href="tel:1-800-737-8673" className="font-bold underline">
+                1-800-RESTORE
+              </a>
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Wind className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Wind Damage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground mb-4">
-                  High winds can lift shingles, damage siding, break windows, and even cause structural issues. We
-                  repair all wind-related damage and strengthen your property against future storms.
-                </p>
-                <ul className="space-y-1 text-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Missing or damaged shingles
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Torn or detached siding
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Damaged soffit and fascia
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Broken windows and doors
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <CloudRain className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Hail Damage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground mb-4">
-                  Hail can cause significant damage that's not always visible to the untrained eye. Our specialists
-                  identify and repair all hail damage to prevent long-term issues.
-                </p>
-                <ul className="space-y-1 text-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Roof impact damage
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Dented siding and gutters
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Damaged windows and screens
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> HVAC and exterior equipment
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <CloudRain className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Water Damage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground mb-4">
-                  Storm-related water intrusion can cause immediate damage and lead to mold and structural issues if not
-                  properly addressed. We provide complete water damage restoration.
-                </p>
-                <ul className="space-y-1 text-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Water extraction
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Structural drying
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Mold prevention
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Interior repairs
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <AlertTriangle className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Fallen Tree Damage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground mb-4">
-                  Fallen trees and large branches can cause severe damage to roofs, siding, and structural elements. We
-                  coordinate removal and repair all resulting damage.
-                </p>
-                <ul className="space-y-1 text-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Emergency tree removal
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Roof puncture repair
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Structural assessment
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Complete reconstruction
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <AlertTriangle className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Lightning Damage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground mb-4">
-                  Lightning strikes can cause fires, electrical system damage, and structural issues. We provide
-                  comprehensive assessment and repair of all lightning-related damage.
-                </p>
-                <ul className="space-y-1 text-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Fire damage restoration
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Electrical system inspection
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Structural integrity assessment
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Complete repairs
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Wind className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Flood Damage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground mb-4">
-                  Storm-related flooding requires immediate response to minimize damage. We provide complete flood
-                  restoration services to return your property to pre-flood condition.
-                </p>
-                <ul className="space-y-1 text-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Water extraction
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Sanitization
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Structural drying
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Complete restoration
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
         </div>
-      </section>
 
-      {/* Emergency Response Process */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Our Process</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Emergency Response Process</h2>
-            <p className="text-lg text-foreground max-w-3xl mx-auto">
-              Our streamlined emergency response process ensures your property is secured quickly and restored
-              efficiently.
-            </p>
-          </div>
+        {/* Hero Section */}
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <Badge className="mb-3">Emergency Response</Badge>
+                <h1 className="text-3xl md:text-4xl font-bold mb-4">
+                  Storm Damage Repair by National Builders Corporation
+                </h1>
+                <p className="text-lg text-muted-foreground mb-4">
+                  When a storm strikes, National Builders Corporation is your trusted, fast-acting solution for
+                  comprehensive storm damage repair. We specialize in restoring homes and commercial properties to
+                  pre-storm condition with speed and expertise. From the first emergency call to the final inspection,
+                  our team makes the process easy – handling everything from initial cleanup to full rebuild.
+                </p>
+                <p className="text-muted-foreground mb-6">
+                  We know that acting quickly after a storm is critical: addressing damage right away helps prevent
+                  hazards like mold growth or structural deterioration. With National Builders, you get a full-service
+                  restoration partner who manages every step, so you can recover with minimal stress and interruption.
+                </p>
 
-          <ServiceProcess steps={emergencyProcessSteps} />
-        </div>
-      </section>
-
-      {/* Insurance Claims Section */}
-      <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative aspect-video rounded-lg overflow-hidden shadow-xl">
-              <Image
-                src="/commercial-roofing-team.jpg"
-                alt="Insurance claim assistance"
-                fill
-                className="object-cover"
-              />
-            </div>
-
-            <div>
-              <Badge className="mb-4">Insurance Claims</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Insurance Claim Specialists</h2>
-              <p className="text-lg text-foreground mb-6">
-                Navigating insurance claims after storm damage can be overwhelming. Our experienced team works directly
-                with your insurance company to ensure you receive the coverage you deserve for complete restoration.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex gap-4">
-                  <Check className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-lg">Thorough Documentation</h3>
-                    <p className="text-foreground">
-                      We meticulously document all storm damage with detailed photos, videos, and written assessments to
-                      support your claim.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <Check className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-lg">Adjuster Meetings</h3>
-                    <p className="text-foreground">
-                      Our specialists meet with your insurance adjuster on-site to point out all damage and ensure
-                      nothing is overlooked.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <Check className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-lg">Scope of Work Review</h3>
-                    <p className="text-foreground">
-                      We carefully review the insurance company's scope of work to ensure all necessary repairs are
-                      included and properly valued.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <Check className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <h3 className="font-semibold text-lg">Supplement Negotiation</h3>
-                    <p className="text-foreground">
-                      If additional damage is discovered during repairs, we handle the supplemental claim process with
-                      your insurance company.
-                    </p>
-                  </div>
+                <div className="flex flex-wrap gap-3">
+                  <Button asChild size="lg">
+                    <Link href="/contact">Request Free Inspection</Link>
+                  </Button>
+                  <Button asChild variant="outline" size="lg">
+                    <a href="tel:1-800-737-8673">Call 1-800-RESTORE</a>
+                  </Button>
                 </div>
               </div>
 
-              <Button asChild size="lg">
-                <Link href="/contact">
-                  Get Insurance Claim Assistance <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Before & After */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Transformations</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Before & After Storm Restoration</h2>
-            <p className="text-lg text-foreground max-w-3xl mx-auto">
-              See the dramatic transformations we've achieved for properties damaged by severe storms.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="space-y-4">
-              <div className="relative aspect-video rounded-lg overflow-hidden">
-                <Image src="/storm-damaged-home-roof.jpg" alt="Roof before restoration" fill className="object-cover" />
-                <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground px-3 py-1 rounded-md font-medium">
-                  Before
-                </div>
-              </div>
-              <div className="relative aspect-video rounded-lg overflow-hidden">
-                <Image src="/restored-home-complete.jpg" alt="Roof after restoration" fill className="object-cover" />
-                <div className="absolute top-4 left-4 bg-primary text-primary-foreground px-3 py-1 rounded-md font-medium">
-                  After
-                </div>
-              </div>
-              <p className="text-center text-muted-foreground">
-                Complete roof replacement after severe hail and wind damage in Avon Lake, OH
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="relative aspect-video rounded-lg overflow-hidden">
-                <Image src="/severe-roof-damage.jpg" alt="Exterior before restoration" fill className="object-cover" />
-                <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground px-3 py-1 rounded-md font-medium">
-                  Before
-                </div>
-              </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/restored-home-complete.jpg"
-                  alt="Exterior after restoration"
+                  src="/roofing-crew-restoration.jpg"
+                  alt="Emergency storm damage response"
                   fill
                   className="object-cover"
                 />
-                <div className="absolute top-4 left-4 bg-primary text-primary-foreground px-3 py-1 rounded-md font-medium">
-                  After
-                </div>
               </div>
-              <p className="text-center text-muted-foreground">
-                Complete exterior restoration after storm damage in Cleveland, OH
+            </div>
+          </div>
+        </section>
+
+        {/* Insurance Claims Assistance Section */}
+        <section className="py-6 md:py-8 bg-muted/50">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image
+                  src="/images/insurance-documentation-support.jpg"
+                  alt="National Restoration team member meeting with insurance adjuster at residential property"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div>
+                <Badge className="mb-3">Insurance Support</Badge>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">We Work Directly with Your Insurance Company</h2>
+                <p className="text-muted-foreground mb-4">
+                  Navigating insurance claims after storm damage can be overwhelming. National Builders Corporation
+                  takes the burden off your shoulders by working directly with your insurance company throughout the
+                  entire process.
+                </p>
+
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Comprehensive Documentation</p>
+                      <p className="text-sm text-muted-foreground">
+                        We provide detailed photo documentation, measurements, and estimates to support your claim
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Adjuster Meetings</p>
+                      <p className="text-sm text-muted-foreground">
+                        We meet with your insurance adjuster on-site to ensure all damage is properly assessed
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Thorough Damage Assessment</p>
+                      <p className="text-sm text-muted-foreground">
+                        We ensure all storm damage is properly identified and documented so nothing is missed during the
+                        insurance evaluation
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Professional Documentation</p>
+                      <p className="text-sm text-muted-foreground">
+                        We handle all documentation on our end, ensuring our estimates and assessments are accurate and
+                        complete for the insurance process
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <Button asChild size="lg">
+                  <Link href="/contact">Get Help with Your Claim</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Our Storm Damage Repair Process */}
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-6">
+              <Badge className="mb-3">Our Process</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3">Our Storm Damage Repair Process</h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                After a storm, timing is key. Our comprehensive 6-step process ensures your property is secured,
+                assessed, and restored efficiently.
               </p>
             </div>
-          </div>
 
-          <div className="mt-12 text-center">
-            <Button asChild size="lg">
-              <Link href="/gallery">View More Transformations</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Clock className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>1. Free Inspection</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    We provide a comprehensive, no-cost inspection covering roof, siding, gutters, windows, doors,
+                    attic, insulation, and interior areas with full photo documentation.
+                  </p>
+                  <div className="relative aspect-video rounded-lg overflow-hidden mb-3">
+                    <Image
+                      src="/professional-inspection-documentation.jpg"
+                      alt="Professional inspection and documentation"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </CardContent>
+              </Card>
 
-      {/* FAQ Section */}
-      <section className="py-16 md:py-24 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">FAQ</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
-            <p className="text-lg text-foreground max-w-3xl mx-auto">
-              Get answers to common questions about storm damage repair and insurance claims.
-            </p>
-          </div>
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <FileText className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>2. Documentation Support</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    We prepare detailed documentation with photos, measurements, and estimates to support your insurance
+                    claim and ensure nothing is overlooked.
+                  </p>
+                  <div className="relative aspect-video rounded-lg overflow-hidden mb-3">
+                    <Image
+                      src="/roof-shingles-close-up-detail.jpg"
+                      alt="Detailed documentation for insurance claim"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </CardContent>
+              </Card>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <Card>
-              <CardHeader>
-                <CardTitle>What should I do immediately after storm damage?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground">
-                  First, ensure everyone's safety and evacuate if necessary. Document the damage with photos and videos
-                  before touching anything. Cover damaged areas if possible to prevent further damage. Contact your
-                  insurance company to report the claim, then call us at 1-800-RESTORE for emergency response and
-                  assistance with the entire restoration process.
-                </p>
-              </CardContent>
-            </Card>
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Users className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>3. Adjuster Meeting</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    We meet with your insurance adjuster on-site to walk through all damage, ensuring accurate
+                    assessment and fair coverage for your repairs.
+                  </p>
+                  <div className="relative aspect-video rounded-lg overflow-hidden mb-3">
+                    <Image
+                      src="/images/adjuster-meeting-driveway.png"
+                      alt="Meeting with insurance adjuster"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </CardContent>
+              </Card>
 
-            <Card>
-              <CardHeader>
-                <CardTitle>How quickly can you respond to storm damage?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground">
-                  We provide 24/7 emergency response and typically arrive within 2-4 hours of your call in most service
-                  areas. During widespread disaster events, we prioritize based on severity but work to secure all
-                  properties as quickly as possible. Our mobile response teams can be deployed nationwide for major
-                  storm events.
-                </p>
-              </CardContent>
-            </Card>
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Wrench className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>4. Restoration Work</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Our licensed crews handle all repairs from roofing and siding to interior restoration. We're a
+                    one-stop contractor for complete storm damage restoration.
+                  </p>
+                  <div className="relative aspect-video rounded-lg overflow-hidden mb-3">
+                    <Image
+                      src="/images/restoration-work-residential-roof.jpg"
+                      alt="Restoration crew actively working on residential home"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </CardContent>
+              </Card>
 
-            <Card>
-              <CardHeader>
-                <CardTitle>Will my insurance cover storm damage repairs?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground">
-                  Most homeowner's insurance policies cover sudden and accidental damage from storms, including wind,
-                  hail, lightning, and falling trees. However, coverage varies by policy, and flood damage typically
-                  requires separate flood insurance. Our insurance specialists will review your policy, help determine
-                  coverage, and work directly with your insurance company throughout the claims process.
-                </p>
-              </CardContent>
-            </Card>
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Shield className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>5. Completion & Warranty</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    We complete a final walkthrough, ensure your satisfaction, and provide comprehensive warranties
+                    including our 10-year roof labor warranty.
+                  </p>
+                  <div className="relative aspect-video rounded-lg overflow-hidden mb-3">
+                    <Image
+                      src="/images/completion-handshake-warranty.jpg"
+                      alt="Project completion with satisfied homeowner and branded National Restoration truck"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </CardContent>
+              </Card>
 
-            <Card>
-              <CardHeader>
-                <CardTitle>How long will the restoration process take?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground">
-                  Timeline varies based on damage extent, but emergency services like tarping and board-up are completed
-                  immediately. The complete restoration process typically takes 2-8 weeks depending on scope, material
-                  availability, and insurance approval timelines. We provide detailed timelines during the assessment
-                  and keep you updated throughout the process.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Do I need to get multiple estimates for my insurance?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground">
-                  Most insurance companies don't require multiple estimates, but they may recommend it. We provide
-                  detailed, line-item estimates that meet insurance industry standards. Our insurance specialists work
-                  directly with adjusters to ensure all damage is properly documented and fairly valued, often
-                  eliminating the need for you to gather multiple estimates.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>What if my insurance claim is denied?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-foreground">
-                  If your claim is denied, we can help you understand the reason and determine if an appeal is
-                  warranted. Our documentation and expertise often help overturn initial denials. If the damage truly
-                  isn't covered, we'll provide clear options for repairs at competitive rates and may be able to offer
-                  financing solutions to help manage the cost.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-16 md:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Testimonials</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Storm Damage Customers Say</h2>
-            <p className="text-lg text-foreground max-w-3xl mx-auto">
-              Hear from property owners who trusted us with their storm damage restoration.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-5 h-5 text-primary"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-lg italic mb-6">
-                  "After a severe hailstorm damaged our roof and siding, National Restoration was at our home within
-                  hours. They tarped the roof to prevent water damage and worked directly with our insurance company.
-                  The entire process was seamless, and the quality of work was exceptional. Our home looks better than
-                  before the storm!"
-                </p>
-                <div>
-                  <p className="font-semibold">William & Karen J.</p>
-                  <p className="text-sm text-muted-foreground">Dallas, TX</p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-5 h-5 text-primary"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-lg italic mb-6">
-                  "When a tree fell on our home during a windstorm, we were devastated. National Restoration's team
-                  arrived quickly, secured the property, and handled everything from tree removal to complete
-                  reconstruction. Their insurance specialists were invaluable in getting our claim approved for full
-                  replacement. We couldn't be happier with the results."
-                </p>
-                <div>
-                  <p className="font-semibold">Rebecca M.</p>
-                  <p className="text-sm text-muted-foreground">Arlington, VA</p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-5 h-5 text-primary"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-lg italic mb-6">
-                  "Our commercial building suffered significant water damage after a major storm. National Restoration's
-                  commercial team responded immediately with water extraction equipment and quickly developed a
-                  restoration plan. Their expertise in working with commercial insurance was invaluable. They minimized
-                  our downtime and restored our facility to perfect condition."
-                </p>
-                <div>
-                  <p className="font-semibold">David L., Business Owner</p>
-                  <p className="text-sm text-muted-foreground">Los Angeles, CA</p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Emergency CTA */}
-      <section className="py-16 md:py-24 bg-destructive text-destructive-foreground">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col items-center text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">24/7 Emergency Storm Damage Response</h2>
-            <p className="text-lg text-destructive-foreground/90 max-w-2xl mb-8">
-              Don't wait. Contact us immediately for emergency storm damage services. Our rapid response team is ready
-              to secure your property and begin the restoration process.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" variant="secondary" className="font-medium">
-                <a href="tel:1-800-737-8673">Call 1-800-RESTORE</a>
-              </Button>
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="bg-transparent border-destructive-foreground text-destructive-foreground hover:bg-destructive-foreground/10"
-              >
-                <Link href="/contact">Request Emergency Service</Link>
-              </Button>
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Phone className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>6. Ongoing Support</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    We're here for you long after the project is complete with lifetime customer support for any
+                    questions or concerns about your restoration.
+                  </p>
+                  <div className="relative aspect-video rounded-lg overflow-hidden mb-3">
+                    <Image
+                      src="/images/ongoing-support-customer-service.jpg"
+                      alt="Ongoing customer support and service representative"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+
+        {/* Before & After Gallery */}
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-6">
+              <Badge className="mb-3">Our Work</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3">Storm Damage Restoration Results</h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                See the dramatic transformations we've achieved for homeowners and businesses after severe storms.
+              </p>
+            </div>
+
+            <div className="space-y-6 max-w-6xl mx-auto">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-9ukGO1h1vzhbjXZaFMuYOCQFs0WFLP.png"
+                  alt="Before and after comparison of roof restoration - worn brown shingles transformed to new dark gray architectural shingles"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-caSbhVsiVNLczaFdkf7XlvSEhVqFhv.png"
+                  alt="Before and after comparison of siding restoration - faded beige siding with teal shutters transformed to fresh gray siding with dark shutters"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Types of Storm Damage We Handle */}
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-6">
+              <Badge className="mb-3">Storm Damage Types</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3">Types of Storm Damage We Handle</h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Every storm is unique. We're equipped to repair all types of storm damage to restore your property
+                completely.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
+              <Card>
+                <CardHeader>
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Zap className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-xl mb-2">Hail Damage</CardTitle>
+                      <p className="text-sm text-muted-foreground">Roofing, siding, windows, HVAC</p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Hail can dent metal flashing and gutters, crack vinyl siding, shatter windows, and bruise roof
+                    shingles. Our inspectors spot impact damage like cracks, bruises, or missing granules. We replace
+                    cracked shingles, fix broken windows, repair dented siding, and service hail-damaged HVAC components
+                    to make your home weather-tight again.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Wind className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-xl mb-2">Wind Damage</CardTitle>
+                      <p className="text-sm text-muted-foreground">
+                        Missing shingles, structural stress, debris impact
+                      </p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    High winds can rip shingles, tear flashing, crack soffits, and hurl debris into buildings. We secure
+                    loose sections, replace missing shingles, repair torn flashing and impacts from fallen branches. We
+                    also assess structural elements to ensure your home's integrity is sound after extreme winds.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Droplets className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-xl mb-2">Water Damage</CardTitle>
+                      <p className="text-sm text-muted-foreground">
+                        Roof leaks, flooding, soaked insulation, mold risk
+                      </p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Heavy rain or roof damage can cause leaks and flooding. We locate and seal roof leaks, extract
+                    standing water, dry out walls and floors, remove soaked insulation, and apply antimicrobial
+                    treatments to prevent mold growth. We restore warped floors, waterlogged drywall, and drenched
+                    carpets to ensure your home is dry and safe.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Snowflake className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-xl mb-2">Ice Dam Damage</CardTitle>
+                      <p className="text-sm text-muted-foreground">Gutters, roof decking, interior leaks</p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Ice dams form when snow melts and refreezes at eaves, trapping water that backs up under shingles.
+                    We safely remove ice buildup, repair water damage, check gutters for ice-related damage, inspect
+                    roof decking for rot, and can install preventive measures like improved insulation or heat cables.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Flame className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-xl mb-2">Lightning & Fire Damage</CardTitle>
+                      <p className="text-sm text-muted-foreground">
+                        Fire damage, electrical systems, structural repairs
+                      </p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Lightning strikes can ignite fires or damage electrical systems. We repair fire and smoke damage,
+                    rebuild burned roof trusses, replace charred roofing, remediate smoke damage, and coordinate
+                    licensed electricians to repair wiring and electrical systems for safety.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <TreeDeciduous className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-xl mb-2">Fallen Trees & Structural Impacts</CardTitle>
+                      <p className="text-sm text-muted-foreground">Tree removal, roof damage, structural repairs</p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Fallen trees can crush roofs and collapse walls. We provide prompt tree removal, secure the
+                    structure with tarps or shoring, then replace damaged roof framing, shingles, and rafters. We fix
+                    collateral damage like broken gutters, siding, and interior holes to make your property structurally
+                    sound again.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="md:col-span-2">
+                <CardHeader>
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Tornado className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-xl mb-2">Tornado & Hurricane Damage</CardTitle>
+                      <p className="text-sm text-muted-foreground">Extensive structural restoration</p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Catastrophic storms can cause extensive structural damage from torn-off roofs to collapsed walls.
+                    Our Disaster Response crews stabilize and reconstruct heavily damaged properties. We clear debris,
+                    conduct full structural assessments, install temporary support, then rebuild roofing systems,
+                    replace siding, repair foundations, and restore interiors on a large scale. We've restored buildings
+                    others thought were total losses.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* 24/7 Emergency Response Details */}
+        <section className="py-6 md:py-8 bg-muted/50">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <Badge className="mb-3">Emergency Services</Badge>
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">24/7 Emergency Response & Temporary Repairs</h2>
+                <p className="text-muted-foreground mb-4">
+                  When a storm emergency strikes, National Builders Corporation is on call 24/7 to respond. We know that
+                  storm damage often can't wait – your property needs to be secured immediately to prevent further
+                  issues. Our emergency crews are always ready to roll, day or night, 365 days a year.
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  Within hours of your call, we dispatch a specialized team fully equipped to perform necessary
+                  temporary repairs:
+                </p>
+
+                <ul className="space-y-3 mb-6">
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Tarping Damaged Roofs</p>
+                      <p className="text-sm text-muted-foreground">
+                        Heavy-duty tarps cover exposed areas to stop rainwater intrusion and protect interiors
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Boarding Up Windows & Doors</p>
+                      <p className="text-sm text-muted-foreground">
+                        Plywood boards secure broken windows and doors to keep out weather and secure the property
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Structural Shoring</p>
+                      <p className="text-sm text-muted-foreground">
+                        Emergency bracing stabilizes structures to prevent further collapse
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Water Extraction</p>
+                      <p className="text-sm text-muted-foreground">
+                        Immediate pumping and vacuuming of standing water to prevent additional damage
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Check className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="font-medium">Site Cleanup & Hazard Removal</p>
+                      <p className="text-sm text-muted-foreground">
+                        Clearing debris and coordinating with utilities for safe conditions
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <Button asChild size="lg">
+                  <a href="tel:1-800-737-8673">Call 1-800-RESTORE Now</a>
+                </Button>
+              </div>
+
+              <div className="relative aspect-square rounded-lg overflow-hidden">
+                <Image
+                  src="/storm-damaged-home-roof.jpg"
+                  alt="Emergency storm damage response team"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Why Homeowners & Businesses Trust Us */}
+        <section className="py-6 md:py-8">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-6">
+              <Badge className="mb-3">Why Choose Us</Badge>
+              <h2 className="text-3xl md:text-4xl font-bold mb-3">
+                Why Homeowners & Businesses Trust National Builders
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Our expertise, dedication, and customer-first approach set us apart in storm damage restoration.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Award className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>Decades of Experience & Certified Teams</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Our technicians are highly trained and certified (IICRC water restoration, HAAG roofing inspectors).
+                    We're fully licensed, bonded, and insured, continuously educating our team on the latest techniques
+                    and safety standards.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Clock className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>24/7 Availability & Fast Response</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Storms don't wait, and neither do we. We're truly always available in an emergency. Our quick
+                    response can mean the difference between a minor repair and a major loss, with crews arriving before
+                    dawn when needed.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Users className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>End-to-End Project Management</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    One call does it all. We handle the entire restoration from debris removal to final walkthrough. A
+                    dedicated project manager keeps you updated frequently, so you're never left in the dark about
+                    progress.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Shield className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>Quality Workmanship & Guaranteed Satisfaction</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    We do the job right the first time with quality materials and attention to detail. Strong warranties
+                    back our work, and senior supervisors inspect completed work to ensure it meets our high standards
+                    before completion.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <FileText className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>Honesty, Transparency & Support</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    We provide written estimates line by line, discuss unexpected issues before proceeding, and maintain
+                    no hidden fees. Our polite, professional crews treat your home like our own, with lifetime customer
+                    support available.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
+                    <Phone className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle>Lasting Partnership</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-muted-foreground">
+                    Your relationship with National Builders isn't just a transaction – it's a lasting partnership for
+                    the health and safety of your property. We're here for follow-up questions months or years after
+                    repairs.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <CTA
+          title="Don't Wait – Get Your Storm Damage Fixed Today!"
+          description="Call us now at 1-800-RESTORE for immediate response or schedule a free inspection. The sooner you act, the sooner we can prevent further damage and return your life to normal."
+          buttonText="Request Free Inspection"
+          buttonLink="/contact"
+        />
+      </div>
+    </>
   )
 }

@@ -1,145 +1,77 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Check, Clock, ArrowRight, Shield, Building, Briefcase, BarChart } from "lucide-react"
+import {
+  Check,
+  Clock,
+  FileText,
+  Handshake,
+  Wrench,
+  Award,
+  Users,
+  Building2,
+  Store,
+  Factory,
+  Home,
+  Shield,
+  AlertTriangle,
+  Droplets,
+  Hammer,
+  Paintbrush,
+  Droplet,
+  DoorOpen,
+  Phone,
+} from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import CTA from "@/components/cta"
 import PageHeader from "@/components/page-header"
-import ServiceProcess from "@/components/service-process"
 
 export const metadata = {
-  title: "Commercial Restoration Services | National Restoration",
+  title: "Commercial Restoration Services | National Builders Corporation",
   description:
-    "Specialized commercial restoration and contracting services for office buildings, retail centers, industrial facilities, and multi-family properties. Minimize downtime and protect your investment.",
+    "Full-service commercial restoration, repair, and capital improvement projects. From emergency response to scheduled façade restoration and building envelope upgrades.",
 }
 
 export default function CommercialServicesPage() {
-  const processSteps = [
-    {
-      title: "Initial Consultation",
-      description: "We meet with your team to understand your facility's needs, timeline, and budget considerations.",
-      icon: <Clock className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Comprehensive Assessment",
-      description:
-        "Our specialists conduct a thorough evaluation of your property and develop a detailed project plan.",
-      icon: <Briefcase className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Custom Proposal",
-      description: "We provide a detailed proposal with transparent pricing, timeline, and scope of work.",
-      icon: <Shield className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Coordinated Execution",
-      description: "Our commercial teams work efficiently to minimize disruption to your business operations.",
-      icon: <Check className="h-6 w-6 text-primary" />,
-    },
-    {
-      title: "Quality Assurance",
-      description:
-        "We conduct rigorous inspections to ensure all work meets our high standards and your specifications.",
-      icon: <Check className="h-6 w-6 text-primary" />,
-    },
-  ]
-
   return (
     <div className="flex flex-col">
       <PageHeader
         title="Commercial Restoration Services"
-        description="Specialized solutions for commercial properties of all types and sizes"
+        description="Your full-service partner for commercial restoration, repair, and capital improvement projects"
         backgroundImage="/commercial-building-restoration.png"
       />
 
-      {/* Overview Section */}
-      <section className="py-16 md:py-24">
+      {/* Introduction Section */}
+      <section className="py-6 md:py-8">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
-              <Badge className="mb-4">Commercial Expertise</Badge>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Comprehensive Commercial Solutions</h2>
-              <p className="text-lg text-muted-foreground mb-6">
-                National Restoration understands the unique challenges of commercial property maintenance and
-                restoration. Our specialized commercial division provides tailored solutions for businesses, property
-                managers, and facility directors across diverse industries.
+              <Badge className="mb-3">Commercial Expertise</Badge>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4">Your Full-Service Commercial Partner</h2>
+              <p className="text-muted-foreground mb-3">
+                National Builders Corporation is your full-service partner for commercial restoration, repair, and
+                capital improvement projects. From emergency response after severe weather to scheduled façade
+                restoration, tenant improvements, and full building envelope upgrades, our team manages every detail
+                with professionalism and care.
               </p>
-              <p className="text-lg text-muted-foreground mb-6">
-                From routine maintenance to complete exterior renovations and emergency repairs, we deliver high-quality
-                results while minimizing disruption to your operations. Our experienced teams work efficiently with a
-                focus on safety, compliance, and your bottom line.
+              <p className="text-muted-foreground mb-3">
+                We coordinate free property assessments, rapid mitigation, detailed scopes and estimates, permitting,
+                and turnkey execution—so facility managers, owners, and property teams can protect assets, control
+                costs, and keep occupants safe with minimal disruption.
               </p>
-              <p className="text-lg text-muted-foreground mb-8">
-                With our comprehensive service offerings, you can rely on a single contractor for all your commercial
-                property's exterior needs—simplifying management and ensuring consistent quality across all projects.
+              <p className="text-muted-foreground mb-4">
+                We specialize in occupied, operational environments across multi-family housing, office buildings,
+                retail centers, and industrial facilities. Our project managers, superintendents, and craft crews bring
+                deep trade expertise, disciplined scheduling, and safety-first practices to deliver durable results—on
+                time and on budget.
               </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-                <Card className="bg-muted/50">
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-lg">Commercial Services</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-1">
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Commercial Roofing
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Facade Restoration
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Storefront Systems
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Waterproofing
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Storm Damage Repair
-                      </li>
-                    </ul>
-                  </CardContent>
-                </Card>
-
-                <Card className="bg-muted/50">
-                  <CardHeader className="pb-2">
-                    <CardTitle className="text-lg">Property Types</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-1">
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Office Buildings
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Retail Centers
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Industrial Facilities
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Multi-Family Housing
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <Check className="h-4 w-4 text-primary" /> Healthcare Facilities
-                      </li>
-                    </ul>
-                  </CardContent>
-                </Card>
-              </div>
-
-              <div className="space-y-4">
-                <Button asChild size="lg" className="mr-4">
-                  <Link href="/contact">Schedule Commercial Consultation</Link>
-                </Button>
-                <Button asChild variant="outline" size="lg">
-                  <Link href="/services">Explore All Services</Link>
-                </Button>
-              </div>
+              <Button asChild size="lg">
+                <Link href="/contact">Schedule Free Assessment</Link>
+              </Button>
             </div>
-
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/commercial-team-meeting.png"
+                src="/commercial-team-meeting.jpg"
                 alt="Commercial restoration consultation"
                 fill
                 className="object-cover"
@@ -149,302 +81,141 @@ export default function CommercialServicesPage() {
         </div>
       </section>
 
-      {/* Commercial Services */}
-      <section className="py-16 md:py-24 bg-muted/50">
+      {/* Markets We Serve */}
+      <section className="py-6 md:py-8 bg-muted/50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Our Services</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Specialized Commercial Services</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              We offer a comprehensive range of exterior restoration and maintenance services tailored to commercial
-              properties.
+          <div className="text-center mb-6">
+            <Badge className="mb-3">Markets We Serve</Badge>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">Commercial Properties We Serve</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">
+              We specialize in occupied, operational environments across diverse commercial property types.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Building className="h-6 w-6 text-primary" />
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/multi-family-apartment-complex.jpg"
+                  alt="Multi-Family Housing"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Home className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-lg">Multi-Family Housing</CardTitle>
                 </div>
-                <CardTitle>Commercial Roofing</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Complete commercial roofing solutions including flat roof systems, metal roofing, and preventative
-                  maintenance programs designed to extend roof life and prevent costly leaks.
+                <p className="text-sm text-muted-foreground mb-3">
+                  Apartments, condos, HOA/COA properties. Swift communication, clean jobsites, and careful coordination
+                  with onsite management and residents.
                 </p>
-                <ul className="space-y-1 text-muted-foreground">
+                <ul className="space-y-1 text-sm">
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> TPO, EPDM & PVC Systems
+                    <Check className="h-3 w-3 text-primary" /> Exterior envelope repairs
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Modified Bitumen
+                    <Check className="h-3 w-3 text-primary" /> Balcony remediation
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Metal Roofing
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Roof Maintenance Programs
+                    <Check className="h-3 w-3 text-primary" /> Common-area renovations
                   </li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Building className="h-6 w-6 text-primary" />
+              <div className="relative h-48 w-full">
+                <Image src="/office-building-exterior.jpg" alt="Office Buildings" fill className="object-cover" />
+              </div>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Building2 className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-lg">Office Buildings</CardTitle>
                 </div>
-                <CardTitle>Facade Restoration</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Comprehensive exterior facade services to maintain your building's appearance, structural integrity,
-                  and weather resistance while enhancing property value.
+                <p className="text-sm text-muted-foreground mb-3">
+                  Low-, mid-, and high-rise buildings. Lobby modernization to façade restoration and roof system
+                  upgrades with minimal tenant disruption.
                 </p>
-                <ul className="space-y-1 text-muted-foreground">
+                <ul className="space-y-1 text-sm">
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Metal Panel Systems
+                    <Check className="h-3 w-3 text-primary" /> Façade restoration
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> EIFS & Stucco
+                    <Check className="h-3 w-3 text-primary" /> Roof system upgrades
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Fiber Cement Cladding
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Masonry Restoration
+                    <Check className="h-3 w-3 text-primary" /> Energy efficiency improvements
                   </li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Building className="h-6 w-6 text-primary" />
+              <div className="relative h-48 w-full">
+                <Image src="/retail-center-restoration.jpg" alt="Retail Centers" fill className="object-cover" />
+              </div>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Store className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-lg">Retail Centers</CardTitle>
                 </div>
-                <CardTitle>Commercial Windows</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Energy-efficient window solutions for commercial buildings that improve comfort, reduce operating
-                  costs, and enhance the appearance of your property.
+                <p className="text-sm text-muted-foreground mb-3">
+                  Neighborhood, power, and mixed-use centers. Rapid response repairs, storefront replacements, and
+                  façade refreshes to maintain uptime.
                 </p>
-                <ul className="space-y-1 text-muted-foreground">
+                <ul className="space-y-1 text-sm">
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Storefront Systems
+                    <Check className="h-3 w-3 text-primary" /> Storefront replacements
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Curtain Wall Systems
+                    <Check className="h-3 w-3 text-primary" /> Canopy & façade refreshes
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Window Wall Systems
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Energy-Efficient Glazing
+                    <Check className="h-3 w-3 text-primary" /> ADA upgrades
                   </li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Shield className="h-6 w-6 text-primary" />
+              <div className="relative h-48 w-full">
+                <Image
+                  src="/industrial-facility-exterior.jpg"
+                  alt="Industrial Facilities"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Factory className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-lg">Industrial Facilities</CardTitle>
                 </div>
-                <CardTitle>Waterproofing</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Comprehensive waterproofing solutions to protect your commercial property from water intrusion,
-                  preventing costly structural damage and interior issues.
+                <p className="text-sm text-muted-foreground mb-3">
+                  Warehouses, logistics, light manufacturing. Durability, safety, and speed with work executed around
+                  production schedules.
                 </p>
-                <ul className="space-y-1 text-muted-foreground">
+                <ul className="space-y-1 text-sm">
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Building Envelope Assessment
+                    <Check className="h-3 w-3 text-primary" /> Roof & wall panel replacements
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Joint Sealants
+                    <Check className="h-3 w-3 text-primary" /> Dock equipment work
                   </li>
                   <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Expansion Joint Systems
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Traffic Coatings
+                    <Check className="h-3 w-3 text-primary" /> Code-compliant egress
                   </li>
                 </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Shield className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Commercial Storm Damage</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  24/7 emergency response and comprehensive restoration for commercial properties damaged by severe
-                  weather events, minimizing business interruption.
-                </p>
-                <ul className="space-y-1 text-muted-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Emergency Response
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Temporary Repairs
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Insurance Claim Assistance
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Complete Restoration
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Building className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Commercial Gutters</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Heavy-duty gutter systems designed specifically for commercial buildings to effectively manage water
-                  runoff and protect your property's foundation and exterior.
-                </p>
-                <ul className="space-y-1 text-muted-foreground">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Oversized Gutter Systems
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Commercial Downspouts
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Internal Drainage Systems
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Custom Fabrication
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefits Section */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Benefits</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">The Commercial Advantage</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Discover why property managers and facility directors choose National Restoration for their commercial
-              projects.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Minimal Business Disruption</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Our commercial teams work efficiently with flexible scheduling options to minimize impact on your
-                  daily operations. We coordinate closely with your team to establish work zones, manage noise and dust,
-                  and maintain access points throughout the project.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <BarChart className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Budget-Conscious Solutions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  We understand the importance of staying within budget constraints while delivering quality results.
-                  Our transparent pricing, value engineering options, and phased implementation approaches help you
-                  manage costs effectively while protecting your property investment.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Shield className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Safety Compliance</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Safety is our top priority on every commercial project. Our teams are OSHA-certified and follow
-                  rigorous safety protocols. We maintain comprehensive insurance coverage, including general liability
-                  and workers' compensation, providing peace of mind for property owners.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Building className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Single-Source Convenience</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Simplify your property management with one contractor for all exterior needs. Our comprehensive
-                  service offerings eliminate the hassle of coordinating multiple vendors, streamlining communication
-                  and ensuring consistent quality across all aspects of your project.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Shield className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Commercial-Grade Materials</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  We use only high-performance, commercial-grade materials designed to withstand heavy use and extreme
-                  weather conditions. Our product selections focus on durability, energy efficiency, and low maintenance
-                  requirements to reduce your long-term operating costs.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>Dedicated Project Management</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Each commercial project is assigned a dedicated project manager who serves as your single point of
-                  contact throughout the process. They coordinate all aspects of your project, provide regular updates,
-                  and ensure quality standards are met at every stage.
-                </p>
               </CardContent>
             </Card>
           </div>
@@ -452,332 +223,602 @@ export default function CommercialServicesPage() {
       </section>
 
       {/* Our Process */}
-      <section className="py-16 md:py-24 bg-muted/50">
+      <section className="py-6 md:py-8">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Our Process</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">The Commercial Project Process</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Our streamlined approach ensures your commercial project is completed efficiently with minimal disruption
-              to your operations.
+          <div className="text-center mb-6">
+            <Badge className="mb-3">Our Process</Badge>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">How We Work With Commercial Clients</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">
+              Our proven 6-step process ensures your commercial project is completed efficiently with minimal
+              disruption.
             </p>
           </div>
 
-          <ServiceProcess steps={processSteps} />
-        </div>
-      </section>
-
-      {/* Property Types */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Property Types</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Commercial Properties We Serve</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              We provide specialized restoration services for a wide range of commercial property types, each with
-              unique requirements and challenges.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="relative w-full md:w-1/2 aspect-square rounded-lg overflow-hidden">
-                <Image src="/office-building-exterior.png" alt="Office Building" fill className="object-cover" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Card>
+              <div className="relative h-40 w-full">
+                <Image src="/commercial-property-inspection.jpg" alt="Free Inspection" fill className="object-cover" />
               </div>
-              <div className="md:w-1/2">
-                <h3 className="text-xl font-bold mb-2">Office Buildings</h3>
-                <p className="text-muted-foreground mb-4">
-                  From single-tenant properties to multi-story office complexes, we provide comprehensive exterior
-                  maintenance and restoration services that minimize disruption to daily business operations.
-                </p>
-                <ul className="space-y-1">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Facade restoration and modernization
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Energy-efficient window systems
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Flat roof maintenance and replacement
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="relative w-full md:w-1/2 aspect-square rounded-lg overflow-hidden">
-                <Image src="/retail-center-restoration.png" alt="Retail Center" fill className="object-cover" />
-              </div>
-              <div className="md:w-1/2">
-                <h3 className="text-xl font-bold mb-2">Retail Centers</h3>
-                <p className="text-muted-foreground mb-4">
-                  We understand the importance of maintaining an attractive appearance for retail properties while
-                  ensuring minimal impact on tenant operations and customer access during restoration projects.
-                </p>
-                <ul className="space-y-1">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Storefront system upgrades
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Parking area maintenance
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Exterior lighting and signage integration
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="relative w-full md:w-1/2 aspect-square rounded-lg overflow-hidden">
-                <Image
-                  src="/industrial-facility-exterior.png"
-                  alt="Industrial Facility"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="md:w-1/2">
-                <h3 className="text-xl font-bold mb-2">Industrial Facilities</h3>
-                <p className="text-muted-foreground mb-4">
-                  Our industrial restoration services focus on durability, functionality, and compliance with industry
-                  regulations while accommodating the unique operational requirements of manufacturing and warehouse
-                  facilities.
-                </p>
-                <ul className="space-y-1">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Metal building restoration
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Industrial roof systems
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Loading dock area waterproofing
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="relative w-full md:w-1/2 aspect-square rounded-lg overflow-hidden">
-                <Image
-                  src="/multi-family-housing-complex.png"
-                  alt="Multi-Family Housing"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="md:w-1/2">
-                <h3 className="text-xl font-bold mb-2">Multi-Family Housing</h3>
-                <p className="text-muted-foreground mb-4">
-                  We specialize in apartment complexes, condominiums, and other multi-family properties, providing
-                  comprehensive exterior restoration services that enhance property value while minimizing resident
-                  disruption.
-                </p>
-                <ul className="space-y-1">
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Building envelope restoration
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Balcony and walkway waterproofing
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-primary" /> Phased implementation strategies
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Case Studies */}
-      <section className="py-16 md:py-24 bg-muted/50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Case Studies</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Commercial Project Showcase</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Explore some of our recent commercial restoration projects and the results we've delivered for our
-              clients.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="overflow-hidden">
-              <div className="relative h-64 w-full">
-                <Image src="/office-park-renovation.png" alt="Office Park Renovation" fill className="object-cover" />
-              </div>
-              <CardHeader>
-                <CardTitle>Office Park Renovation</CardTitle>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Clock className="h-5 w-5 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg">1. Free Property Assessment</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Complete exterior renovation of a 5-building office park in Dallas, TX. The project included roof
-                  replacement, facade restoration, and window upgrades to improve energy efficiency and modernize the
-                  property's appearance.
+                <p className="text-sm text-muted-foreground">
+                  We provide a FREE commercial exterior assessment documenting façade condition, roof interfaces,
+                  windows/doors, water management, and life-safety observations with photo documentation and prioritized
+                  report.
                 </p>
-                <Button asChild variant="outline" className="w-full">
-                  <Link href="/case-studies/office-park-renovation">
-                    View Case Study <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
               </CardContent>
             </Card>
 
-            <Card className="overflow-hidden">
-              <div className="relative h-64 w-full">
+            <Card>
+              <div className="relative h-40 w-full">
                 <Image
-                  src="/retail-center-facade-upgrade.png"
-                  alt="Retail Center Facade Upgrade"
+                  src="/insurance-documentation-commercial.jpg"
+                  alt="Documentation Support"
                   fill
                   className="object-cover"
                 />
               </div>
-              <CardHeader>
-                <CardTitle>Retail Center Facade Upgrade</CardTitle>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <FileText className="h-5 w-5 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg">2. Documentation Support</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Modernization of a 120,000 sq ft retail center in Los Angeles, CA. The project included storefront
-                  system replacement, exterior cladding, and signage integration, completed in phases to maintain
-                  business operations.
+                <p className="text-sm text-muted-foreground">
+                  High-resolution photography, damage mapping, moisture readings, and detailed notes. Transparent scopes
+                  in Xactimate or client-specified formats, capturing full restoration needs.
                 </p>
-                <Button asChild variant="outline" className="w-full">
-                  <Link href="/case-studies/retail-center-facade">
-                    View Case Study <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
               </CardContent>
             </Card>
 
-            <Card className="overflow-hidden">
-              <div className="relative h-64 w-full">
+            <Card>
+              <div className="relative h-40 w-full">
+                <Image src="/adjuster-meeting-commercial.jpg" alt="Adjuster Meeting" fill className="object-cover" />
+              </div>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Handshake className="h-5 w-5 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg">3. Adjuster Meeting</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  On-site walkthroughs to ensure all damages are observed and properly scoped. We coordinate with your
+                  carrier and provide guidance on forms, documentation, and policy details.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <div className="relative h-40 w-full">
+                <Image src="/commercial-restoration-crew.jpg" alt="Restoration Work" fill className="object-cover" />
+              </div>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Wrench className="h-5 w-5 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg">4. Restoration Work</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Phased planning for occupied buildings, product selection, permitting, logistics, and quality-assured
+                  installation to manufacturer specs and code with jobsite cleanliness throughout.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <div className="relative h-40 w-full">
                 <Image
-                  src="/industrial-roof-replacement.png"
-                  alt="Industrial Roof Replacement"
+                  src="/commercial-project-completion.jpg"
+                  alt="Completion & Warranty"
                   fill
                   className="object-cover"
                 />
               </div>
-              <CardHeader>
-                <CardTitle>Industrial Roof Replacement</CardTitle>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Award className="h-5 w-5 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg">5. Completion & Warranty</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Complete roof replacement for a 200,000 sq ft manufacturing facility in Cleveland, OH. The project
-                  included installation of a TPO roofing system with enhanced insulation, improving energy efficiency
-                  while maintaining operations.
+                <p className="text-sm text-muted-foreground">
+                  Final QA/QC walkthrough with punch-list closure, closeout package with warranties, O&M, product data,
+                  and photo log. 10-year labor warranty on full replacements.
                 </p>
-                <Button asChild variant="outline" className="w-full">
-                  <Link href="/case-studies/industrial-roof-replacement">
-                    View Case Study <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
               </CardContent>
             </Card>
-          </div>
 
-          <div className="mt-12 text-center">
-            <Button asChild size="lg">
-              <Link href="/case-studies">View All Commercial Projects</Link>
-            </Button>
+            <Card>
+              <div className="relative h-40 w-full">
+                <Image src="/commercial-ongoing-support.jpg" alt="Ongoing Support" fill className="object-cover" />
+              </div>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Users className="h-5 w-5 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg">6. Ongoing Support</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Preventive maintenance programs with semi-annual or quarterly inspections, leak logs, trend tracking,
+                  budget forecasting, and warranty maintenance tasks to keep coverage intact.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 md:py-24">
+      {/* Comprehensive Services */}
+      <section className="py-6 md:py-8 bg-muted/50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">FAQ</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Get answers to common questions about our commercial restoration services.
+          <div className="text-center mb-6">
+            <Badge className="mb-3">Comprehensive Services</Badge>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">Full-Service Commercial Solutions</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">
+              From emergency response to complete building envelope restoration, we handle every aspect of your
+              commercial project.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <Card>
-              <CardHeader>
-                <CardTitle>How do you minimize disruption to our business operations?</CardTitle>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <AlertTriangle className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Emergency Response</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  We develop a detailed project plan that accommodates your operational requirements, including flexible
-                  scheduling (nights, weekends, or phased implementation), designated work zones, dust/noise
-                  containment, and clear communication protocols. Our goal is to complete the work efficiently while
-                  allowing your business to function normally.
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> 24/7 board-up & shoring
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Water extraction & drying
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Tarping & temporary systems
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Debris removal
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Building2 className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Building Envelope</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Façade repairs (masonry, EIFS, panels)
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Sealants & expansion joints
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Roofing systems (TPO/PVC/EPDM)
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Waterproofing
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Hammer className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Capital Improvements</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Lobby & common-area refreshes
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Storefront systems
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Energy upgrades
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> ADA upgrades
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Wrench className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Structural Repairs</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Rot remediation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Balcony & deck repairs
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Steel reinforcement
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Framing corrections
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Paintbrush className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Coatings & Sealants</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Elastomeric wall coatings
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Traffic deck coatings
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Fire-resistive coatings
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Joint sealant replacement
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Droplet className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Gutter & Drainage</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Seamless gutters
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Commercial box gutters
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Downspout protection
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Tapered insulation
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <DoorOpen className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Windows & Doors</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Commercial storefronts
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Curtain-wall interfaces
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Hollow-metal doors
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Panic hardware
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Droplets className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Interior Restoration</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-1 text-sm text-muted-foreground">
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Selective demo & drying
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Mold-conscious rebuild
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> Drywall & finishes
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="h-3 w-3 text-primary" /> MEP reconnection
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Before/After Gallery */}
+      <section className="py-6 md:py-8">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-6">
+            <Badge className="mb-3">Our Work</Badge>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">Commercial Project Examples</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">
+              See the dramatic transformations we've delivered for commercial clients across diverse property types.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg">Multi-Family Housing – Exterior Remediation</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-2 gap-3 mb-3">
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image
+                        src="/commercial-multifamily-before.jpg"
+                        alt="Multi-family before"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image
+                        src="/commercial-multifamily-after.jpg"
+                        alt="Multi-family after"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Modern apartment community with balcony waterproofing, fiber cement panel replacement, joint/sealant
+                  renewal, and gutter upgrades—delivered in phases to maintain occupancy.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <CardTitle>Do you handle all necessary permits and code compliance?</CardTitle>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg">Office Buildings – Façade Restoration</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  Yes, we manage the entire permitting process for commercial projects. Our team is well-versed in local
-                  building codes and regulations across our service areas. We ensure all work meets or exceeds current
-                  code requirements, including energy efficiency standards, fire safety regulations, and ADA compliance
-                  where applicable.
+                <div className="grid grid-cols-2 gap-3 mb-3">
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image src="/commercial-office-before.jpg" alt="Office before" fill className="object-cover" />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image src="/commercial-office-after.jpg" alt="Office after" fill className="object-cover" />
+                    </div>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Mid-rise façade restoration with elastomeric coating system, storefront sealant replacement, parapet
+                  coping upgrades—executed on weekends to maintain tenant operations.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <CardTitle>What types of warranties do you offer for commercial projects?</CardTitle>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg">Retail Centers – Exterior Refresh</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  We provide comprehensive warranty coverage for all commercial projects, including a 5-10 year
-                  workmanship warranty (varies by service type) and manufacturer warranties on materials (typically
-                  15-30 years). For roofing systems, we offer extended warranty options through our manufacturer
-                  partnerships, some extending up to 30 years with regular maintenance.
+                <div className="grid grid-cols-2 gap-3 mb-3">
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image src="/commercial-retail-before.jpg" alt="Retail before" fill className="object-cover" />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image src="/commercial-retail-after.jpg" alt="Retail after" fill className="object-cover" />
+                    </div>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Center-wide exterior refresh: re-clad canopies, new LED lighting integration, ADA curb and ramp
+                  corrections, and repainting—sequenced tenant-by-tenant to protect revenue hours.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <CardTitle>Can you work with our insurance company for storm damage claims?</CardTitle>
+              <CardHeader className="pb-3">
+                <CardTitle className="text-lg">Industrial Facilities – Envelope Improvements</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  Absolutely. Our commercial division includes insurance specialists who understand the complexities of
-                  commercial property claims. We provide detailed documentation, meet with adjusters, and advocate on
-                  your behalf to ensure you receive fair coverage for all storm-related damage. Our goal is to minimize
-                  your administrative burden throughout the claims process.
+                <div className="grid grid-cols-2 gap-3 mb-3">
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image
+                        src="/commercial-industrial-before.jpg"
+                        alt="Industrial before"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
+                    <div className="relative aspect-video rounded overflow-hidden">
+                      <Image
+                        src="/commercial-industrial-after.jpg"
+                        alt="Industrial after"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Distribution warehouse: insulated metal wall panels, dock door replacements, slab joint repairs, roof
+                  coating restoration, and safety rail installations—completed without interrupting shipping.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="py-6 md:py-8 bg-muted/50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-6">
+            <Badge className="mb-3">Why Choose Us</Badge>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">Why Commercial Clients Choose National Builders</h2>
+            <p className="text-muted-foreground max-w-3xl mx-auto">
+              Proven experience, occupied-site expertise, and unwavering commitment to quality and safety.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Award className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Proven Experience</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Thousands of successful projects across multifamily, office, retail, and industrial assets with
+                  documented results and satisfied clients.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <CardTitle>Do you offer maintenance programs for commercial properties?</CardTitle>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Building2 className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Occupied-Site Expertise</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  Yes, we provide customized maintenance programs for commercial properties that include regular
-                  inspections, preventative maintenance, and priority response for issues. These programs help extend
-                  the life of your building systems, prevent costly emergency repairs, and provide documentation for
-                  warranty compliance and capital planning.
+                <p className="text-sm text-muted-foreground">
+                  Phased, low-disruption execution with clear occupant communication, flexible scheduling, and
+                  meticulous site management.
                 </p>
               </CardContent>
             </Card>
 
             <Card>
-              <CardHeader>
-                <CardTitle>How do you handle multi-building or campus-wide projects?</CardTitle>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Wrench className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Technical Depth</CardTitle>
+                </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">
-                  We specialize in managing complex, multi-building projects with our dedicated commercial project
-                  management team. We develop a master implementation plan that coordinates work across buildings,
-                  optimizes crew deployment, and ensures consistency in materials and quality. This approach maximizes
-                  efficiency while minimizing disruption across your campus.
+                <p className="text-sm text-muted-foreground">
+                  Building envelope, waterproofing, roofing interfaces, and specialty coatings expertise—done right the
+                  first time.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Clock className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Speed & Reliability</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Rapid mobilization, predictable schedules, meticulous cleanup, and on-time project completion.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <FileText className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Honesty & Transparency</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Detailed scopes, change-order clarity, real-time progress reporting, and no hidden surprises.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-3">
+                <div className="flex items-center gap-2 mb-2">
+                  <Shield className="h-5 w-5 text-primary" />
+                  <CardTitle className="text-base">Safety & Compliance</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Documented safety plans, daily oversight, OSHA compliance, and comprehensive insurance coverages.
                 </p>
               </CardContent>
             </Card>
@@ -786,110 +827,37 @@ export default function CommercialServicesPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-16 md:py-24 bg-muted/50">
+      <section className="py-6 md:py-8">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <Badge className="mb-4">Testimonials</Badge>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Commercial Clients Say</h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Hear from property managers and facility directors who have experienced the National Restoration
-              difference.
-            </p>
+          <div className="text-center mb-6">
+            <Badge className="mb-3">Testimonials</Badge>
+            <h2 className="text-2xl md:text-3xl font-bold mb-3">What Commercial Clients Say</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <Card>
               <CardContent className="pt-6">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-5 h-5 text-primary"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-lg italic mb-6">
-                  "National Restoration managed the complete exterior renovation of our 5-building office park. Their
-                  team's professionalism and attention to detail were exceptional. They worked around our tenants'
-                  schedules, maintained clear communication throughout, and delivered outstanding results on time and
-                  within budget."
+                <p className="text-sm italic mb-4 text-muted-foreground">
+                  "National Builders coordinated a complex façade and roof interface project for our mixed-use
+                  center—night work, active tenants, zero incidents. Communication was excellent and the punch-list was
+                  minimal."
                 </p>
                 <div>
-                  <p className="font-semibold">Michael R.</p>
-                  <p className="text-sm text-muted-foreground">Property Manager, Oakwood Office Park</p>
+                  <p className="font-semibold text-sm">Dana L.</p>
+                  <p className="text-xs text-muted-foreground">Property Manager</p>
                 </div>
               </CardContent>
             </Card>
 
             <Card>
               <CardContent className="pt-6">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-5 h-5 text-primary"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-lg italic mb-6">
-                  "After a severe hailstorm damaged our manufacturing facility, National Restoration responded
-                  immediately to secure the building and prevent further damage. Their insurance specialists were
-                  invaluable in navigating our claim, and their commercial roofing team completed the replacement with
-                  minimal disruption to our production schedule."
+                <p className="text-sm italic mb-4 text-muted-foreground">
+                  "Their team handled storm damage across three apartment buildings. Claims documentation was thorough,
+                  repairs were phased without displacing residents, and the closeout was seamless."
                 </p>
                 <div>
-                  <p className="font-semibold">Jennifer L.</p>
-                  <p className="text-sm text-muted-foreground">Facility Director, Precision Manufacturing</p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={i}
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-5 h-5 text-primary"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-lg italic mb-6">
-                  "We've worked with National Restoration on multiple retail center renovations across our portfolio.
-                  Their ability to phase work to maintain tenant operations while still delivering quality results has
-                  been impressive. Their dedicated project managers make the process seamless, and we consider them a
-                  valuable partner in maintaining our properties."
-                </p>
-                <div>
-                  <p className="font-semibold">David W.</p>
-                  <p className="text-sm text-muted-foreground">Director of Operations, Westfield Properties</p>
+                  <p className="font-semibold text-sm">Eric M.</p>
+                  <p className="text-xs text-muted-foreground">Regional Maintenance Director</p>
                 </div>
               </CardContent>
             </Card>
@@ -898,12 +866,31 @@ export default function CommercialServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <CTA
-        title="Ready to Discuss Your Commercial Project?"
-        description="Contact us today to schedule a consultation with our commercial division. We'll develop a customized solution for your property's needs."
-        buttonText="Schedule Commercial Consultation"
-        buttonLink="/contact"
-      />
+      <section className="py-6 md:py-8 bg-primary text-primary-foreground">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold mb-3">Schedule Your Free Commercial Assessment</h2>
+          <p className="text-lg mb-6 max-w-2xl mx-auto opacity-90">
+            Protect your portfolio and plan with confidence. Call 1-800-RESTORE today to schedule a FREE commercial
+            property assessment or discuss an upcoming project.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg" variant="secondary">
+              <Link href="/contact">
+                <Phone className="mr-2 h-5 w-5" />
+                Schedule Assessment
+              </Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+            >
+              <Link href="tel:1-800-RESTORE">Call 1-800-RESTORE</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
