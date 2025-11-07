@@ -1,6 +1,6 @@
 "use client"
 
-import Image from "next/image"
+import { CldImage } from "next-cloudinary"
 import { useResponsive } from "@/hooks/use-responsive"
 import { cn } from "@/lib/utils"
 
@@ -34,27 +34,13 @@ export default function ResponsiveImage({
     return null
   }
 
-  // Handle empty src values
-  const imageSrc = src.trim() !== "" ? src : "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/abstract-geometric-placeholder"
-
-  // If it's a placeholder image, adjust the query for mobile
-  let mobileOptimizedSrc = imageSrc
-  if (imageSrc.includes("https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder") && isMobile) {
-    // Extract the query parameter
-    const queryMatch = imageSrc.match(/query=([^&]+)/)
-    if (queryMatch && queryMatch[1]) {
-      // Add "mobile version" to the query for smaller images
-      const originalQuery = decodeURIComponent(queryMatch[1])
-      const mobileQuery = `mobile version of ${originalQuery}`
-      mobileOptimizedSrc = imageSrc.replace(`query=${queryMatch[1]}`, `query=${encodeURIComponent(mobileQuery)}`)
-    }
-  }
+  const imageSrc = src.trim() !== "" ? src : "placeholder"
 
   if (fill) {
     return (
       <div className={cn("relative", className)}>
-        <Image
-          src={mobileOptimizedSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
+        <CldImage
+          src={imageSrc}
           alt={alt}
           fill
           sizes={sizes}
@@ -67,8 +53,8 @@ export default function ResponsiveImage({
   }
 
   return (
-    <Image
-      src={mobileOptimizedSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
+    <CldImage
+      src={imageSrc}
       alt={alt}
       width={width || 1200}
       height={height || 800}

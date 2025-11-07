@@ -1,8 +1,8 @@
-import Image from "next/image"
+import { CldImage } from "next-cloudinary"
 import { cn } from "@/lib/utils"
 import type React from "react"
 
-interface AccessibleImageProps extends Omit<React.ComponentProps<typeof Image>, "alt"> {
+interface AccessibleImageProps extends Omit<React.ComponentProps<typeof CldImage>, "alt"> {
   alt: string
   caption?: string
   withBorder?: boolean
@@ -34,7 +34,7 @@ export default function AccessibleImage({
   return (
     <figure className={cn("relative", className)}>
       <div className={cn(roundedClass, withBorder && "border", withShadow && "shadow-md", "overflow-hidden")}>
-        <Image alt={alt} {...props} className={cn(roundedClass, props.className)} />
+        <CldImage alt={alt} {...props} className={cn(roundedClass, props.className)} />
       </div>
       {caption && <figcaption className="mt-2 text-sm text-muted-foreground text-center">{caption}</figcaption>}
     </figure>

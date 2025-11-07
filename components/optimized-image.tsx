@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Image from "next/image"
+import { CldImage } from "next-cloudinary"
 import { useIsMobile, useIsTablet } from "@/hooks/use-media-query"
 import { cn } from "@/lib/utils"
 
@@ -63,8 +63,8 @@ export default function OptimizedImage({
   if (fill) {
     return (
       <div className={cn("relative", className)}>
-        <Image
-          src={imageSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
+        <CldImage
+          src={imageSrc || "placeholder"}
           alt={alt}
           fill
           sizes={sizes}
@@ -77,8 +77,8 @@ export default function OptimizedImage({
   }
 
   return (
-    <Image
-      src={imageSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
+    <CldImage
+      src={imageSrc || "placeholder"}
       alt={alt}
       width={width || 1200}
       height={height || 800}
