@@ -54,6 +54,8 @@ async function uploadImage(filePath) {
       resource_type: 'image',
       use_filename: true,
       unique_filename: false,
+      type: 'upload',
+      access_mode: 'public',
     });
 
     console.log(`✓ Uploaded: ${relativePath} -> ${result.secure_url}`);

@@ -10,6 +10,7 @@
     "cloudinary:upload": "node scripts/upload-to-cloudinary.js",
     "cloudinary:migrate": "node scripts/migrate-image-references.js",
     "cloudinary:cleanup": "node scripts/cleanup-local-images.js",
+    "cloudinary:fix-access": "node scripts/update-cloudinary-access.js",
     "cloudinary:all": "npm run cloudinary:upload && npm run cloudinary:migrate"
   },
   "dependencies": {
