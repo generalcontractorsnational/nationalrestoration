@@ -25,11 +25,14 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   // Register service worker for PWA functionality with error handling
   useEffect(() => {
     // Only attempt to register service worker in production environment
+    // Skip registration in StackBlitz and other development environments
     if (
       typeof window !== "undefined" &&
       "serviceWorker" in navigator &&
       window.location.hostname !== "localhost" &&
-      !window.location.hostname.includes("vusercontent.net")
+      !window.location.hostname.includes("vusercontent.net") &&
+      !window.location.hostname.includes("stackblitz.io") &&
+      !window.location.hostname.includes("webcontainer")
     ) {
       navigator.serviceWorker
         .register("/sw.js")
@@ -38,7 +41,6 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
         })
         .catch((error) => {
           console.error("Service Worker registration failed:", error)
-          // Service worker failed, but we can continue without it
         })
     }
   }, [])
