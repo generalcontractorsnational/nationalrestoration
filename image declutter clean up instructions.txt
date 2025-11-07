@@ -1,3 +1,7 @@
+Save images to /public folder (temporarily)
+
+
+Run the upload script:
 npm run cloudinary:upload
 npm run cloudinary:migrate
 npm run cloudinary:cleanup
