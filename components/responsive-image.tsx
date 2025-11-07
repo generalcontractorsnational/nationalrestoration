@@ -38,6 +38,9 @@ export default function ResponsiveImage({
   const imageSrc = src.trim() !== "" ? src : "placeholder"
   const publicId = getCloudinaryPublicId(imageSrc)
 
+  // Fallback cloud name in case environment variable is not set
+  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "dhegnhnyn"
+
   if (fill) {
     return (
       <div className={cn("relative", className)}>
@@ -49,6 +52,7 @@ export default function ResponsiveImage({
           priority={priority}
           quality={quality}
           className="object-cover"
+          config={{ cloud: { cloudName } }}
         />
       </div>
     )
@@ -64,6 +68,7 @@ export default function ResponsiveImage({
       priority={priority}
       quality={quality}
       className={className}
+      config={{ cloud: { cloudName } }}
     />
   )
 }
