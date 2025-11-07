@@ -63,6 +63,9 @@ export default function OptimizedImage({
 
   const publicId = getCloudinaryPublicId(imageSrc)
 
+  // Fallback cloud name in case environment variable is not set
+  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "dhegnhnyn"
+
   if (fill) {
     return (
       <div className={cn("relative", className)}>
@@ -74,6 +77,7 @@ export default function OptimizedImage({
           priority={priority}
           quality={quality}
           className="object-cover"
+          cloudName={cloudName}
         />
       </div>
     )
@@ -89,6 +93,7 @@ export default function OptimizedImage({
       priority={priority}
       quality={quality}
       className={className}
+      cloudName={cloudName}
     />
   )
 }

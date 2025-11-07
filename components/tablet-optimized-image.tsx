@@ -29,10 +29,13 @@ export function TabletOptimizedImage({
 
   const publicId = getCloudinaryPublicId(src || "placeholder")
 
+  // Fallback cloud name in case environment variable is not set
+  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME || "dhegnhnyn"
+
   return (
     <div className={cn("relative rounded-lg overflow-hidden", className)}>
       <div className={aspectRatioClasses[aspectRatio]}>
-        <CldImage src={publicId} alt={alt} fill className="object-cover rounded-lg" />
+        <CldImage src={publicId} alt={alt} fill className="object-cover rounded-lg" cloudName={cloudName} />
       </div>
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent pt-8">
         <div className={cn("p-3 text-white", captionClassName)}>
