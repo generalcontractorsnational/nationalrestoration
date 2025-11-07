@@ -1,3 +1,0 @@
-npm run cloudinary:upload
-npm run cloudinary:migrate
-npm run cloudinary:cleanup
