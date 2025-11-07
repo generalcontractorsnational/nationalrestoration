@@ -6,7 +6,11 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "cloudinary:upload": "node scripts/upload-to-cloudinary.js",
+    "cloudinary:migrate": "node scripts/migrate-image-references.js",
+    "cloudinary:cleanup": "node scripts/cleanup-local-images.js",
+    "cloudinary:all": "npm run cloudinary:upload && npm run cloudinary:migrate"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
