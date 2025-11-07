@@ -52,7 +52,7 @@ export default function ResponsiveImage({
           priority={priority}
           quality={quality}
           className="object-cover"
-          config={{ cloud: { cloudName } }}
+          cloudName={cloudName}
         />
       </div>
     )
@@ -68,7 +68,7 @@ export default function ResponsiveImage({
       priority={priority}
       quality={quality}
       className={className}
-      config={{ cloud: { cloudName } }}
+      cloudName={cloudName}
     />
   )
 }
