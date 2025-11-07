@@ -22,7 +22,7 @@ export default function PropertyManagementPage() {
       <PageHeader
         title="Property Management"
         description="Manage your properties and their storm damage assessments"
-        backgroundImage="/building-exterior-inspection.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/building-exterior-inspection"
       />
       <PropertyManager />
     </>

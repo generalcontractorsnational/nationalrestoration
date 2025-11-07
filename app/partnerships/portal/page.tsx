@@ -14,7 +14,7 @@ export default function PartnerPortalPage() {
       <header className="py-4 px-6 border-b">
         <div className="container mx-auto flex justify-between items-center">
           <Link href="/" className="flex items-center">
-            <Image src="/logo.png" alt="National Restoration" width={40} height={40} className="mr-2" />
+            <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/logo" alt="National Restoration" width={40} height={40} className="mr-2" />
             <span className="text-xl font-bold">National Restoration</span>
           </Link>
           <div className="flex items-center gap-4">

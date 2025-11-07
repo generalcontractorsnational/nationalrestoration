@@ -17,7 +17,7 @@ export default function PortalsPage() {
       <PageHeader
         title="Access Portals"
         description="Secure access to dedicated portals for our clients, subcontractors, employees, and affiliates"
-        backgroundImage="/portal-header-image.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/portal-header-image"
       />
 
       <section className="container mx-auto px-4 py-12">

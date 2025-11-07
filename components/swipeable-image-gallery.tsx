@@ -121,7 +121,7 @@ export function SwipeableImageGallery({
               index === currentIndex ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
-            <Image src={image.src || "/placeholder.svg"} alt={image.alt} fill className="object-cover" />
+            <Image src={image.src || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"} alt={image.alt} fill className="object-cover" />
             {image.caption && (
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                 <p className="text-white text-sm">{image.caption}</p>

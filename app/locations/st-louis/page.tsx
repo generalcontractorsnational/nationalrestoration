@@ -67,7 +67,7 @@ export default function StLouisPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
             <div className="relative h-48 rounded-lg overflow-hidden">
-              <Image src="/st-louis-team-at-office.jpg" alt="St. Louis team at office" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-team-at-office" alt="St. Louis team at office" fill className="object-cover" />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
@@ -79,7 +79,7 @@ export default function StLouisPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-team-meeting-client.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-team-meeting-client"
                 alt="Team meeting with client"
                 fill
                 className="object-cover"
@@ -87,7 +87,7 @@ export default function StLouisPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-warehouse-facility.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-warehouse-facility"
                 alt="St. Louis warehouse facility"
                 fill
                 className="object-cover"
@@ -129,7 +129,7 @@ export default function StLouisPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-clayton-modern-buildings.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-clayton-modern-buildings"
                 alt="Clayton modern buildings"
                 fill
                 className="object-cover"
@@ -137,7 +137,7 @@ export default function StLouisPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-st-peters-residential.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-st-peters-residential"
                 alt="St. Peters residential area"
                 fill
                 className="object-cover"
@@ -150,7 +150,7 @@ export default function StLouisPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="relative h-48 rounded-lg overflow-hidden">
-              <Image src="/st-louis-ladue-luxury-homes.jpg" alt="Ladue luxury homes" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-ladue-luxury-homes" alt="Ladue luxury homes" fill className="object-cover" />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
@@ -165,7 +165,7 @@ export default function StLouisPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-wildwood-developments.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-wildwood-developments"
                 alt="Wildwood new developments"
                 fill
                 className="object-cover"
@@ -328,7 +328,7 @@ export default function StLouisPage() {
                 </p>
                 <div className="relative h-40 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/st-louis-storm-damage-response.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-storm-damage-response"
                     alt="Storm damage response"
                     fill
                     className="object-cover"
@@ -367,7 +367,7 @@ export default function StLouisPage() {
                   impact-resistant options.
                 </p>
                 <div className="relative h-40 rounded-lg overflow-hidden mb-4">
-                  <Image src="/st-louis-roof-replacement.jpg" alt="Roof replacement" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-roof-replacement" alt="Roof replacement" fill className="object-cover" />
                 </div>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-center gap-2">
@@ -403,7 +403,7 @@ export default function StLouisPage() {
                 </p>
                 <div className="relative h-40 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/st-louis-siding-installation.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-siding-installation"
                     alt="Siding installation"
                     fill
                     className="object-cover"
@@ -443,7 +443,7 @@ export default function StLouisPage() {
                 </p>
                 <div className="relative h-40 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/st-louis-water-fire-restoration.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-water-fire-restoration"
                     alt="Water and fire restoration"
                     fill
                     className="object-cover"
@@ -561,14 +561,14 @@ export default function StLouisPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-siding-progress.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-siding-progress"
                 alt="Siding installation progress"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
-              <Image src="/st-louis-gutter-installation.jpg" alt="Gutter installation" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-gutter-installation" alt="Gutter installation" fill className="object-cover" />
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image src="/st-louis-window-replacement.jpg" alt="Window replacement" fill className="object-cover" />
@@ -623,7 +623,7 @@ export default function StLouisPage() {
                   </div>
                   <div className="relative h-64 md:h-full rounded-lg overflow-hidden">
                     <Image
-                      src="/st-louis-office-building.jpg"
+                      src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-office-building"
                       alt="St. Louis office building"
                       fill
                       className="object-cover"
@@ -831,7 +831,7 @@ export default function StLouisPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-wentzville-development.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-wentzville-development"
                 alt="Wentzville development"
                 fill
                 className="object-cover"
@@ -909,14 +909,14 @@ export default function StLouisPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="relative h-64 rounded-lg overflow-hidden">
-              <Image src="/st-louis-team-working-roof.jpg" alt="Team working on roof" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-team-working-roof" alt="Team working on roof" fill className="object-cover" />
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
-              <Image src="/st-louis-equipment-trucks.jpg" alt="Equipment and trucks" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-equipment-trucks" alt="Equipment and trucks" fill className="object-cover" />
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/st-louis-inspection-documentation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-inspection-documentation"
                 alt="Inspection and documentation"
                 fill
                 className="object-cover"
@@ -997,16 +997,16 @@ export default function StLouisPage() {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="relative h-48 rounded-lg overflow-hidden">
-                <Image src="/st-louis-hail-damage.jpg" alt="Hail damage" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-hail-damage" alt="Hail damage" fill className="object-cover" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden">
-                <Image src="/st-louis-summer-heat.jpg" alt="Summer heat protection" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-summer-heat" alt="Summer heat protection" fill className="object-cover" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden">
-                <Image src="/st-louis-winter-ice.jpg" alt="Winter ice protection" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-winter-ice" alt="Winter ice protection" fill className="object-cover" />
               </div>
               <div className="relative h-48 rounded-lg overflow-hidden">
-                <Image src="/st-louis-wind-damage.jpg" alt="Wind damage protection" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-wind-damage" alt="Wind damage protection" fill className="object-cover" />
               </div>
             </div>
           </div>
@@ -1026,7 +1026,7 @@ export default function StLouisPage() {
               <CardContent className="p-6">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/st-louis-soulard-townhome-project.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-soulard-townhome-project"
                     alt="Historic Soulard Townhome"
                     fill
                     className="object-cover"
@@ -1044,7 +1044,7 @@ export default function StLouisPage() {
               <CardContent className="p-6">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/st-louis-ofallon-hoa-project.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-ofallon-hoa-project"
                     alt="O'Fallon HOA Storm Restoration"
                     fill
                     className="object-cover"
@@ -1062,7 +1062,7 @@ export default function StLouisPage() {
               <CardContent className="p-6">
                 <div className="relative h-48 rounded-lg overflow-hidden mb-4">
                   <Image
-                    src="/st-louis-downtown-commercial-roof.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-downtown-commercial-roof"
                     alt="Downtown Commercial Roof"
                     fill
                     className="object-cover"
@@ -1091,20 +1091,20 @@ export default function StLouisPage() {
             <div>
               <p className="text-sm font-medium text-muted-foreground mb-2">BEFORE</p>
               <div className="relative h-64 rounded-lg overflow-hidden">
-                <Image src="/st-louis-before-damaged-roof.jpg" alt="Before restoration" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-before-damaged-roof" alt="Before restoration" fill className="object-cover" />
               </div>
             </div>
             <div>
               <p className="text-sm font-medium text-muted-foreground mb-2">AFTER</p>
               <div className="relative h-64 rounded-lg overflow-hidden">
-                <Image src="/st-louis-after-beautiful-roof.jpg" alt="After restoration" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-after-beautiful-roof" alt="After restoration" fill className="object-cover" />
               </div>
             </div>
             <div>
               <p className="text-sm font-medium text-muted-foreground mb-2">BEFORE</p>
               <div className="relative h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/st-louis-before-damaged-siding.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-before-damaged-siding"
                   alt="Before siding restoration"
                   fill
                   className="object-cover"
@@ -1115,7 +1115,7 @@ export default function StLouisPage() {
               <p className="text-sm font-medium text-muted-foreground mb-2">AFTER</p>
               <div className="relative h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/st-louis-after-beautiful-siding.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/st-louis-after-beautiful-siding"
                   alt="After siding restoration"
                   fill
                   className="object-cover"

@@ -19,7 +19,7 @@ export default function ServiceCard({ title, description, icon, link, imageSrc, 
   return (
     <Card className={cn("overflow-hidden flex flex-col h-full shadow-sm hover:shadow-md transition-shadow", className)}>
       <div className="relative h-40 sm:h-48 w-full">
-        <Image src={imageSrc || "/placeholder.svg"} alt={title} fill className="object-cover" />
+        <Image src={imageSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"} alt={title} fill className="object-cover" />
       </div>
       <CardHeader className="pb-2 px-4 sm:px-6 bg-card">
         <div className="mb-2 text-primary">{icon}</div>

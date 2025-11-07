@@ -708,7 +708,7 @@ function Header() {
                       >
                         <div className="aspect-[4/3] relative overflow-hidden bg-muted">
                           <Image
-                            src="/atlanta-skyline-cityscape.jpg"
+                            src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-skyline-cityscape"
                             alt="Atlanta"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -728,7 +728,7 @@ function Header() {
                       >
                         <div className="aspect-[4/3] relative overflow-hidden bg-muted">
                           <Image
-                            src="/washington-dc-capitol.jpg"
+                            src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/washington-dc-capitol"
                             alt="Washington D.C. Metro"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -748,7 +748,7 @@ function Header() {
                       >
                         <div className="aspect-[4/3] relative overflow-hidden bg-muted">
                           <Image
-                            src="/cleveland-ohio-skyline-downtown.jpg"
+                            src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cleveland-ohio-skyline-downtown"
                             alt="Ohio"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -768,7 +768,7 @@ function Header() {
                       >
                         <div className="aspect-[4/3] relative overflow-hidden bg-muted">
                           <Image
-                            src="/dallas-texas-skyline-downtown.jpg"
+                            src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dallas-texas-skyline-downtown"
                             alt="Dallas-Fort Worth"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"

@@ -21,7 +21,7 @@ export default function StormDamageAssessmentPage() {
       <PageHeader
         title="Storm Damage Assessment Tool"
         description="Identify, document, and report storm damage to your property"
-        backgroundImage="/storm-damaged-roof.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof"
       />
       <StormDamageAssessmentDashboard />
     </>

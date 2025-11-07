@@ -11,13 +11,13 @@ const CACHE_NAME = "storm-damage-assessment-cache-v1"
 const urlsToCache = [
   "/",
   "/storm-damage-assessment",
-  "/storm-damaged-roof.png",
-  "/newly-sided-home.png",
-  "/residential-roof-install.png",
-  "/cozy-reading-nook.png",
-  "/cozy-basement-living.png",
-  "/suburban-garage-organization.png",
-  "/suburban-backyard-gathering.png",
+  "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof",
+  "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/newly-sided-home",
+  "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/residential-roof-install",
+  "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cozy-reading-nook",
+  "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cozy-basement-living",
+  "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/suburban-garage-organization",
+  "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/suburban-backyard-gathering",
 ]
 
 // Install a service worker

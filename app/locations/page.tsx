@@ -19,7 +19,7 @@ export default function LocationsPage() {
       <PageHeader
         title="Our Locations"
         description="Serving communities across the country with local expertise"
-        backgroundImage="/national-map-locations.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/national-map-locations"
       />
 
       {/* Overview Section */}
@@ -57,7 +57,7 @@ export default function LocationsPage() {
 
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/national-service-map.png"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/national-service-map"
                 alt="National Restoration service areas map"
                 fill
                 className="object-cover"
@@ -82,7 +82,7 @@ export default function LocationsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="overflow-hidden">
               <div className="relative h-64 w-full">
-                <Image src="/atlanta-office-building.jpg" alt="Atlanta Office" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-office-building" alt="Atlanta Office" fill className="object-cover" />
               </div>
               <CardHeader>
                 <div className="flex items-center gap-2 mb-2">
@@ -122,7 +122,7 @@ export default function LocationsPage() {
             <Card className="overflow-hidden">
               <div className="relative h-64 w-full">
                 <Image
-                  src="/washington-dc-capitol.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/washington-dc-capitol"
                   alt="Washington D.C. Metro Office"
                   fill
                   className="object-cover"
@@ -165,7 +165,7 @@ export default function LocationsPage() {
 
             <Card className="overflow-hidden">
               <div className="relative h-64 w-full">
-                <Image src="/ohio-office-building.jpg" alt="Ohio Office" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-office-building" alt="Ohio Office" fill className="object-cover" />
               </div>
               <CardHeader>
                 <div className="flex items-center gap-2 mb-2">
@@ -205,7 +205,7 @@ export default function LocationsPage() {
             <Card className="overflow-hidden">
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dallas-fort-worth-office-building.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dallas-fort-worth-office-building"
                   alt="Dallas-Fort Worth Office"
                   fill
                   className="object-cover"

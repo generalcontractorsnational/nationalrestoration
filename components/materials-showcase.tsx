@@ -17,7 +17,7 @@ export default function MaterialsShowcase({ materials }: MaterialsShowcaseProps)
       {materials.map((material, index) => (
         <Card key={index} className="overflow-hidden">
           <div className="relative h-48 w-full">
-            <Image src={material.imageSrc || "/placeholder.svg"} alt={material.name} fill className="object-cover" />
+            <Image src={material.imageSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"} alt={material.name} fill className="object-cover" />
           </div>
           <CardHeader className="pb-2">
             <CardTitle>{material.name}</CardTitle>

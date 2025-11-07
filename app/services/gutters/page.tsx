@@ -49,17 +49,17 @@ export default function GuttersPage() {
       name: "Aluminum Gutters",
       description:
         "Lightweight, rust-resistant, and available in many colors. The most popular and cost-effective option.",
-      imageSrc: "/aluminum-gutters-installation.png",
+      imageSrc: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/aluminum-gutters-installation",
     },
     {
       name: "Copper Gutters",
       description: "Premium, distinctive appearance that develops a beautiful patina over time. Extremely durable.",
-      imageSrc: "/copper-gutters-home.png",
+      imageSrc: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/copper-gutters-home",
     },
     {
       name: "Steel Gutters",
       description: "Strong and durable option that stands up to extreme weather conditions and heavy rainfall.",
-      imageSrc: "/steel-gutters-installation.png",
+      imageSrc: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/steel-gutters-installation",
     },
     {
       name: "Vinyl Gutters",
@@ -73,7 +73,7 @@ export default function GuttersPage() {
       <PageHeader
         title="Gutters & Downspouts"
         description="Protect your property from water damage with custom gutter solutions"
-        backgroundImage="/gutter-installation-team.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/gutter-installation-team"
       />
 
       {/* Overview Section */}
@@ -163,7 +163,7 @@ export default function GuttersPage() {
 
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/seamless-gutter-installation.png"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/seamless-gutter-installation"
                 alt="Seamless gutter installation"
                 fill
                 className="object-cover"

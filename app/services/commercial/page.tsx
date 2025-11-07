@@ -38,7 +38,7 @@ export default function CommercialServicesPage() {
       <PageHeader
         title="Commercial Restoration Services"
         description="Your full-service partner for commercial restoration, repair, and capital improvement projects"
-        backgroundImage="/commercial-building-restoration.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-building-restoration"
       />
 
       {/* Introduction Section */}
@@ -71,7 +71,7 @@ export default function CommercialServicesPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/commercial-team-meeting.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-team-meeting"
                 alt="Commercial restoration consultation"
                 fill
                 className="object-cover"
@@ -96,7 +96,7 @@ export default function CommercialServicesPage() {
             <Card>
               <div className="relative h-48 w-full">
                 <Image
-                  src="/multi-family-apartment-complex.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/multi-family-apartment-complex"
                   alt="Multi-Family Housing"
                   fill
                   className="object-cover"
@@ -129,7 +129,7 @@ export default function CommercialServicesPage() {
 
             <Card>
               <div className="relative h-48 w-full">
-                <Image src="/office-building-exterior.jpg" alt="Office Buildings" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/office-building-exterior" alt="Office Buildings" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-2 mb-2">
@@ -158,7 +158,7 @@ export default function CommercialServicesPage() {
 
             <Card>
               <div className="relative h-48 w-full">
-                <Image src="/retail-center-restoration.jpg" alt="Retail Centers" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/retail-center-restoration" alt="Retail Centers" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-2 mb-2">
@@ -188,7 +188,7 @@ export default function CommercialServicesPage() {
             <Card>
               <div className="relative h-48 w-full">
                 <Image
-                  src="/industrial-facility-exterior.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/industrial-facility-exterior"
                   alt="Industrial Facilities"
                   fill
                   className="object-cover"
@@ -237,7 +237,7 @@ export default function CommercialServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card>
               <div className="relative h-40 w-full">
-                <Image src="/commercial-property-inspection.jpg" alt="Free Inspection" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-property-inspection" alt="Free Inspection" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3">
@@ -259,7 +259,7 @@ export default function CommercialServicesPage() {
             <Card>
               <div className="relative h-40 w-full">
                 <Image
-                  src="/insurance-documentation-commercial.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/insurance-documentation-commercial"
                   alt="Documentation Support"
                   fill
                   className="object-cover"
@@ -283,7 +283,7 @@ export default function CommercialServicesPage() {
 
             <Card>
               <div className="relative h-40 w-full">
-                <Image src="/adjuster-meeting-commercial.jpg" alt="Adjuster Meeting" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/adjuster-meeting-commercial" alt="Adjuster Meeting" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3">
@@ -303,7 +303,7 @@ export default function CommercialServicesPage() {
 
             <Card>
               <div className="relative h-40 w-full">
-                <Image src="/commercial-restoration-crew.jpg" alt="Restoration Work" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-restoration-crew" alt="Restoration Work" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3">
@@ -324,7 +324,7 @@ export default function CommercialServicesPage() {
             <Card>
               <div className="relative h-40 w-full">
                 <Image
-                  src="/commercial-project-completion.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-project-completion"
                   alt="Completion & Warranty"
                   fill
                   className="object-cover"
@@ -348,7 +348,7 @@ export default function CommercialServicesPage() {
 
             <Card>
               <div className="relative h-40 w-full">
-                <Image src="/commercial-ongoing-support.jpg" alt="Ongoing Support" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-ongoing-support" alt="Ongoing Support" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3">
@@ -607,7 +607,7 @@ export default function CommercialServicesPage() {
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
                     <div className="relative aspect-video rounded overflow-hidden">
                       <Image
-                        src="/commercial-multifamily-before.jpg"
+                        src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-multifamily-before"
                         alt="Multi-family before"
                         fill
                         className="object-cover"
@@ -618,7 +618,7 @@ export default function CommercialServicesPage() {
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
                     <div className="relative aspect-video rounded overflow-hidden">
                       <Image
-                        src="/commercial-multifamily-after.jpg"
+                        src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-multifamily-after"
                         alt="Multi-family after"
                         fill
                         className="object-cover"
@@ -642,13 +642,13 @@ export default function CommercialServicesPage() {
                   <div>
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
                     <div className="relative aspect-video rounded overflow-hidden">
-                      <Image src="/commercial-office-before.jpg" alt="Office before" fill className="object-cover" />
+                      <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-office-before" alt="Office before" fill className="object-cover" />
                     </div>
                   </div>
                   <div>
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
                     <div className="relative aspect-video rounded overflow-hidden">
-                      <Image src="/commercial-office-after.jpg" alt="Office after" fill className="object-cover" />
+                      <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-office-after" alt="Office after" fill className="object-cover" />
                     </div>
                   </div>
                 </div>
@@ -668,13 +668,13 @@ export default function CommercialServicesPage() {
                   <div>
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
                     <div className="relative aspect-video rounded overflow-hidden">
-                      <Image src="/commercial-retail-before.jpg" alt="Retail before" fill className="object-cover" />
+                      <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-retail-before" alt="Retail before" fill className="object-cover" />
                     </div>
                   </div>
                   <div>
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
                     <div className="relative aspect-video rounded overflow-hidden">
-                      <Image src="/commercial-retail-after.jpg" alt="Retail after" fill className="object-cover" />
+                      <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-retail-after" alt="Retail after" fill className="object-cover" />
                     </div>
                   </div>
                 </div>
@@ -695,7 +695,7 @@ export default function CommercialServicesPage() {
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">BEFORE</p>
                     <div className="relative aspect-video rounded overflow-hidden">
                       <Image
-                        src="/commercial-industrial-before.jpg"
+                        src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-industrial-before"
                         alt="Industrial before"
                         fill
                         className="object-cover"
@@ -706,7 +706,7 @@ export default function CommercialServicesPage() {
                     <p className="text-xs font-semibold mb-2 text-muted-foreground">AFTER</p>
                     <div className="relative aspect-video rounded overflow-hidden">
                       <Image
-                        src="/commercial-industrial-after.jpg"
+                        src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-industrial-after"
                         alt="Industrial after"
                         fill
                         className="object-cover"

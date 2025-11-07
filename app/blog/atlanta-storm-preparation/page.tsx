@@ -433,7 +433,7 @@ export default function AtlantaStormPreparationPage() {
 
             <div className="rounded-lg border bg-card text-card-foreground shadow overflow-hidden">
               <div className="relative aspect-square">
-                <Image src="/atlanta-team.png" alt="National Restoration Atlanta Team" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-team" alt="National Restoration Atlanta Team" fill className="object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-semibold mb-2">Meet Our Atlanta Team</h3>

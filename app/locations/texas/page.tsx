@@ -19,7 +19,7 @@ export default function TexasPage() {
       <PageHeader
         title="Dallas–Fort Worth Restoration Services"
         description="Trusted Storm, Roofing & Exterior Experts for North Texas"
-        backgroundImage="/texas-dallas-skyline-hero.jpg"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/texas-dallas-skyline-hero"
       />
 
       {/* Introduction Section */}
@@ -37,7 +37,7 @@ export default function TexasPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/texas-team-working-residential.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/texas-team-working-residential"
                 alt="Texas team working on residential project"
                 fill
                 className="object-cover"
@@ -45,7 +45,7 @@ export default function TexasPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/texas-hail-damage-inspection.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/texas-hail-damage-inspection"
                 alt="Hail damage inspection in Texas"
                 fill
                 className="object-cover"
@@ -53,7 +53,7 @@ export default function TexasPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/texas-commercial-roofing-project.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/texas-commercial-roofing-project"
                 alt="Commercial roofing project in Texas"
                 fill
                 className="object-cover"
@@ -210,11 +210,11 @@ export default function TexasPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative aspect-video rounded-lg overflow-hidden">
-              <Image src="/dallas-downtown-skyline.jpg" alt="Dallas downtown skyline" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dallas-downtown-skyline" alt="Dallas downtown skyline" fill className="object-cover" />
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/dallas-residential-roofing.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dallas-residential-roofing"
                 alt="Dallas residential roofing project"
                 fill
                 className="object-cover"
@@ -222,7 +222,7 @@ export default function TexasPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/dallas-storm-damage-repair.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dallas-storm-damage-repair"
                 alt="Dallas storm damage repair"
                 fill
                 className="object-cover"
@@ -300,7 +300,7 @@ export default function TexasPage() {
 
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/fort-worth-office-building.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/fort-worth-office-building"
                   alt="Fort Worth office building"
                   fill
                   className="object-cover"
@@ -375,7 +375,7 @@ export default function TexasPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/fort-worth-downtown-skyline.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/fort-worth-downtown-skyline"
                 alt="Fort Worth downtown skyline"
                 fill
                 className="object-cover"

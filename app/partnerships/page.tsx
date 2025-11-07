@@ -18,7 +18,7 @@ export default function PartnershipsPage() {
       <PageHeader
         title="Partnership Program"
         description="Join our network of trusted partners and grow your business with National Restoration"
-        backgroundImage="/partnership-header.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/partnership-header"
       />
 
       <section className="py-12 md:py-16 bg-white">

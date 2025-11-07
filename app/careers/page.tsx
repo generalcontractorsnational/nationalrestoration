@@ -20,7 +20,7 @@ export default function CareersPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/construction-team-in-field-with-hard-hats-trucks-a.jpg"
+          src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/construction-team-in-field-with-hard-hats-trucks-a"
           alt="National Builders team in the field"
           fill
           className="object-cover"
@@ -139,13 +139,13 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
             <div className="relative h-64 md:h-80 overflow-hidden rounded-lg">
-              <Image src="/sales-team-meeting-training-session-professional-o.jpg" alt="Team training session" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/sales-team-meeting-training-session-professional-o" alt="Team training session" fill className="object-cover" />
             </div>
             <div className="relative h-64 md:h-80 overflow-hidden rounded-lg">
-              <Image src="/construction-workers-on-roof-installing-shingles-t.jpg" alt="Team working on roof" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/construction-workers-on-roof-installing-shingles-t" alt="Team working on roof" fill className="object-cover" />
             </div>
             <div className="relative h-64 md:h-80 overflow-hidden rounded-lg">
-              <Image src="/successful-sales-rep-with-client-handshake-profess.jpg" alt="Successful deal closing" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/successful-sales-rep-with-client-handshake-profess" alt="Successful deal closing" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -276,10 +276,10 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-4 max-w-6xl mx-auto">
             <div className="relative h-64 md:h-96 overflow-hidden rounded-lg">
-              <Image src="/team-celebrating-success-high-five-office-environm.jpg" alt="Team celebrating success" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/team-celebrating-success-high-five-office-environm" alt="Team celebrating success" fill className="object-cover" />
             </div>
             <div className="relative h-64 md:h-96 overflow-hidden rounded-lg">
-              <Image src="/branded-trucks-fleet-national-builders-equipment.jpg" alt="Company fleet" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/branded-trucks-fleet-national-builders-equipment" alt="Company fleet" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -315,16 +315,16 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-4 max-w-6xl mx-auto">
             <div className="relative h-48 overflow-hidden rounded-lg">
-              <Image src="/team-meeting-collaboration-whiteboard-planning.jpg" alt="Team collaboration" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/team-meeting-collaboration-whiteboard-planning" alt="Team collaboration" fill className="object-cover" />
             </div>
             <div className="relative h-48 overflow-hidden rounded-lg">
-              <Image src="/sales-training-presentation-professional-developme.jpg" alt="Sales training" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/sales-training-presentation-professional-developme" alt="Sales training" fill className="object-cover" />
             </div>
             <div className="relative h-48 overflow-hidden rounded-lg">
-              <Image src="/field-work-storm-damage-assessment-professional.jpg" alt="Field assessment" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/field-work-storm-damage-assessment-professional" alt="Field assessment" fill className="object-cover" />
             </div>
             <div className="relative h-48 overflow-hidden rounded-lg">
-              <Image src="/team-lunch-celebration-company-culture.jpg" alt="Team celebration" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/team-lunch-celebration-company-culture" alt="Team celebration" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -393,13 +393,13 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-4 max-w-6xl mx-auto">
             <div className="relative h-64 overflow-hidden rounded-lg">
-              <Image src="/successful-sales-rep-with-commission-check-celebra.jpg" alt="Success celebration" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/successful-sales-rep-with-commission-check-celebra" alt="Success celebration" fill className="object-cover" />
             </div>
             <div className="relative h-64 overflow-hidden rounded-lg">
-              <Image src="/new-employee-orientation-training-welcome.jpg" alt="New employee training" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/new-employee-orientation-training-welcome" alt="New employee training" fill className="object-cover" />
             </div>
             <div className="relative h-64 overflow-hidden rounded-lg">
-              <Image src="/team-awards-ceremony-recognition-achievement.jpg" alt="Awards ceremony" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/team-awards-ceremony-recognition-achievement" alt="Awards ceremony" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -551,7 +551,7 @@ export default function CareersPage() {
       <section className="py-8 md:py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="relative h-96 max-w-6xl mx-auto overflow-hidden rounded-lg">
-            <Image src="/entire-team-group-photo-professional-successful-di.jpg" alt="National Builders team" fill className="object-cover" />
+            <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/entire-team-group-photo-professional-successful-di" alt="National Builders team" fill className="object-cover" />
           </div>
         </div>
       </section>

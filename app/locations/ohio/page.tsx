@@ -18,7 +18,7 @@ export default function OhioPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center">
         <Image
-          src="/ohio-cleveland-skyline-hero.jpg"
+          src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-cleveland-skyline-hero"
           alt="Cleveland Ohio skyline"
           fill
           className="object-cover brightness-50"
@@ -78,7 +78,7 @@ export default function OhioPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-team-working-cleveland.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-team-working-cleveland"
                 alt="Ohio restoration team working in Cleveland"
                 fill
                 className="object-cover"
@@ -86,7 +86,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-storm-damage-response.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-storm-damage-response"
                 alt="Ohio storm damage emergency response"
                 fill
                 className="object-cover"
@@ -94,7 +94,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-roofing-installation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-roofing-installation"
                 alt="Ohio roofing installation in progress"
                 fill
                 className="object-cover"
@@ -110,7 +110,7 @@ export default function OhioPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-residential-roofing-crew.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-residential-roofing-crew"
                 alt="Ohio residential roofing crew at work"
                 fill
                 className="object-cover"
@@ -118,7 +118,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-commercial-project-progress.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-commercial-project-progress"
                 alt="Ohio commercial project in progress"
                 fill
                 className="object-cover"
@@ -126,7 +126,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-siding-installation-team.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-siding-installation-team"
                 alt="Ohio siding installation team"
                 fill
                 className="object-cover"
@@ -134,7 +134,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-48 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-equipment-trucks-fleet.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-equipment-trucks-fleet"
                 alt="Ohio equipment and trucks fleet"
                 fill
                 className="object-cover"
@@ -257,7 +257,7 @@ export default function OhioPage() {
             <div className="space-y-6">
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/cleveland-downtown-skyline.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cleveland-downtown-skyline"
                   alt="Cleveland downtown skyline"
                   fill
                   className="object-cover"
@@ -266,7 +266,7 @@ export default function OhioPage() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
-                    src="/cleveland-historic-home-restoration.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cleveland-historic-home-restoration"
                     alt="Cleveland historic home restoration"
                     fill
                     className="object-cover"
@@ -274,7 +274,7 @@ export default function OhioPage() {
                 </div>
                 <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
-                    src="/cleveland-commercial-building.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cleveland-commercial-building"
                     alt="Cleveland commercial building restoration"
                     fill
                     className="object-cover"
@@ -302,7 +302,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
               <Image
-                src="/cleveland-strongsville-residential.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cleveland-strongsville-residential"
                 alt="Strongsville residential area"
                 fill
                 className="object-cover"
@@ -312,7 +312,7 @@ export default function OhioPage() {
               </div>
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
-              <Image src="/cleveland-parma-neighborhood.jpg" alt="Parma neighborhood" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cleveland-parma-neighborhood" alt="Parma neighborhood" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                 <p className="text-white font-semibold">Parma</p>
               </div>
@@ -334,7 +334,7 @@ export default function OhioPage() {
             <div className="space-y-6 order-2 lg:order-1">
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/columbus-downtown-skyline.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/columbus-downtown-skyline"
                   alt="Columbus downtown skyline"
                   fill
                   className="object-cover"
@@ -343,7 +343,7 @@ export default function OhioPage() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
-                    src="/columbus-residential-roofing.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/columbus-residential-roofing"
                     alt="Columbus residential roofing project"
                     fill
                     className="object-cover"
@@ -351,7 +351,7 @@ export default function OhioPage() {
                 </div>
                 <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
-                    src="/columbus-commercial-restoration.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/columbus-commercial-restoration"
                     alt="Columbus commercial restoration"
                     fill
                     className="object-cover"
@@ -477,7 +477,7 @@ export default function OhioPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="relative h-56 rounded-lg overflow-hidden">
               <Image
-                src="/columbus-dublin-neighborhood.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/columbus-dublin-neighborhood"
                 alt="Dublin Columbus neighborhood"
                 fill
                 className="object-cover"
@@ -487,14 +487,14 @@ export default function OhioPage() {
               </div>
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
-              <Image src="/columbus-hilliard-homes.jpg" alt="Hilliard homes" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/columbus-hilliard-homes" alt="Hilliard homes" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                 <p className="text-white font-semibold">Hilliard</p>
               </div>
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
               <Image
-                src="/columbus-westerville-residential.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/columbus-westerville-residential"
                 alt="Westerville residential area"
                 fill
                 className="object-cover"
@@ -504,7 +504,7 @@ export default function OhioPage() {
               </div>
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
-              <Image src="/columbus-new-albany-homes.jpg" alt="New Albany homes" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/columbus-new-albany-homes" alt="New Albany homes" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                 <p className="text-white font-semibold">New Albany</p>
               </div>
@@ -615,7 +615,7 @@ export default function OhioPage() {
             <div className="space-y-6">
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/cincinnati-riverfront-skyline.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cincinnati-riverfront-skyline"
                   alt="Cincinnati riverfront skyline"
                   fill
                   className="object-cover"
@@ -624,7 +624,7 @@ export default function OhioPage() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
-                    src="/cincinnati-residential-siding.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cincinnati-residential-siding"
                     alt="Cincinnati residential siding project"
                     fill
                     className="object-cover"
@@ -632,7 +632,7 @@ export default function OhioPage() {
                 </div>
                 <div className="relative h-48 rounded-lg overflow-hidden">
                   <Image
-                    src="/cincinnati-storm-damage-repair.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cincinnati-storm-damage-repair"
                     alt="Cincinnati storm damage repair"
                     fill
                     className="object-cover"
@@ -654,7 +654,7 @@ export default function OhioPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="relative h-56 rounded-lg overflow-hidden">
               <Image
-                src="/cincinnati-mason-neighborhood.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cincinnati-mason-neighborhood"
                 alt="Mason Cincinnati neighborhood"
                 fill
                 className="object-cover"
@@ -664,14 +664,14 @@ export default function OhioPage() {
               </div>
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
-              <Image src="/cincinnati-west-chester-homes.jpg" alt="West Chester homes" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cincinnati-west-chester-homes" alt="West Chester homes" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                 <p className="text-white font-semibold">West Chester</p>
               </div>
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
               <Image
-                src="/cincinnati-loveland-residential.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cincinnati-loveland-residential"
                 alt="Loveland residential area"
                 fill
                 className="object-cover"
@@ -681,7 +681,7 @@ export default function OhioPage() {
               </div>
             </div>
             <div className="relative h-56 rounded-lg overflow-hidden">
-              <Image src="/cincinnati-blue-ash-homes.jpg" alt="Blue Ash homes" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cincinnati-blue-ash-homes" alt="Blue Ash homes" fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                 <p className="text-white font-semibold">Blue Ash</p>
               </div>
@@ -706,7 +706,7 @@ export default function OhioPage() {
               <p className="text-center font-semibold mb-3 text-muted-foreground">Before</p>
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/ohio-before-storm-damage-roof.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-before-storm-damage-roof"
                   alt="Ohio roof before storm damage repair"
                   fill
                   className="object-cover"
@@ -717,7 +717,7 @@ export default function OhioPage() {
               <p className="text-center font-semibold mb-3 text-primary">After</p>
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/ohio-after-storm-damage-roof.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-after-storm-damage-roof"
                   alt="Ohio roof after storm damage repair"
                   fill
                   className="object-cover"
@@ -731,7 +731,7 @@ export default function OhioPage() {
               <p className="text-center font-semibold mb-3 text-muted-foreground">Before</p>
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/ohio-before-siding-replacement.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-before-siding-replacement"
                   alt="Ohio siding before replacement"
                   fill
                   className="object-cover"
@@ -742,7 +742,7 @@ export default function OhioPage() {
               <p className="text-center font-semibold mb-3 text-primary">After</p>
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/ohio-after-siding-replacement.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-after-siding-replacement"
                   alt="Ohio siding after replacement"
                   fill
                   className="object-cover"
@@ -756,7 +756,7 @@ export default function OhioPage() {
               <p className="text-center font-semibold mb-3 text-muted-foreground">Before</p>
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/ohio-before-commercial-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-before-commercial-restoration"
                   alt="Ohio commercial building before restoration"
                   fill
                   className="object-cover"
@@ -767,7 +767,7 @@ export default function OhioPage() {
               <p className="text-center font-semibold mb-3 text-primary">After</p>
               <div className="relative h-80 rounded-lg overflow-hidden">
                 <Image
-                  src="/ohio-after-commercial-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-after-commercial-restoration"
                   alt="Ohio commercial building after restoration"
                   fill
                   className="object-cover"
@@ -876,7 +876,7 @@ export default function OhioPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative h-72 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-team-training-session.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-team-training-session"
                 alt="Ohio team training session"
                 fill
                 className="object-cover"
@@ -884,14 +884,14 @@ export default function OhioPage() {
             </div>
             <div className="relative h-72 rounded-lg overflow-hidden">
               <Image
-                src="/ohio-branded-trucks-equipment.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-branded-trucks-equipment"
                 alt="Ohio branded trucks and equipment"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative h-72 rounded-lg overflow-hidden">
-              <Image src="/ohio-crew-safety-meeting.jpg" alt="Ohio crew safety meeting" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-crew-safety-meeting" alt="Ohio crew safety meeting" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -948,7 +948,7 @@ export default function OhioPage() {
             <div className="space-y-6">
               <div className="relative h-64 rounded-lg overflow-hidden">
                 <Image
-                  src="/ohio-lake-effect-snow.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-lake-effect-snow"
                   alt="Ohio lake-effect snow storm"
                   fill
                   className="object-cover"
@@ -956,10 +956,10 @@ export default function OhioPage() {
               </div>
               <div className="grid grid-cols-2 gap-6">
                 <div className="relative h-48 rounded-lg overflow-hidden">
-                  <Image src="/ohio-hail-damage.jpg" alt="Ohio hail damage on roof" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-hail-damage" alt="Ohio hail damage on roof" fill className="object-cover" />
                 </div>
                 <div className="relative h-48 rounded-lg overflow-hidden">
-                  <Image src="/ohio-wind-damage.jpg" alt="Ohio wind damage restoration" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-wind-damage" alt="Ohio wind damage restoration" fill className="object-cover" />
                 </div>
               </div>
             </div>
@@ -1253,7 +1253,7 @@ export default function OhioPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <Image
-                src="/ohio-project-1-before-after.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-project-1-before-after"
                 alt="Ohio restoration project before and after"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -1264,7 +1264,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <Image
-                src="/ohio-project-2-commercial.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-project-2-commercial"
                 alt="Ohio commercial restoration project"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -1275,7 +1275,7 @@ export default function OhioPage() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden group">
               <Image
-                src="/ohio-project-3-storm-damage.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ohio-project-3-storm-damage"
                 alt="Ohio storm damage restoration"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"

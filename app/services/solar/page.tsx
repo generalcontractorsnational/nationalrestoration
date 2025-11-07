@@ -36,7 +36,7 @@ export default function SolarPage() {
       <PageHeader
         title="Solar Solutions"
         description="Harness the power of the sun with turnkey solar energy solutions"
-        backgroundImage="/solar-panels-on-roof.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-panels-on-roof"
       />
 
       {/* Introduction Section */}
@@ -68,7 +68,7 @@ export default function SolarPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
               <Image
-                src="/solar-residential-rooftop-installation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-residential-rooftop-installation"
                 alt="Residential solar installation"
                 fill
                 className="object-cover"
@@ -95,7 +95,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-panel-installation-crew.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-panel-installation-crew"
                   alt="Solar panel installation"
                   fill
                   className="object-cover"
@@ -136,7 +136,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-energy-audit-consultation.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-energy-audit-consultation"
                   alt="Energy audit and consultation"
                   fill
                   className="object-cover"
@@ -176,7 +176,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-battery-storage-system.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-battery-storage-system"
                   alt="Battery storage system"
                   fill
                   className="object-cover"
@@ -217,7 +217,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-monitoring-dashboard.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-monitoring-dashboard"
                   alt="Solar monitoring dashboard"
                   fill
                   className="object-cover"
@@ -264,7 +264,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-residential-home-installation.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-residential-home-installation"
                   alt="Residential solar installation"
                   fill
                   className="object-cover"
@@ -308,7 +308,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-commercial-building-installation.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-commercial-building-installation"
                   alt="Commercial solar installation"
                   fill
                   className="object-cover"
@@ -367,7 +367,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-consultation-site-assessment.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-consultation-site-assessment"
                   alt="Solar consultation"
                   fill
                   className="object-cover"
@@ -389,7 +389,7 @@ export default function SolarPage() {
 
             <Card>
               <div className="relative aspect-video">
-                <Image src="/solar-system-design-proposal.jpg" alt="System design" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-system-design-proposal" alt="System design" fill className="object-cover" />
               </div>
               <CardHeader className="pb-2">
                 <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold mb-2">
@@ -408,7 +408,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-permitting-utility-coordination.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-permitting-utility-coordination"
                   alt="Permitting"
                   fill
                   className="object-cover"
@@ -431,7 +431,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-professional-installation-crew.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-professional-installation-crew"
                   alt="Professional installation"
                   fill
                   className="object-cover"
@@ -454,7 +454,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-inspection-activation.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-inspection-activation"
                   alt="Inspection and activation"
                   fill
                   className="object-cover"
@@ -477,7 +477,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-monitoring-maintenance-support.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-monitoring-maintenance-support"
                   alt="Ongoing support"
                   fill
                   className="object-cover"
@@ -566,7 +566,7 @@ export default function SolarPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
               <Image
-                src="/solar-financing-consultation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-financing-consultation"
                 alt="Solar financing consultation"
                 fill
                 className="object-cover"
@@ -646,7 +646,7 @@ export default function SolarPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
               <Image
-                src="/solar-quality-installation-warranty.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-quality-installation-warranty"
                 alt="Quality installation with warranty"
                 fill
                 className="object-cover"
@@ -831,7 +831,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-commercial-office-250kw.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-commercial-office-250kw"
                   alt="Commercial solar installation"
                   fill
                   className="object-cover"
@@ -851,7 +851,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-installation-technicians-work.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-installation-technicians-work"
                   alt="Expert installation"
                   fill
                   className="object-cover"
@@ -871,7 +871,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-battery-storage-commercial.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-battery-storage-commercial"
                   alt="Battery storage integration"
                   fill
                   className="object-cover"
@@ -891,7 +891,7 @@ export default function SolarPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/solar-residential-black-on-black.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-residential-black-on-black"
                   alt="Residential solar"
                   fill
                   className="object-cover"
@@ -917,7 +917,7 @@ export default function SolarPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <div className="relative aspect-square rounded-lg overflow-hidden">
               <Image
-                src="/solar-ground-mount-array.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-ground-mount-array"
                 alt="Ground-mounted solar array"
                 fill
                 className="object-cover"
@@ -925,7 +925,7 @@ export default function SolarPage() {
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
               <Image
-                src="/solar-carport-installation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-carport-installation"
                 alt="Solar carport installation"
                 fill
                 className="object-cover"
@@ -933,31 +933,31 @@ export default function SolarPage() {
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
               <Image
-                src="/solar-inverter-installation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-inverter-installation"
                 alt="Solar inverter installation"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
-              <Image src="/solar-panel-close-up.jpg" alt="Solar panel close-up" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-panel-close-up" alt="Solar panel close-up" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
-              <Image src="/solar-warehouse-rooftop.jpg" alt="Warehouse rooftop solar" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-warehouse-rooftop" alt="Warehouse rooftop solar" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
               <Image
-                src="/solar-residential-neighborhood.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-residential-neighborhood"
                 alt="Residential solar neighborhood"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
-              <Image src="/solar-battery-powerwall.jpg" alt="Tesla Powerwall battery" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-battery-powerwall" alt="Tesla Powerwall battery" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
-              <Image src="/solar-team-installation.jpg" alt="Solar installation team" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-team-installation" alt="Solar installation team" fill className="object-cover" />
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function DCMetroPage() {
       <PageHeader
         title="Washington D.C. Metro Restoration Services"
         description="Proudly Serving Washington D.C., Northern Virginia & Maryland"
-        backgroundImage="/dc-capitol-building-hero.jpg"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-capitol-building-hero"
       />
 
       {/* Introduction Section */}
@@ -48,7 +48,7 @@ export default function DCMetroPage() {
 
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-metro-team-at-work.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-metro-team-at-work"
                 alt="D.C. Metro restoration team at work"
                 fill
                 className="object-cover"
@@ -74,7 +74,7 @@ export default function DCMetroPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-georgetown-historic-homes.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-georgetown-historic-homes"
                 alt="Georgetown historic homes"
                 fill
                 className="object-cover"
@@ -82,7 +82,7 @@ export default function DCMetroPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-arlington-modern-buildings.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-arlington-modern-buildings"
                 alt="Arlington modern buildings"
                 fill
                 className="object-cover"
@@ -90,7 +90,7 @@ export default function DCMetroPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-bethesda-residential-area.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-bethesda-residential-area"
                 alt="Bethesda residential area"
                 fill
                 className="object-cover"
@@ -165,7 +165,7 @@ export default function DCMetroPage() {
             <Card>
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-storm-damage-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-storm-damage-restoration"
                   alt="Storm damage restoration"
                   fill
                   className="object-cover"
@@ -187,7 +187,7 @@ export default function DCMetroPage() {
             <Card>
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-roofing-exterior-services.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-roofing-exterior-services"
                   alt="Roofing and exterior services"
                   fill
                   className="object-cover"
@@ -209,7 +209,7 @@ export default function DCMetroPage() {
             <Card>
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-water-fire-damage-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-water-fire-damage-restoration"
                   alt="Water and fire damage restoration"
                   fill
                   className="object-cover"
@@ -231,7 +231,7 @@ export default function DCMetroPage() {
             <Card>
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-commercial-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-commercial-restoration"
                   alt="Commercial restoration"
                   fill
                   className="object-cover"
@@ -253,7 +253,7 @@ export default function DCMetroPage() {
             <Card>
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-historic-property-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-historic-property-restoration"
                   alt="Historic property restoration"
                   fill
                   className="object-cover"
@@ -274,7 +274,7 @@ export default function DCMetroPage() {
             {/* Climate Solutions */}
             <Card>
               <div className="relative h-64 w-full">
-                <Image src="/dc-climate-solutions.jpg" alt="Climate solutions" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-climate-solutions" alt="Climate solutions" fill className="object-cover" />
               </div>
               <CardHeader>
                 <CardTitle className="text-2xl">Built for the D.C. Climate</CardTitle>
@@ -366,11 +366,11 @@ export default function DCMetroPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
-              <Image src="/dc-summer-heat-protection.jpg" alt="Summer heat protection" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-summer-heat-protection" alt="Summer heat protection" fill className="object-cover" />
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-winter-snow-ice-protection.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-winter-snow-ice-protection"
                 alt="Winter snow and ice protection"
                 fill
                 className="object-cover"
@@ -378,7 +378,7 @@ export default function DCMetroPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-storm-wind-protection.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-storm-wind-protection"
                 alt="Storm and wind protection"
                 fill
                 className="object-cover"
@@ -405,7 +405,7 @@ export default function DCMetroPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start mb-8">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-metro-service-area-map.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-metro-service-area-map"
                 alt="D.C. Metro service area map"
                 fill
                 className="object-cover"
@@ -536,20 +536,20 @@ export default function DCMetroPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-capitol-hill-neighborhood.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-capitol-hill-neighborhood"
                 alt="Capitol Hill neighborhood"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
-              <Image src="/dc-alexandria-old-town.jpg" alt="Alexandria Old Town" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-alexandria-old-town" alt="Alexandria Old Town" fill className="object-cover" />
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
-              <Image src="/dc-arlington-skyline.jpg" alt="Arlington skyline" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-arlington-skyline" alt="Arlington skyline" fill className="object-cover" />
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
-              <Image src="/dc-bethesda-downtown.jpg" alt="Bethesda downtown" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-bethesda-downtown" alt="Bethesda downtown" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -633,7 +633,7 @@ export default function DCMetroPage() {
             <Card className="overflow-hidden">
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-georgetown-residence-project.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-georgetown-residence-project"
                   alt="Historic Georgetown Residence"
                   fill
                   className="object-cover"
@@ -656,7 +656,7 @@ export default function DCMetroPage() {
             <Card className="overflow-hidden">
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-arlington-office-complex-project.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-arlington-office-complex-project"
                   alt="Arlington Office Complex"
                   fill
                   className="object-cover"
@@ -679,7 +679,7 @@ export default function DCMetroPage() {
             <Card className="overflow-hidden">
               <div className="relative h-64 w-full">
                 <Image
-                  src="/dc-bethesda-storm-recovery-project.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-bethesda-storm-recovery-project"
                   alt="Bethesda Storm Recovery"
                   fill
                   className="object-cover"
@@ -704,7 +704,7 @@ export default function DCMetroPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-project-before-after-1.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-project-before-after-1"
                 alt="Before and after restoration project 1"
                 fill
                 className="object-cover"
@@ -712,7 +712,7 @@ export default function DCMetroPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-project-before-after-2.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-project-before-after-2"
                 alt="Before and after restoration project 2"
                 fill
                 className="object-cover"
@@ -840,7 +840,7 @@ export default function DCMetroPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/dc-metro-office-building.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/dc-metro-office-building"
                 alt="D.C. Metro office building"
                 fill
                 className="object-cover"

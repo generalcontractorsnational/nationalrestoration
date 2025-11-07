@@ -23,7 +23,7 @@ export default function PropertyDetailPage({ params }: { params: { id: string } 
       <PageHeader
         title="Property Detail"
         description="View and manage assessments for this property"
-        backgroundImage="/building-exterior-inspection.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/building-exterior-inspection"
       />
       <PropertyDetail propertyId={params.id} />
     </>

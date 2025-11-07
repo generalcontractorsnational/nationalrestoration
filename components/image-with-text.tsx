@@ -51,7 +51,7 @@ export default function ImageWithText({
   return (
     <div className={cn("relative overflow-hidden", className)}>
       <Image
-        src={src || "/placeholder.svg"}
+        src={src || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
         alt={alt}
         height={height}
         width={width}

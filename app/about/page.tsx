@@ -11,7 +11,7 @@ export default function AboutPage() {
       <PageHeader
         title="About Us"
         description="Your Trusted Restoration Partner"
-        backgroundImage="/professional-restoration-team-in-front-of-company-.jpg"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/professional-restoration-team-in-front-of-company-"
       />
 
       {/* Our Story */}
@@ -41,7 +41,7 @@ export default function AboutPage() {
 
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/restoration-company-founder-with-team.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-company-founder-with-team"
                 alt="National Restoration history"
                 fill
                 className="object-cover"
@@ -177,7 +177,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
-                <Image src="/professional-ceo-portrait.png" alt="CEO" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/professional-ceo-portrait" alt="CEO" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold">John Smith</h3>
               <p className="text-primary font-medium">CEO & Founder</p>
@@ -188,7 +188,7 @@ export default function AboutPage() {
 
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
-                <Image src="/professional-coo-portrait.png" alt="COO" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/professional-coo-portrait" alt="COO" fill className="object-cover" />
               </div>
               <h3 className="text-xl font-bold">Sarah Johnson</h3>
               <p className="text-primary font-medium">Chief Operations Officer</p>
@@ -200,7 +200,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
                 <Image
-                  src="/professional-construction-director-portrait.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/professional-construction-director-portrait"
                   alt="Director of Construction"
                   fill
                   className="object-cover"
@@ -216,7 +216,7 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
                 <Image
-                  src="/customer-service-director.png"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/customer-service-director"
                   alt="Customer Service Director"
                   fill
                   className="object-cover"
@@ -246,7 +246,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                <Image src="/gaf-master-elite-logo.jpg" alt="GAF Master Elite" width={60} height={60} />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/gaf-master-elite-logo" alt="GAF Master Elite" width={60} height={60} />
               </div>
               <p className="text-center font-medium">GAF Master Elite</p>
             </div>
@@ -254,7 +254,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
                 <Image
-                  src="/certainteed-shinglemaster-logo.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/certainteed-shinglemaster-logo"
                   alt="CertainTeed ShingleMaster"
                   width={60}
                   height={60}
@@ -266,7 +266,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
                 <Image
-                  src="/james-hardie-preferred-contractor-logo.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/james-hardie-preferred-contractor-logo"
                   alt="James Hardie Preferred"
                   width={60}
                   height={60}
@@ -278,7 +278,7 @@ export default function AboutPage() {
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
                 <Image
-                  src="/owens-corning-preferred-contractor-logo.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/owens-corning-preferred-contractor-logo"
                   alt="Owens Corning Preferred"
                   width={60}
                   height={60}
@@ -289,14 +289,14 @@ export default function AboutPage() {
 
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                <Image src="/bbb-accredited-business-logo.jpg" alt="BBB Accredited" width={60} height={60} />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/bbb-accredited-business-logo" alt="BBB Accredited" width={60} height={60} />
               </div>
               <p className="text-center font-medium">BBB Accredited</p>
             </div>
 
             <div className="flex flex-col items-center">
               <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md mb-4">
-                <Image src="/nrca-member-logo.jpg" alt="NRCA Member" width={60} height={60} />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/nrca-member-logo" alt="NRCA Member" width={60} height={60} />
               </div>
               <p className="text-center font-medium">NRCA Member</p>
             </div>

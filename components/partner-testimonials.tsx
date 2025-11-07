@@ -7,21 +7,21 @@ export default function PartnerTestimonials() {
         "Partnering with National Restoration has transformed our business. The consistent project flow and operational support have helped us grow by 40% in just one year.",
       name: "Michael Rodriguez",
       title: "Owner, Rodriguez Contracting",
-      image: "/partner-testimonial-1.png",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/partner-testimonial-1",
     },
     {
       quote:
         "As an insurance provider, we need reliable restoration partners. National Restoration consistently delivers quality work that keeps our clients satisfied and claims process smooth.",
       name: "Sarah Johnson",
       title: "Claims Director, Midwest Insurance Group",
-      image: "/partner-testimonial-2.png",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/partner-testimonial-2",
     },
     {
       quote:
         "Managing multiple properties requires dependable service providers. National Restoration's preventative maintenance program has reduced our emergency repairs by 60%.",
       name: "David Chen",
       title: "Regional Manager, Urban Property Management",
-      image: "/partner-testimonial-3.png",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/partner-testimonial-3",
     },
   ]
 
@@ -32,7 +32,7 @@ export default function PartnerTestimonials() {
           <div className="flex items-center mb-4">
             <div className="relative h-12 w-12 rounded-full overflow-hidden mr-4">
               <Image
-                src={testimonial.image || "/placeholder.svg"}
+                src={testimonial.image || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
                 alt={testimonial.name}
                 fill
                 className="object-cover"

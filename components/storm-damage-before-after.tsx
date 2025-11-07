@@ -19,11 +19,11 @@ export default function StormDamageBeforeAfter() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="space-y-3">
           <div className="relative aspect-video rounded-lg overflow-hidden">
-            <Image src="/storm-damaged-roof.png" alt="Roof damaged by storm" fill className="object-cover" />
+            <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof" alt="Roof damaged by storm" fill className="object-cover" />
             <div className="absolute top-3 left-3 bg-destructive text-white px-3 py-1 rounded font-medium">Before</div>
           </div>
           <div className="relative aspect-video rounded-lg overflow-hidden">
-            <Image src="/restored-roof-after-storm.png" alt="Roof after restoration" fill className="object-cover" />
+            <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restored-roof-after-storm" alt="Roof after restoration" fill className="object-cover" />
             <div className="absolute top-3 left-3 bg-primary text-white px-3 py-1 rounded font-medium">After</div>
           </div>
           <p className="text-center text-sm text-muted-foreground">
@@ -34,7 +34,7 @@ export default function StormDamageBeforeAfter() {
         <div className="space-y-3">
           <div className="relative aspect-video rounded-lg overflow-hidden">
             <Image
-              src="/roof-replacement-day.png"
+              src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roof-replacement-day"
               alt="Home during storm damage repair"
               fill
               className="object-cover"
@@ -43,7 +43,7 @@ export default function StormDamageBeforeAfter() {
           </div>
           <div className="relative aspect-video rounded-lg overflow-hidden">
             <Image
-              src="/residential-roof-install.png"
+              src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/residential-roof-install"
               alt="Home after complete restoration"
               fill
               className="object-cover"

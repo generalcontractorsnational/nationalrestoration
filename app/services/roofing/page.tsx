@@ -80,7 +80,7 @@ export default function RoofingPage() {
         <PageHeader
           title="Roofing Services"
           description="Your full-service residential and commercial roofing partner"
-          backgroundImage="/roofing-crew-install.png"
+          backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roofing-crew-install"
         />
 
         <section className="py-6 md:py-8">
@@ -97,7 +97,7 @@ export default function RoofingPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/roofing-team-working-on-residential-roof.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roofing-team-working-on-residential-roof"
                   alt="Professional roofing team at work"
                   fill
                   className="object-cover"
@@ -108,7 +108,7 @@ export default function RoofingPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/roof-damage-before-repair.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roof-damage-before-repair"
                   alt="Damaged roof before repair"
                   fill
                   className="object-cover"
@@ -119,7 +119,7 @@ export default function RoofingPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/roof-replacement-in-progress.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roof-replacement-in-progress"
                   alt="Roof replacement in progress"
                   fill
                   className="object-cover"
@@ -130,7 +130,7 @@ export default function RoofingPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/completed-roof-replacement-beautiful.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/completed-roof-replacement-beautiful"
                   alt="Completed roof replacement"
                   fill
                   className="object-cover"
@@ -191,7 +191,7 @@ export default function RoofingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/asphalt-shingle-roof-close-up-texture.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/asphalt-shingle-roof-close-up-texture"
                     alt="Asphalt Shingle Roofing"
                     fill
                     className="object-cover"
@@ -222,7 +222,7 @@ export default function RoofingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/standing-seam-metal-roof-modern-home.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/standing-seam-metal-roof-modern-home"
                     alt="Metal Roofing"
                     fill
                     className="object-cover"
@@ -252,7 +252,7 @@ export default function RoofingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/clay-tile-roof-spanish-style-home.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/clay-tile-roof-spanish-style-home"
                     alt="Tile Roofing"
                     fill
                     className="object-cover"
@@ -281,7 +281,7 @@ export default function RoofingPage() {
 
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
-                  <Image src="/natural-slate-roof-luxury-home.jpg" alt="Slate Roofing" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/natural-slate-roof-luxury-home" alt="Slate Roofing" fill className="object-cover" />
                 </div>
                 <CardHeader className="pb-3">
                   <CardTitle className="flex items-center gap-2 text-base">
@@ -306,7 +306,7 @@ export default function RoofingPage() {
 
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
-                  <Image src="/tpo-white-membrane-flat-roof.jpg" alt="TPO Roofing" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/tpo-white-membrane-flat-roof" alt="TPO Roofing" fill className="object-cover" />
                 </div>
                 <CardHeader className="pb-3">
                   <CardTitle className="flex items-center gap-2 text-base">
@@ -331,7 +331,7 @@ export default function RoofingPage() {
 
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
-                  <Image src="/epdm-rubber-membrane-flat-roof.jpg" alt="EPDM Roofing" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/epdm-rubber-membrane-flat-roof" alt="EPDM Roofing" fill className="object-cover" />
                 </div>
                 <CardHeader className="pb-3">
                   <CardTitle className="flex items-center gap-2 text-base">
@@ -357,7 +357,7 @@ export default function RoofingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/modified-bitumen-torch-down-roof.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/modified-bitumen-torch-down-roof"
                     alt="Modified Bitumen Roofing"
                     fill
                     className="object-cover"
@@ -386,7 +386,7 @@ export default function RoofingPage() {
 
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
-                  <Image src="/built-up-tar-gravel-roof.jpg" alt="Built-Up Roofing" fill className="object-cover" />
+                  <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/built-up-tar-gravel-roof" alt="Built-Up Roofing" fill className="object-cover" />
                 </div>
                 <CardHeader className="pb-3">
                   <CardTitle className="flex items-center gap-2 text-base">
@@ -412,7 +412,7 @@ export default function RoofingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/commercial-building-flat-roof-installation.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-building-flat-roof-installation"
                     alt="Commercial Roofing Systems"
                     fill
                     className="object-cover"
@@ -472,7 +472,7 @@ export default function RoofingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/synthetic-composite-slate-roof-modern-home.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/synthetic-composite-slate-roof-modern-home"
                     alt="Synthetic Roofing"
                     fill
                     className="object-cover"
@@ -502,7 +502,7 @@ export default function RoofingPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-48 w-full">
                   <Image
-                    src="/solar-panels-on-residential-roof-installation.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/solar-panels-on-residential-roof-installation"
                     alt="Solar-Ready Roofing"
                     fill
                     className="object-cover"
@@ -587,7 +587,7 @@ export default function RoofingPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/roof-replacement-day.png"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roof-replacement-day"
                   alt="Roof inspection in progress"
                   fill
                   className="object-cover"
@@ -903,7 +903,7 @@ export default function RoofingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/commercial-flat-roof-install.png"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-flat-roof-install"
                   alt="Commercial roofing installation"
                   fill
                   className="object-cover"

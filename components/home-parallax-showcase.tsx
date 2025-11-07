@@ -13,32 +13,32 @@ export default function HomeParallaxShowcase() {
   // Example gallery images
   const galleryImages = [
     {
-      src: "/roof-restoration-crew.png",
+      src: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roof-restoration-crew",
       alt: "Roof restoration crew",
       speed: 0.1,
     },
     {
-      src: "/residential-roof-install.png",
+      src: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/residential-roof-install",
       alt: "Residential roof installation",
       speed: 0.15,
     },
     {
-      src: "/modern-window-install.png",
+      src: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/modern-window-install",
       alt: "Modern window installation",
       speed: 0.12,
     },
     {
-      src: "/newly-sided-home.png",
+      src: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/newly-sided-home",
       alt: "Newly sided home",
       speed: 0.18,
     },
     {
-      src: "/seamless-gutter-install.png",
+      src: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/seamless-gutter-install",
       alt: "Seamless gutter installation",
       speed: 0.14,
     },
     {
-      src: "/storm-damaged-roof.png",
+      src: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof",
       alt: "Storm damaged roof",
       speed: 0.16,
     },
@@ -48,7 +48,7 @@ export default function HomeParallaxShowcase() {
     <div>
       {/* Hero Section with Parallax */}
       <ParallaxHero
-        backgroundSrc="/modern-metal-roof-home.png"
+        backgroundSrc="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/modern-metal-roof-home"
         title="National Restoration"
         subtitle="Your trusted partner for all your restoration needs"
         height="80vh"
@@ -70,7 +70,7 @@ export default function HomeParallaxShowcase() {
       </ParallaxHero>
 
       {/* Services Section with Parallax Background */}
-      <ParallaxSection className="py-20" backgroundImage="/weathered-asphalt-texture.png" bgClassName="opacity-10">
+      <ParallaxSection className="py-20" backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/weathered-asphalt-texture" bgClassName="opacity-10">
         <div className="container mx-auto px-4">
           <ParallaxElement speed={0.1} direction="up">
             <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
@@ -154,7 +154,7 @@ export default function HomeParallaxShowcase() {
 
       {/* CTA Section with Parallax */}
       <ParallaxCta
-        backgroundSrc="/storm-damaged-home-restoration.png"
+        backgroundSrc="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-home-restoration"
         title="Ready to restore your property?"
         description="Contact us today for a free consultation and estimate."
         buttonText="Get a Free Quote"

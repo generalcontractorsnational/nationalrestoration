@@ -396,7 +396,7 @@ export default function PropertyDashboard() {
                     <div className="md:w-1/3 relative h-auto md:h-auto">
                       <div className="h-40 md:h-full relative">
                         <Image
-                          src={getPropertyImage(property) || "/placeholder.svg"}
+                          src={getPropertyImage(property) || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
                           alt={property.name}
                           fill
                           className="object-cover"

@@ -13,7 +13,7 @@ export default function ServicesPage() {
       <PageHeader
         title="Our Services"
         description="Comprehensive restoration and general contracting services for residential and commercial properties."
-        backgroundImage="/home-restoration-team.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/home-restoration-team"
       />
 
       {/* Emergency Storm Services - NEW */}
@@ -67,7 +67,7 @@ export default function ServicesPage() {
 
             <div className="relative rounded-lg overflow-hidden h-[300px]">
               <Image
-                src="/storm-damaged-roof-tarping.png"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof-tarping"
                 alt="Emergency storm damage response"
                 fill
                 className="object-cover"
@@ -450,7 +450,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px] rounded-lg overflow-hidden">
-              <Image src="/roof-inspection-team.png" alt="Insurance claim assistance" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roof-inspection-team" alt="Insurance claim assistance" fill className="object-cover" />
             </div>
 
             <div>

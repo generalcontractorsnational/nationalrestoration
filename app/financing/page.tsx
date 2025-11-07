@@ -79,7 +79,7 @@ export default function FinancingPage() {
       <PageHeader
         title="Financing Options"
         description="Flexible payment solutions to make your restoration project affordable"
-        backgroundImage="/financing-header-image.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/financing-header-image"
       />
 
       {/* Introduction */}
@@ -569,7 +569,7 @@ export default function FinancingPage() {
               <CardContent className="pt-6">
                 <div className="flex items-center mb-4">
                   <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <Image src="/homeowner-testimonial-1.png" alt="Sarah Johnson" fill className="object-cover" />
+                    <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/homeowner-testimonial-1" alt="Sarah Johnson" fill className="object-cover" />
                   </div>
                   <div>
                     <h3 className="font-semibold">Sarah Johnson</h3>
@@ -625,7 +625,7 @@ export default function FinancingPage() {
                 <div className="flex items-center mb-4">
                   <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
                     <Image
-                      src="/business-owner-testimonial.png"
+                      src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/business-owner-testimonial"
                       alt="Michael Rodriguez"
                       fill
                       className="object-cover"
@@ -684,7 +684,7 @@ export default function FinancingPage() {
               <CardContent className="pt-6">
                 <div className="flex items-center mb-4">
                   <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4">
-                    <Image src="/homeowner-testimonial-2.png" alt="David and Lisa Chen" fill className="object-cover" />
+                    <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/homeowner-testimonial-2" alt="David and Lisa Chen" fill className="object-cover" />
                   </div>
                   <div>
                     <h3 className="font-semibold">David & Lisa Chen</h3>

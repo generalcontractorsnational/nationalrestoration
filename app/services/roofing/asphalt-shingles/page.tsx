@@ -19,7 +19,7 @@ export default function AsphaltShinglesPage() {
       <PageHeader
         title="Asphalt Shingle Roofing"
         description="America's most popular roofing choice for durability and value"
-        backgroundImage="/roofing-crew-install.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roofing-crew-install"
       />
 
       <section className="py-6 md:py-8">
@@ -328,7 +328,7 @@ export default function AsphaltShinglesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/roofing-crew-restoration.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roofing-crew-restoration"
                 alt="Asphalt shingle color options"
                 fill
                 className="object-cover"
