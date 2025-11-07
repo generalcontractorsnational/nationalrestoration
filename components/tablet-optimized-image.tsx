@@ -1,5 +1,6 @@
 import { CldImage } from "next-cloudinary"
 import { cn } from "@/lib/utils"
+import { getCloudinaryPublicId } from "@/lib/image-utils"
 
 interface TabletOptimizedImageProps {
   src: string
@@ -26,10 +27,12 @@ export function TabletOptimizedImage({
     auto: "",
   }
 
+  const publicId = getCloudinaryPublicId(src || "placeholder")
+
   return (
     <div className={cn("relative rounded-lg overflow-hidden", className)}>
       <div className={aspectRatioClasses[aspectRatio]}>
-        <CldImage src={src || "placeholder"} alt={alt} fill className="object-cover rounded-lg" />
+        <CldImage src={publicId} alt={alt} fill className="object-cover rounded-lg" />
       </div>
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent pt-8">
         <div className={cn("p-3 text-white", captionClassName)}>

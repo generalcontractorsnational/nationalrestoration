@@ -3,6 +3,7 @@
 import { CldImage } from "next-cloudinary"
 import { useResponsive } from "@/hooks/use-responsive"
 import { cn } from "@/lib/utils"
+import { getCloudinaryPublicId } from "@/lib/image-utils"
 
 interface ResponsiveImageProps {
   src: string
@@ -35,12 +36,13 @@ export default function ResponsiveImage({
   }
 
   const imageSrc = src.trim() !== "" ? src : "placeholder"
+  const publicId = getCloudinaryPublicId(imageSrc)
 
   if (fill) {
     return (
       <div className={cn("relative", className)}>
         <CldImage
-          src={imageSrc}
+          src={publicId}
           alt={alt}
           fill
           sizes={sizes}
@@ -54,7 +56,7 @@ export default function ResponsiveImage({
 
   return (
     <CldImage
-      src={imageSrc}
+      src={publicId}
       alt={alt}
       width={width || 1200}
       height={height || 800}

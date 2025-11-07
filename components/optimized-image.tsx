@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { CldImage } from "next-cloudinary"
 import { useIsMobile, useIsTablet } from "@/hooks/use-media-query"
 import { cn } from "@/lib/utils"
+import { getCloudinaryPublicId } from "@/lib/image-utils"
 
 interface OptimizedImageProps {
   src: string
@@ -60,11 +61,13 @@ export default function OptimizedImage({
     return null
   }
 
+  const publicId = getCloudinaryPublicId(imageSrc)
+
   if (fill) {
     return (
       <div className={cn("relative", className)}>
         <CldImage
-          src={imageSrc || "placeholder"}
+          src={publicId}
           alt={alt}
           fill
           sizes={sizes}
@@ -78,7 +81,7 @@ export default function OptimizedImage({
 
   return (
     <CldImage
-      src={imageSrc || "placeholder"}
+      src={publicId}
       alt={alt}
       width={width || 1200}
       height={height || 800}
