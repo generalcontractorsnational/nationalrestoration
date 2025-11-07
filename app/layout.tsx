@@ -81,6 +81,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(baseSchema) }} />
+        <link rel="preconnect" href="https://res.cloudinary.com" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
         <link rel="preconnect" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com" />
         <link rel="dns-prefetch" href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com" />
       </head>
