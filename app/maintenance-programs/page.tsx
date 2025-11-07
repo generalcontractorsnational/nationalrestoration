@@ -14,7 +14,7 @@ export default function MaintenancePrograms() {
       <PageHeader
         title="Commercial Maintenance Programs"
         description="Proactive maintenance solutions to protect your commercial property investment and prevent costly repairs"
-        backgroundImage="/commercial-maintenance-inspection.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-maintenance-inspection"
       />
 
       {/* Introduction Section */}
@@ -55,7 +55,7 @@ export default function MaintenancePrograms() {
             </div>
             <div className="relative rounded-lg overflow-hidden h-[400px] shadow-xl">
               <Image
-                src="/preventative-maintenance-team.png"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/preventative-maintenance-team"
                 alt="National Restoration maintenance team performing a commercial roof inspection"
                 fill
                 className="object-cover"
@@ -280,7 +280,7 @@ export default function MaintenancePrograms() {
                 </div>
                 <div className="relative rounded-lg overflow-hidden h-[300px] shadow-lg">
                   <Image
-                    src="/commercial-roof-maintenance.png"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-roof-maintenance"
                     alt="Commercial roof maintenance inspection"
                     fill
                     className="object-cover"
@@ -326,7 +326,7 @@ export default function MaintenancePrograms() {
                 </div>
                 <div className="relative rounded-lg overflow-hidden h-[300px] shadow-lg">
                   <Image
-                    src="/building-exterior-inspection.png"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/building-exterior-inspection"
                     alt="Building exterior inspection"
                     fill
                     className="object-cover"
@@ -372,7 +372,7 @@ export default function MaintenancePrograms() {
                 </div>
                 <div className="relative rounded-lg overflow-hidden h-[300px] shadow-lg">
                   <Image
-                    src="/commercial-gutter-maintenance.png"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-gutter-maintenance"
                     alt="Commercial gutter maintenance"
                     fill
                     className="object-cover"

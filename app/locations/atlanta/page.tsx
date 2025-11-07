@@ -67,7 +67,7 @@ export default function AtlantaPage() {
         <PageHeader
           title="Atlanta Metro Restoration Services"
           description="Trusted Roofing, Storm, and Exterior Experts Across Georgia"
-          backgroundImage="/atlanta-skyline-hero.jpg"
+          backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-skyline-hero"
         />
 
         <section className="py-6 md:py-8">
@@ -94,7 +94,7 @@ export default function AtlantaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-team-working-residential.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-team-working-residential"
                   alt="Atlanta restoration team at work"
                   fill
                   className="object-cover"
@@ -110,7 +110,7 @@ export default function AtlantaPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-commercial-roofing-project.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-commercial-roofing-project"
                   alt="Commercial roofing project in Atlanta"
                   fill
                   className="object-cover"
@@ -252,7 +252,7 @@ export default function AtlantaPage() {
 
                 <div className="relative aspect-video rounded-lg overflow-hidden mt-6">
                   <Image
-                    src="/atlanta-office-building.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-office-building"
                     alt="Atlanta office building"
                     fill
                     className="object-cover"
@@ -280,7 +280,7 @@ export default function AtlantaPage() {
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-decatur-neighborhood.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-decatur-neighborhood"
                   alt="Decatur neighborhood"
                   fill
                   className="object-cover"
@@ -290,7 +290,7 @@ export default function AtlantaPage() {
                 </div>
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
-                <Image src="/atlanta-sandy-springs-homes.jpg" alt="Sandy Springs homes" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-sandy-springs-homes" alt="Sandy Springs homes" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                   <p className="text-white font-semibold">Sandy Springs</p>
                 </div>
@@ -421,26 +421,26 @@ export default function AtlantaPage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="relative aspect-square rounded-lg overflow-hidden">
-                <Image src="/marietta-neighborhood.jpg" alt="Marietta neighborhood" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/marietta-neighborhood" alt="Marietta neighborhood" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                   <p className="text-white font-semibold">Marietta</p>
                 </div>
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
-                <Image src="/alpharetta-development.jpg" alt="Alpharetta development" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/alpharetta-development" alt="Alpharetta development" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                   <p className="text-white font-semibold">Alpharetta</p>
                 </div>
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
-                <Image src="/roswell-homes.jpg" alt="Roswell homes" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roswell-homes" alt="Roswell homes" fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
                   <p className="text-white font-semibold">Roswell</p>
                 </div>
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
                 <Image
-                  src="/johns-creek-neighborhood.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/johns-creek-neighborhood"
                   alt="Johns Creek neighborhood"
                   fill
                   className="object-cover"
@@ -546,7 +546,7 @@ export default function AtlantaPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-roofing-installation.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-roofing-installation"
                   alt="Roofing installation in Atlanta"
                   fill
                   className="object-cover"
@@ -554,7 +554,7 @@ export default function AtlantaPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-siding-replacement.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-siding-replacement"
                   alt="Siding replacement in Atlanta"
                   fill
                   className="object-cover"
@@ -562,7 +562,7 @@ export default function AtlantaPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-window-installation.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-window-installation"
                   alt="Window installation in Atlanta"
                   fill
                   className="object-cover"
@@ -634,7 +634,7 @@ export default function AtlantaPage() {
               <div className="space-y-4">
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/atlanta-heat-resistant-roofing.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-heat-resistant-roofing"
                     alt="Heat-resistant roofing in Atlanta"
                     fill
                     className="object-cover"
@@ -642,7 +642,7 @@ export default function AtlantaPage() {
                 </div>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/atlanta-storm-protection.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-storm-protection"
                     alt="Storm protection systems"
                     fill
                     className="object-cover"
@@ -667,7 +667,7 @@ export default function AtlantaPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image
-                    src="/buckhead-historic-restoration.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/buckhead-historic-restoration"
                     alt="Historic Buckhead Restoration"
                     fill
                     className="object-cover"
@@ -687,7 +687,7 @@ export default function AtlantaPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image
-                    src="/marietta-multi-family-storm-recovery.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/marietta-multi-family-storm-recovery"
                     alt="Marietta Multi-Family Storm Recovery"
                     fill
                     className="object-cover"
@@ -707,7 +707,7 @@ export default function AtlantaPage() {
               <Card className="overflow-hidden">
                 <div className="relative h-64 w-full">
                   <Image
-                    src="/alpharetta-office-complex.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/alpharetta-office-complex"
                     alt="Alpharetta Office Complex"
                     fill
                     className="object-cover"
@@ -739,7 +739,7 @@ export default function AtlantaPage() {
                 <p className="text-center font-semibold mb-2">Before</p>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/atlanta-before-storm-damage.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-before-storm-damage"
                     alt="Before storm damage repair"
                     fill
                     className="object-cover"
@@ -750,7 +750,7 @@ export default function AtlantaPage() {
                 <p className="text-center font-semibold mb-2">After</p>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/atlanta-after-storm-damage.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-after-storm-damage"
                     alt="After storm damage repair"
                     fill
                     className="object-cover"
@@ -761,7 +761,7 @@ export default function AtlantaPage() {
                 <p className="text-center font-semibold mb-2">Before</p>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/atlanta-before-siding-replacement.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-before-siding-replacement"
                     alt="Before siding replacement"
                     fill
                     className="object-cover"
@@ -772,7 +772,7 @@ export default function AtlantaPage() {
                 <p className="text-center font-semibold mb-2">After</p>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/atlanta-after-siding-replacement.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-after-siding-replacement"
                     alt="After siding replacement"
                     fill
                     className="object-cover"
@@ -959,11 +959,11 @@ export default function AtlantaPage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="relative aspect-video rounded-lg overflow-hidden">
-                <Image src="/atlanta-team-meeting.jpg" alt="Atlanta team meeting" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-team-meeting" alt="Atlanta team meeting" fill className="object-cover" />
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-equipment-trucks.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-equipment-trucks"
                   alt="Atlanta equipment and trucks"
                   fill
                   className="object-cover"
@@ -971,7 +971,7 @@ export default function AtlantaPage() {
               </div>
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/atlanta-crew-celebration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/atlanta-crew-celebration"
                   alt="Atlanta crew celebrating success"
                   fill
                   className="object-cover"

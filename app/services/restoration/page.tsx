@@ -17,7 +17,7 @@ export default function RestorationPage() {
       <PageHeader
         title="Restoration Services"
         description="24/7 Emergency Response • Fire, Water, Storm & Structural Restoration"
-        backgroundImage="/restoration-emergency-response.jpg"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-emergency-response"
       />
 
       {/* Introduction Section */}
@@ -41,7 +41,7 @@ export default function RestorationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/restoration-team-emergency-response.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-team-emergency-response"
                 alt="Emergency restoration team responding"
                 fill
                 className="object-cover"
@@ -49,7 +49,7 @@ export default function RestorationPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/restoration-equipment-setup.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-equipment-setup"
                 alt="Professional restoration equipment"
                 fill
                 className="object-cover"
@@ -85,7 +85,7 @@ export default function RestorationPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/restoration-damage-assessment.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-damage-assessment"
                   alt="Free damage assessment"
                   fill
                   className="object-cover"
@@ -110,7 +110,7 @@ export default function RestorationPage() {
 
             <Card>
               <div className="relative aspect-video">
-                <Image src="/restoration-documentation.jpg" alt="Documentation support" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-documentation" alt="Documentation support" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3 mb-2">
@@ -132,7 +132,7 @@ export default function RestorationPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/restoration-adjuster-meeting.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-adjuster-meeting"
                   alt="Adjuster meeting coordination"
                   fill
                   className="object-cover"
@@ -157,7 +157,7 @@ export default function RestorationPage() {
 
             <Card>
               <div className="relative aspect-video">
-                <Image src="/restoration-work-in-progress.jpg" alt="Restoration work" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-work-in-progress" alt="Restoration work" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3 mb-2">
@@ -179,7 +179,7 @@ export default function RestorationPage() {
             <Card>
               <div className="relative aspect-video">
                 <Image
-                  src="/restoration-completion-inspection.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-completion-inspection"
                   alt="Completion and warranty"
                   fill
                   className="object-cover"
@@ -204,7 +204,7 @@ export default function RestorationPage() {
 
             <Card>
               <div className="relative aspect-video">
-                <Image src="/restoration-ongoing-support.jpg" alt="Ongoing support" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-ongoing-support" alt="Ongoing support" fill className="object-cover" />
               </div>
               <CardHeader className="pb-3">
                 <div className="flex items-center gap-3 mb-2">

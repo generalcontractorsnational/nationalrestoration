@@ -64,7 +64,7 @@ export default function OptimizedImage({
     return (
       <div className={cn("relative", className)}>
         <Image
-          src={imageSrc || "/placeholder.svg"}
+          src={imageSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
           alt={alt}
           fill
           sizes={sizes}
@@ -78,7 +78,7 @@ export default function OptimizedImage({
 
   return (
     <Image
-      src={imageSrc || "/placeholder.svg"}
+      src={imageSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
       alt={alt}
       width={width || 1200}
       height={height || 800}

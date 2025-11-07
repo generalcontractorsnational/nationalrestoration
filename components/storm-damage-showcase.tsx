@@ -62,12 +62,12 @@ export default function StormDamageShowcase() {
   const beforeImage =
     tabContent[activeTab].beforeImage && tabContent[activeTab].beforeImage.trim() !== ""
       ? tabContent[activeTab].beforeImage
-      : "/storm-damaged-house.png"
+      : "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-house"
 
   const afterImage =
     tabContent[activeTab].afterImage && tabContent[activeTab].afterImage.trim() !== ""
       ? tabContent[activeTab].afterImage
-      : "/restored-historic-home.png"
+      : "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restored-historic-home"
 
   return (
     <section className="py-8 bg-white">

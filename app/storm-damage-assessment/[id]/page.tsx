@@ -22,7 +22,7 @@ export default function AssessmentDetailPage({ params }: { params: { id: string 
       <PageHeader
         title="Storm Damage Assessment"
         description="Document and report storm damage to your property"
-        backgroundImage="/storm-damaged-roof.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof"
       />
       <AssessmentDetail assessmentId={params.id} />
     </>

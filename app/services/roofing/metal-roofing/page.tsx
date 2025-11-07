@@ -19,7 +19,7 @@ export default function MetalRoofingPage() {
       <PageHeader
         title="Metal Roofing"
         description="Durable, energy-efficient roofing built to last 50+ years"
-        backgroundImage="/roofing-crew-install.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roofing-crew-install"
       />
 
       <section className="py-6 md:py-8">
@@ -426,7 +426,7 @@ export default function MetalRoofingPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/commercial-roofing-team.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/commercial-roofing-team"
                 alt="Metal roofing color samples"
                 fill
                 className="object-cover"

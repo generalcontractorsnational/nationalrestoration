@@ -126,7 +126,7 @@ export default function ProcessTimeline() {
           {steps[activeStep].image && (
             <div className="mb-4 sm:mb-6 rounded-lg overflow-hidden shadow-premium-lg">
               <img
-                src={steps[activeStep].image || "/placeholder.svg"}
+                src={steps[activeStep].image || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
                 alt={steps[activeStep].imageAlt || steps[activeStep].title}
                 className="w-full h-auto object-cover"
                 loading="lazy"

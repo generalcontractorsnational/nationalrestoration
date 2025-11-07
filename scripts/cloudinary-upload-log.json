@@ -1,1 +1,3794 @@
-{}
+{
+  "alpharetta-office-complex.jpg": {
+    "publicId": "alpharetta-office-complex",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/alpharetta-office-complex.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "adjuster-meeting-siding-damage.jpg": {
+    "publicId": "adjuster-meeting-siding-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/adjuster-meeting-siding-damage.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "adjuster-meeting-exterior.jpg": {
+    "publicId": "adjuster-meeting-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/adjuster-meeting-exterior.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 99239
+  },
+  "alpharetta-development.jpg": {
+    "publicId": "alpharetta-development",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/alpharetta-development.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 152807
+  },
+  "adjuster-meeting-storm-damage.jpg": {
+    "publicId": "adjuster-meeting-storm-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/adjuster-meeting-storm-damage.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 208900
+  },
+  "aerial-view-of-solar-panel-installation-on-residen.jpg": {
+    "publicId": "aerial-view-of-solar-panel-installation-on-residen",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/aerial-view-of-solar-panel-installation-on-residen.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 251606
+  },
+  "app-icon-192.png": {
+    "publicId": "app-icon-192",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/app-icon-192.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 568650
+  },
+  "adjuster-meeting-commercial.jpg": {
+    "publicId": "adjuster-meeting-commercial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/adjuster-meeting-commercial.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 105424
+  },
+  "aluminum-gutters-installation.png": {
+    "publicId": "aluminum-gutters-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/aluminum-gutters-installation.png",
+    "format": "png",
+    "width": 1024,
+    "height": 766,
+    "bytes": 908330
+  },
+  "abstract-geometric-placeholder.png": {
+    "publicId": "abstract-geometric-placeholder",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488570/abstract-geometric-placeholder.png",
+    "format": "png",
+    "width": 1024,
+    "height": 510,
+    "bytes": 389478
+  },
+  "atlanta-after-storm-damage.jpg": {
+    "publicId": "atlanta-after-storm-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-after-storm-damage.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-before-storm-damage.jpg": {
+    "publicId": "atlanta-before-storm-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-before-storm-damage.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-before-siding-replacement.jpg": {
+    "publicId": "atlanta-before-siding-replacement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-before-siding-replacement.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-bbb-logo.png": {
+    "publicId": "atlanta-bbb-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-bbb-logo.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-after-siding-replacement.jpg": {
+    "publicId": "atlanta-after-siding-replacement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-after-siding-replacement.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-crew-celebration.jpg": {
+    "publicId": "atlanta-crew-celebration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-crew-celebration.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-commercial-roofing-project.jpg": {
+    "publicId": "atlanta-commercial-roofing-project",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-commercial-roofing-project.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 256855
+  },
+  "asphalt-shingle-roof-close-up-texture.jpg": {
+    "publicId": "asphalt-shingle-roof-close-up-texture",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/asphalt-shingle-roof-close-up-texture.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 389757
+  },
+  "app-icon-512.png": {
+    "publicId": "app-icon-512",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/app-icon-512.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 580406
+  },
+  "atlanta-commercial-complex.png": {
+    "publicId": "atlanta-commercial-complex",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488572/atlanta-commercial-complex.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-sandy-springs-homes.jpg": {
+    "publicId": "atlanta-sandy-springs-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-sandy-springs-homes.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 270332
+  },
+  "atlanta-roofing-installation.jpg": {
+    "publicId": "atlanta-roofing-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-roofing-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 248355
+  },
+  "atlanta-decatur-neighborhood.jpg": {
+    "publicId": "atlanta-decatur-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-decatur-neighborhood.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 339610
+  },
+  "atlanta-office.png": {
+    "publicId": "atlanta-office",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-office.png",
+    "format": "png",
+    "width": 1024,
+    "height": 624,
+    "bytes": 889135
+  },
+  "atlanta-hba-logo.png": {
+    "publicId": "atlanta-hba-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-hba-logo.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-siding-replacement.jpg": {
+    "publicId": "atlanta-siding-replacement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-siding-replacement.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-equipment-trucks.jpg": {
+    "publicId": "atlanta-equipment-trucks",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-equipment-trucks.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-office-building.jpg": {
+    "publicId": "atlanta-office-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-office-building.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 187532
+  },
+  "atlanta-heat-resistant-roofing.jpg": {
+    "publicId": "atlanta-heat-resistant-roofing",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-heat-resistant-roofing.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-map.png": {
+    "publicId": "atlanta-map",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488574/atlanta-map.png",
+    "format": "png",
+    "width": 1024,
+    "height": 695,
+    "bytes": 1237584
+  },
+  "atlanta-skyline-cityscape.jpg": {
+    "publicId": "atlanta-skyline-cityscape",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-skyline-cityscape.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 169875
+  },
+  "atlanta-team-meeting.jpg": {
+    "publicId": "atlanta-team-meeting",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-team-meeting.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-window-installation.jpg": {
+    "publicId": "atlanta-window-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-window-installation.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-skyline.png": {
+    "publicId": "atlanta-skyline",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-skyline.png",
+    "format": "png",
+    "width": 1024,
+    "height": 473,
+    "bytes": 759721
+  },
+  "atlanta-skyline-hero.jpg": {
+    "publicId": "atlanta-skyline-hero",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-skyline-hero.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 154287
+  },
+  "atlanta-team.png": {
+    "publicId": "atlanta-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-team.png",
+    "format": "png",
+    "width": 1024,
+    "height": 533,
+    "bytes": 829072
+  },
+  "bbb-accredited-business-logo.jpg": {
+    "publicId": "bbb-accredited-business-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/bbb-accredited-business-logo.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 37482
+  },
+  "atlanta-storm-protection.jpg": {
+    "publicId": "atlanta-storm-protection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-storm-protection.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "atlanta-team-working-residential.jpg": {
+    "publicId": "atlanta-team-working-residential",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/atlanta-team-working-residential.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 304728
+  },
+  "avon-lake-neighborhood.jpg": {
+    "publicId": "avon-lake-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488576/avon-lake-neighborhood.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1757063
+  },
+  "certainteed-shinglemaster-logo.jpg": {
+    "publicId": "certainteed-shinglemaster-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/certainteed-shinglemaster-logo.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 77777
+  },
+  "cincinnati-blue-ash-homes.jpg": {
+    "publicId": "cincinnati-blue-ash-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/cincinnati-blue-ash-homes.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "built-up-tar-gravel-roof.jpg": {
+    "publicId": "built-up-tar-gravel-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/built-up-tar-gravel-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 214857
+  },
+  "beautifully-restored-home-exterior-with-new-siding.jpg": {
+    "publicId": "beautifully-restored-home-exterior-with-new-siding",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/beautifully-restored-home-exterior-with-new-siding.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 273608
+  },
+  "careers-header.jpg": {
+    "publicId": "careers-header",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/careers-header.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 232148
+  },
+  "building-exterior-inspection.png": {
+    "publicId": "building-exterior-inspection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/building-exterior-inspection.png",
+    "format": "png",
+    "width": 1024,
+    "height": 572,
+    "bytes": 820574
+  },
+  "buckhead-historic-restoration.jpg": {
+    "publicId": "buckhead-historic-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/buckhead-historic-restoration.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "business-owner-testimonial.png": {
+    "publicId": "business-owner-testimonial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/business-owner-testimonial.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 747502
+  },
+  "branded-trucks-fleet-national-builders-equipment.jpg": {
+    "publicId": "branded-trucks-fleet-national-builders-equipment",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/branded-trucks-fleet-national-builders-equipment.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 239142
+  },
+  "buckhead-estate.png": {
+    "publicId": "buckhead-estate",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488579/buckhead-estate.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1308275
+  },
+  "cincinnati-loveland-residential.jpg": {
+    "publicId": "cincinnati-loveland-residential",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cincinnati-loveland-residential.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 306986
+  },
+  "cincinnati-storm-damage-repair.jpg": {
+    "publicId": "cincinnati-storm-damage-repair",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cincinnati-storm-damage-repair.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 257136
+  },
+  "cincinnati-mason-neighborhood.jpg": {
+    "publicId": "cincinnati-mason-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cincinnati-mason-neighborhood.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 262544
+  },
+  "cleveland-downtown-skyline.jpg": {
+    "publicId": "cleveland-downtown-skyline",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cleveland-downtown-skyline.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 209886
+  },
+  "cleveland-historic-home-restoration.jpg": {
+    "publicId": "cleveland-historic-home-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cleveland-historic-home-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 198448
+  },
+  "cincinnati-residential-siding.jpg": {
+    "publicId": "cincinnati-residential-siding",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cincinnati-residential-siding.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 203563
+  },
+  "cincinnati-west-chester-homes.jpg": {
+    "publicId": "cincinnati-west-chester-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cincinnati-west-chester-homes.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 231423
+  },
+  "cincinnati-riverfront-skyline.jpg": {
+    "publicId": "cincinnati-riverfront-skyline",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/cincinnati-riverfront-skyline.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 148633
+  },
+  "clay-tile-roof-spanish-style-home.jpg": {
+    "publicId": "clay-tile-roof-spanish-style-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488581/clay-tile-roof-spanish-style-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 209222
+  },
+  "cleveland-commercial-building.jpg": {
+    "publicId": "cleveland-commercial-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488582/cleveland-commercial-building.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 223073
+  },
+  "columbus-downtown-skyline.jpg": {
+    "publicId": "columbus-downtown-skyline",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/columbus-downtown-skyline.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 110650
+  },
+  "columbus-commercial-restoration.jpg": {
+    "publicId": "columbus-commercial-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/columbus-commercial-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 252466
+  },
+  "columbus-dublin-neighborhood.jpg": {
+    "publicId": "columbus-dublin-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/columbus-dublin-neighborhood.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 186150
+  },
+  "columbus-residential-roofing.jpg": {
+    "publicId": "columbus-residential-roofing",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/columbus-residential-roofing.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 181789
+  },
+  "cleveland-parma-neighborhood.jpg": {
+    "publicId": "cleveland-parma-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/cleveland-parma-neighborhood.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 236930
+  },
+  "cleveland-strongsville-residential.jpg": {
+    "publicId": "cleveland-strongsville-residential",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/cleveland-strongsville-residential.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 290300
+  },
+  "columbus-hilliard-homes.jpg": {
+    "publicId": "columbus-hilliard-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/columbus-hilliard-homes.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 254960
+  },
+  "columbus-new-albany-homes.jpg": {
+    "publicId": "columbus-new-albany-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/columbus-new-albany-homes.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 233015
+  },
+  "collaborative-home-restoration.png": {
+    "publicId": "collaborative-home-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/collaborative-home-restoration.png",
+    "format": "png",
+    "width": 1024,
+    "height": 681,
+    "bytes": 852687
+  },
+  "cleveland-ohio-skyline-downtown.jpg": {
+    "publicId": "cleveland-ohio-skyline-downtown",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488583/cleveland-ohio-skyline-downtown.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 204673
+  },
+  "commercial-industrial-before.jpg": {
+    "publicId": "commercial-industrial-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-industrial-before.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "columbus-westerville-residential.jpg": {
+    "publicId": "columbus-westerville-residential",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/columbus-westerville-residential.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 185491
+  },
+  "commercial-building-flat-roof-installation.jpg": {
+    "publicId": "commercial-building-flat-roof-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-building-flat-roof-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 209027
+  },
+  "commercial-building-with-solar-panels-array.jpg": {
+    "publicId": "commercial-building-with-solar-panels-array",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-building-with-solar-panels-array.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 262894
+  },
+  "commercial-industrial-after.jpg": {
+    "publicId": "commercial-industrial-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-industrial-after.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "commercial-building-restoration-and-construction.jpg": {
+    "publicId": "commercial-building-restoration-and-construction",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-building-restoration-and-construction.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 221330
+  },
+  "commercial-building-restoration.png": {
+    "publicId": "commercial-building-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-building-restoration.png",
+    "format": "png",
+    "width": 1024,
+    "height": 439,
+    "bytes": 918378
+  },
+  "commercial-flat-roof-install.png": {
+    "publicId": "commercial-flat-roof-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-flat-roof-install.png",
+    "format": "png",
+    "width": 1024,
+    "height": 766,
+    "bytes": 1075859
+  },
+  "commercial-building-solar.png": {
+    "publicId": "commercial-building-solar",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488585/commercial-building-solar.png",
+    "format": "png",
+    "width": 1024,
+    "height": 571,
+    "bytes": 901541
+  },
+  "commercial-gutter-maintenance.png": {
+    "publicId": "commercial-gutter-maintenance",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488586/commercial-gutter-maintenance.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1131607
+  },
+  "commercial-multifamily-after.jpg": {
+    "publicId": "commercial-multifamily-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488587/commercial-multifamily-after.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 230557
+  },
+  "commercial-property-inspection.jpg": {
+    "publicId": "commercial-property-inspection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488587/commercial-property-inspection.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 95059
+  },
+  "commercial-retail-after.jpg": {
+    "publicId": "commercial-retail-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488587/commercial-retail-after.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "commercial-multifamily-before.jpg": {
+    "publicId": "commercial-multifamily-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488587/commercial-multifamily-before.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 241747
+  },
+  "commercial-office-after.jpg": {
+    "publicId": "commercial-office-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488587/commercial-office-after.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 211052
+  },
+  "commercial-project-completion.jpg": {
+    "publicId": "commercial-project-completion",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488587/commercial-project-completion.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 147949
+  },
+  "commercial-ongoing-support.jpg": {
+    "publicId": "commercial-ongoing-support",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488588/commercial-ongoing-support.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 174160
+  },
+  "commercial-restoration-crew.jpg": {
+    "publicId": "commercial-restoration-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488587/commercial-restoration-crew.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 208890
+  },
+  "commercial-office-before.jpg": {
+    "publicId": "commercial-office-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488588/commercial-office-before.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 255164
+  },
+  "commercial-maintenance-inspection.png": {
+    "publicId": "commercial-maintenance-inspection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488588/commercial-maintenance-inspection.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 745855
+  },
+  "completed-exterior-restoration.jpg": {
+    "publicId": "completed-exterior-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488589/completed-exterior-restoration.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "commercial-retail-before.jpg": {
+    "publicId": "commercial-retail-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488589/commercial-retail-before.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "complete-home-renovation.jpg": {
+    "publicId": "complete-home-renovation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488589/complete-home-renovation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 109195
+  },
+  "commercial-team-meeting.jpg": {
+    "publicId": "commercial-team-meeting",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488589/commercial-team-meeting.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 122835
+  },
+  "commercial-roof-maintenance.png": {
+    "publicId": "commercial-roof-maintenance",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488590/commercial-roof-maintenance.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 855534
+  },
+  "commercial-team-meeting.png": {
+    "publicId": "commercial-team-meeting",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488590/commercial-team-meeting.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 906463
+  },
+  "commercial-roofing-progress.jpg": {
+    "publicId": "commercial-roofing-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488590/commercial-roofing-progress.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1578565
+  },
+  "commercial-roofing-team.jpg": {
+    "publicId": "commercial-roofing-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488590/commercial-roofing-team.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3724421
+  },
+  "commercial-roofing-installation.jpg": {
+    "publicId": "commercial-roofing-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488590/commercial-roofing-installation.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3724421
+  },
+  "completed-commercial-roof.jpg": {
+    "publicId": "completed-commercial-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488590/completed-commercial-roof.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3651409
+  },
+  "composite-specialty-siding-commercial.jpg": {
+    "publicId": "composite-specialty-siding-commercial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488592/composite-specialty-siding-commercial.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 134397
+  },
+  "completion-warranty-exterior.jpg": {
+    "publicId": "completion-warranty-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488592/completion-warranty-exterior.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "construction-team-in-field-with-hard-hats-trucks-a.jpg": {
+    "publicId": "construction-team-in-field-with-hard-hats-trucks-a",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488592/construction-team-in-field-with-hard-hats-trucks-a.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 277154
+  },
+  "completed-storm-damage-repair.jpg": {
+    "publicId": "completed-storm-damage-repair",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488592/completed-storm-damage-repair.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 250873
+  },
+  "completed-roof-replacement-beautiful.jpg": {
+    "publicId": "completed-roof-replacement-beautiful",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488592/completed-roof-replacement-beautiful.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 190025
+  },
+  "construction-workers-on-roof-installing-shingles-t.jpg": {
+    "publicId": "construction-workers-on-roof-installing-shingles-t",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488592/construction-workers-on-roof-installing-shingles-t.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 296892
+  },
+  "cozy-reading-nook.png": {
+    "publicId": "cozy-reading-nook",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488593/cozy-reading-nook.png",
+    "format": "png",
+    "width": 680,
+    "height": 1024,
+    "bytes": 940229
+  },
+  "copper-gutters-home.png": {
+    "publicId": "copper-gutters-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488593/copper-gutters-home.png",
+    "format": "png",
+    "width": 1024,
+    "height": 765,
+    "bytes": 1257867
+  },
+  "completed-tpo-roof.jpg": {
+    "publicId": "completed-tpo-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488593/completed-tpo-roof.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1512925
+  },
+  "cozy-basement-living.png": {
+    "publicId": "cozy-basement-living",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488593/cozy-basement-living.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 880803
+  },
+  "dallas-downtown-skyline.jpg": {
+    "publicId": "dallas-downtown-skyline",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/dallas-downtown-skyline.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 189660
+  },
+  "dc-alexandria-old-town.jpg": {
+    "publicId": "dc-alexandria-old-town",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/dc-alexandria-old-town.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dallas-texas-skyline-downtown.jpg": {
+    "publicId": "dallas-texas-skyline-downtown",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/dallas-texas-skyline-downtown.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 170322
+  },
+  "customer-support-storm-damage.jpg": {
+    "publicId": "customer-support-storm-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/customer-support-storm-damage.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 112511
+  },
+  "dallas-fort-worth-office-building.jpg": {
+    "publicId": "dallas-fort-worth-office-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/dallas-fort-worth-office-building.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 182664
+  },
+  "dc-arlington-modern-buildings.jpg": {
+    "publicId": "dc-arlington-modern-buildings",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/dc-arlington-modern-buildings.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 215667
+  },
+  "dallas-residential-roofing.jpg": {
+    "publicId": "dallas-residential-roofing",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/dallas-residential-roofing.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 275352
+  },
+  "customer-service-director.png": {
+    "publicId": "customer-service-director",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/customer-service-director.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1129228
+  },
+  "dallas-storm-damage-repair.jpg": {
+    "publicId": "dallas-storm-damage-repair",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/dallas-storm-damage-repair.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 314153
+  },
+  "damaged-house-exterior.png": {
+    "publicId": "damaged-house-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488595/damaged-house-exterior.png",
+    "format": "png",
+    "width": 1024,
+    "height": 679,
+    "bytes": 1556877
+  },
+  "dc-bethesda-storm-recovery-project.jpg": {
+    "publicId": "dc-bethesda-storm-recovery-project",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-bethesda-storm-recovery-project.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-commercial-restoration.jpg": {
+    "publicId": "dc-commercial-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-commercial-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 250621
+  },
+  "dc-arlington-skyline.jpg": {
+    "publicId": "dc-arlington-skyline",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-arlington-skyline.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-capitol-hill-neighborhood.jpg": {
+    "publicId": "dc-capitol-hill-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-capitol-hill-neighborhood.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-capitol-building-hero.jpg": {
+    "publicId": "dc-capitol-building-hero",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-capitol-building-hero.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 116105
+  },
+  "dc-bethesda-residential-area.jpg": {
+    "publicId": "dc-bethesda-residential-area",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-bethesda-residential-area.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 211253
+  },
+  "dc-georgetown-historic-homes.jpg": {
+    "publicId": "dc-georgetown-historic-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-georgetown-historic-homes.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 310745
+  },
+  "dc-bethesda-downtown.jpg": {
+    "publicId": "dc-bethesda-downtown",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-bethesda-downtown.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-arlington-office-complex-project.jpg": {
+    "publicId": "dc-arlington-office-complex-project",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-arlington-office-complex-project.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-climate-solutions.jpg": {
+    "publicId": "dc-climate-solutions",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488597/dc-climate-solutions.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 179725
+  },
+  "dc-roofing-exterior-services.jpg": {
+    "publicId": "dc-roofing-exterior-services",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488599/dc-roofing-exterior-services.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 224410
+  },
+  "dc-metro-team-at-work.jpg": {
+    "publicId": "dc-metro-team-at-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488599/dc-metro-team-at-work.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 176369
+  },
+  "dc-historic-property-restoration.jpg": {
+    "publicId": "dc-historic-property-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488599/dc-historic-property-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 247348
+  },
+  "dc-georgetown-residence-project.jpg": {
+    "publicId": "dc-georgetown-residence-project",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488600/dc-georgetown-residence-project.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-residential-solar-installation.jpg": {
+    "publicId": "dc-residential-solar-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488599/dc-residential-solar-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 304661
+  },
+  "dc-metro-office-building.jpg": {
+    "publicId": "dc-metro-office-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488600/dc-metro-office-building.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-project-before-after-1.jpg": {
+    "publicId": "dc-project-before-after-1",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488600/dc-project-before-after-1.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-project-before-after-2.jpg": {
+    "publicId": "dc-project-before-after-2",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488600/dc-project-before-after-2.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "dc-storm-damage-restoration.jpg": {
+    "publicId": "dc-storm-damage-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488600/dc-storm-damage-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 259166
+  },
+  "dc-metro-service-area-map.jpg": {
+    "publicId": "dc-metro-service-area-map",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488600/dc-metro-service-area-map.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 228809
+  },
+  "dc-winter-snow-ice-protection.jpg": {
+    "publicId": "dc-winter-snow-ice-protection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/dc-winter-snow-ice-protection.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 110508
+  },
+  "employee-michael.jpg": {
+    "publicId": "employee-michael",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/employee-michael.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 101548
+  },
+  "dc-summer-heat-protection.jpg": {
+    "publicId": "dc-summer-heat-protection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/dc-summer-heat-protection.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 142677
+  },
+  "dc-water-fire-damage-restoration.jpg": {
+    "publicId": "dc-water-fire-damage-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/dc-water-fire-damage-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 149442
+  },
+  "dc-storm-wind-protection.jpg": {
+    "publicId": "dc-storm-wind-protection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/dc-storm-wind-protection.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 209966
+  },
+  "employee-david.jpg": {
+    "publicId": "employee-david",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/employee-david.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 85888
+  },
+  "employee-sarah.jpg": {
+    "publicId": "employee-sarah",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/employee-sarah.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 102238
+  },
+  "engineered-wood-siding-craftsman-home.jpg": {
+    "publicId": "engineered-wood-siding-craftsman-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/engineered-wood-siding-craftsman-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 195186
+  },
+  "entire-team-group-photo-professional-successful-di.jpg": {
+    "publicId": "entire-team-group-photo-professional-successful-di",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/entire-team-group-photo-professional-successful-di.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 117498
+  },
+  "documentation-support-siding.jpg": {
+    "publicId": "documentation-support-siding",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488601/documentation-support-siding.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 181605
+  },
+  "exterior-trim-detail.jpg": {
+    "publicId": "exterior-trim-detail",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/exterior-trim-detail.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 126941
+  },
+  "exterior-trim-installation.jpg": {
+    "publicId": "exterior-trim-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/exterior-trim-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 135684
+  },
+  "epdm-rubber-membrane-flat-roof.jpg": {
+    "publicId": "epdm-rubber-membrane-flat-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/epdm-rubber-membrane-flat-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 126594
+  },
+  "flat-commercial-roof-tpo-membrane-white.jpg": {
+    "publicId": "flat-commercial-roof-tpo-membrane-white",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/flat-commercial-roof-tpo-membrane-white.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 120807
+  },
+  "fort-worth-downtown-skyline.jpg": {
+    "publicId": "fort-worth-downtown-skyline",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/fort-worth-downtown-skyline.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 143701
+  },
+  "fort-worth-office-building.jpg": {
+    "publicId": "fort-worth-office-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/fort-worth-office-building.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 130002
+  },
+  "fiber-cement-siding-modern-home.jpg": {
+    "publicId": "fiber-cement-siding-modern-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/fiber-cement-siding-modern-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 196253
+  },
+  "fire-damage-restoration.jpg": {
+    "publicId": "fire-damage-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/fire-damage-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 275346
+  },
+  "financing-header-image.png": {
+    "publicId": "financing-header-image",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488604/financing-header-image.png",
+    "format": "png",
+    "width": 1024,
+    "height": 587,
+    "bytes": 834897
+  },
+  "field-work-storm-damage-assessment-professional.jpg": {
+    "publicId": "field-work-storm-damage-assessment-professional",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488603/field-work-storm-damage-assessment-professional.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 308447
+  },
+  "gaf-master-elite-logo.jpg": {
+    "publicId": "gaf-master-elite-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/gaf-master-elite-logo.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 52566
+  },
+  "free-inspection-exterior.jpg": {
+    "publicId": "free-inspection-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/free-inspection-exterior.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 137667
+  },
+  "home-with-damaged-siding-and-broken-windows-from-s.jpg": {
+    "publicId": "home-with-damaged-siding-and-broken-windows-from-s",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/home-with-damaged-siding-and-broken-windows-from-s.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 255646
+  },
+  "georgia-license-board.png": {
+    "publicId": "georgia-license-board",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/georgia-license-board.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "georgia-power-logo.png": {
+    "publicId": "georgia-power-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/georgia-power-logo.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "home-restoration-team.png": {
+    "publicId": "home-restoration-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/home-restoration-team.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 869127
+  },
+  "homeowner-testimonial-2.png": {
+    "publicId": "homeowner-testimonial-2",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/homeowner-testimonial-2.png",
+    "format": "png",
+    "width": 680,
+    "height": 1024,
+    "bytes": 905073
+  },
+  "homeowner-testimonial-1.png": {
+    "publicId": "homeowner-testimonial-1",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/homeowner-testimonial-1.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1247158
+  },
+  "historic-facade-revival.png": {
+    "publicId": "historic-facade-revival",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/historic-facade-revival.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1345143
+  },
+  "gutter-installation-team.png": {
+    "publicId": "gutter-installation-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488606/gutter-installation-team.png",
+    "format": "png",
+    "width": 1024,
+    "height": 766,
+    "bytes": 1133043
+  },
+  "images\\before-after\\water-damage-after.jpg": {
+    "publicId": "images/before-after/water-damage-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/before-after/water-damage-after.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 40321
+  },
+  "images\\before-after\\siding-damage-after.jpg": {
+    "publicId": "images/before-after/siding-damage-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/before-after/siding-damage-after.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 220013
+  },
+  "images\\logo.png": {
+    "publicId": "images/logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/logo.png",
+    "format": "png",
+    "width": 1255,
+    "height": 323,
+    "bytes": 244859
+  },
+  "images\\before-after\\siding-damage-before.jpg": {
+    "publicId": "images/before-after/siding-damage-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/before-after/siding-damage-before.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 284838
+  },
+  "images\\before-after\\roof-damage-before.jpg": {
+    "publicId": "images/before-after/roof-damage-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/before-after/roof-damage-before.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 286204
+  },
+  "images\\before-after\\roof-damage-after.jpg": {
+    "publicId": "images/before-after/roof-damage-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/before-after/roof-damage-after.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 249467
+  },
+  "images\\dashboard.jpg": {
+    "publicId": "images/dashboard",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/dashboard.png",
+    "format": "png",
+    "width": 1024,
+    "height": 563,
+    "bytes": 523722
+  },
+  "images\\before-after\\water-damage-before.jpg": {
+    "publicId": "images/before-after/water-damage-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/before-after/water-damage-before.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 162706
+  },
+  "images\\projects\\asphalt-shingle-crew-install.jpg": {
+    "publicId": "images/projects/asphalt-shingle-crew-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/projects/asphalt-shingle-crew-install.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 994571
+  },
+  "images\\projects\\blue-craftsman-completed.jpg": {
+    "publicId": "images/projects/blue-craftsman-completed",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488609/images/projects/blue-craftsman-completed.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 880190
+  },
+  "images\\projects\\commercial-industrial-facility.jpg": {
+    "publicId": "images/projects/commercial-industrial-facility",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-industrial-facility.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 127407
+  },
+  "images\\projects\\commercial-flat-roof-installation.jpg": {
+    "publicId": "images/projects/commercial-flat-roof-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-flat-roof-installation.png",
+    "format": "png",
+    "width": 1255,
+    "height": 323,
+    "bytes": 244859
+  },
+  "images\\projects\\commercial-building-with-solar-panels-array.jpg": {
+    "publicId": "images/projects/commercial-building-with-solar-panels-array",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-building-with-solar-panels-array.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1104466
+  },
+  "images\\projects\\commercial-mixed-use-development.jpg": {
+    "publicId": "images/projects/commercial-mixed-use-development",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-mixed-use-development.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 954893
+  },
+  "images\\projects\\commercial-industrial-warehouse.jpg": {
+    "publicId": "images/projects/commercial-industrial-warehouse",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-industrial-warehouse.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 833022
+  },
+  "images\\projects\\commercial-flat-roof-tpo-install.jpg": {
+    "publicId": "images/projects/commercial-flat-roof-tpo-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-flat-roof-tpo-install.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1578565
+  },
+  "images\\projects\\commercial-mixed-roofing-aerial.jpg": {
+    "publicId": "images/projects/commercial-mixed-roofing-aerial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-mixed-roofing-aerial.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 972974
+  },
+  "images\\projects\\commercial-metal-roof-standing-seam.jpg": {
+    "publicId": "images/projects/commercial-metal-roof-standing-seam",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-metal-roof-standing-seam.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1101316
+  },
+  "images\\projects\\commercial-mixed-use-aerial.jpg": {
+    "publicId": "images/projects/commercial-mixed-use-aerial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/commercial-mixed-use-aerial.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 256447
+  },
+  "images\\projects\\colonial-home-maintained.jpg": {
+    "publicId": "images/projects/colonial-home-maintained",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488611/images/projects/colonial-home-maintained.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 883047
+  },
+  "images\\projects\\commercial-office-building-work.jpg": {
+    "publicId": "images/projects/commercial-office-building-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488613/images/projects/commercial-office-building-work.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 186777
+  },
+  "images\\projects\\commercial-retail-center-work.jpg": {
+    "publicId": "images/projects/commercial-retail-center-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488613/images/projects/commercial-retail-center-work.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 179410
+  },
+  "images\\projects\\commercial-multifamily-housing.jpg": {
+    "publicId": "images/projects/commercial-multifamily-housing",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/commercial-multifamily-housing.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 282864
+  },
+  "images\\projects\\commercial-office-facade-work.jpg": {
+    "publicId": "images/projects/commercial-office-facade-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/commercial-office-facade-work.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1117150
+  },
+  "images\\projects\\completed-large-home.jpg": {
+    "publicId": "images/projects/completed-large-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/completed-large-home.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1125381
+  },
+  "images\\projects\\commercial-retail-mertil-center.jpg": {
+    "publicId": "images/projects/commercial-retail-mertil-center",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/commercial-retail-mertil-center.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 920480
+  },
+  "images\\projects\\completed-colonial-home.jpg": {
+    "publicId": "images/projects/completed-colonial-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/completed-colonial-home.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 883047
+  },
+  "images\\projects\\commercial-multifamily-apartment.jpg": {
+    "publicId": "images/projects/commercial-multifamily-apartment",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/commercial-multifamily-apartment.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 997157
+  },
+  "images\\projects\\flat-roof-crew-install.jpg": {
+    "publicId": "images/projects/flat-roof-crew-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/flat-roof-crew-install.png",
+    "format": "png",
+    "width": 1440,
+    "height": 1440,
+    "bytes": 2121036
+  },
+  "images\\projects\\commercial-roof-crew-work.jpg": {
+    "publicId": "images/projects/commercial-roof-crew-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488614/images/projects/commercial-roof-crew-work.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3724421
+  },
+  "images\\projects\\metal-roof-commercial-install.jpg": {
+    "publicId": "images/projects/metal-roof-commercial-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488616/images/projects/metal-roof-commercial-install.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1101316
+  },
+  "images\\projects\\residential-solar-panel-installation-crew-on-roof.jpg": {
+    "publicId": "images/projects/residential-solar-panel-installation-crew-on-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/residential-solar-panel-installation-crew-on-roof.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 745859
+  },
+  "images\\projects\\residential-shingle-crew-work.jpg": {
+    "publicId": "images/projects/residential-shingle-crew-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/residential-shingle-crew-work.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 994571
+  },
+  "images\\projects\\residential-slate-tile-luxury.jpg": {
+    "publicId": "images/projects/residential-slate-tile-luxury",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/residential-slate-tile-luxury.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1260492
+  },
+  "images\\projects\\restored-craftsman-home.jpg": {
+    "publicId": "images/projects/restored-craftsman-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/restored-craftsman-home.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 999199
+  },
+  "images\\projects\\restoration-fire-damage-exterior.jpg": {
+    "publicId": "images/projects/restoration-fire-damage-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/restoration-fire-damage-exterior.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 996994
+  },
+  "images\\projects\\restoration-fire-water-damage-interior.jpg": {
+    "publicId": "images/projects/restoration-fire-water-damage-interior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/restoration-fire-water-damage-interior.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1118517
+  },
+  "images\\projects\\restoration-water-damage-cleanup.jpg": {
+    "publicId": "images/projects/restoration-water-damage-cleanup",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/restoration-water-damage-cleanup.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1017134
+  },
+  "images\\projects\\restoration-commercial-progress.jpg": {
+    "publicId": "images/projects/restoration-commercial-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/restoration-commercial-progress.png",
+    "format": "png",
+    "width": 1600,
+    "height": 896,
+    "bytes": 2317620
+  },
+  "images\\projects\\restoration-structural-rebuild.jpg": {
+    "publicId": "images/projects/restoration-structural-rebuild",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488617/images/projects/restoration-structural-rebuild.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1016152
+  },
+  "images\\projects\\siding-gray-farmhouse-complete.jpg": {
+    "publicId": "images/projects/siding-gray-farmhouse-complete",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488619/images/projects/siding-gray-farmhouse-complete.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 278895
+  },
+  "images\\projects\\siding-beige-colonial-progress.jpg": {
+    "publicId": "images/projects/siding-beige-colonial-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488619/images/projects/siding-beige-colonial-progress.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 234957
+  },
+  "images\\projects\\severe-storm-damage.jpg": {
+    "publicId": "images/projects/severe-storm-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488619/images/projects/severe-storm-damage.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 827428
+  },
+  "images\\projects\\siding-beige-colonial-home.jpg": {
+    "publicId": "images/projects/siding-beige-colonial-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488620/images/projects/siding-beige-colonial-home.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 842416
+  },
+  "images\\projects\\siding-gray-farmhouse.jpg": {
+    "publicId": "images/projects/siding-gray-farmhouse",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488620/images/projects/siding-gray-farmhouse.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1121219
+  },
+  "images\\projects\\siding-beige-craftsman.jpg": {
+    "publicId": "images/projects/siding-beige-craftsman",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488620/images/projects/siding-beige-craftsman.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1112895
+  },
+  "images\\projects\\roof-restoration-crew.jpg": {
+    "publicId": "images/projects/roof-restoration-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488620/images/projects/roof-restoration-crew.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 2050515
+  },
+  "images\\projects\\siding-beige-craftsman-complete.jpg": {
+    "publicId": "images/projects/siding-beige-craftsman-complete",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488619/images/projects/siding-beige-craftsman-complete.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 270342
+  },
+  "images\\projects\\restored-stone-siding-home.jpg": {
+    "publicId": "images/projects/restored-stone-siding-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488620/images/projects/restored-stone-siding-home.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1125381
+  },
+  "images\\projects\\roofing-crew-at-work.jpg": {
+    "publicId": "images/projects/roofing-crew-at-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488620/images/projects/roofing-crew-at-work.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 2940612
+  },
+  "images\\projects\\solar-panel-installation-on-residential-roof.jpg": {
+    "publicId": "images/projects/solar-panel-installation-on-residential-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/solar-panel-installation-on-residential-roof.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 842416
+  },
+  "images\\projects\\solar-commercial-large-array.jpg": {
+    "publicId": "images/projects/solar-commercial-large-array",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/solar-commercial-large-array.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1445433
+  },
+  "images\\projects\\siding-worker-installation.jpg": {
+    "publicId": "images/projects/siding-worker-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/siding-worker-installation.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 745859
+  },
+  "images\\projects\\siding-wood-tone-modern.jpg": {
+    "publicId": "images/projects/siding-wood-tone-modern",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/siding-wood-tone-modern.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1104466
+  },
+  "images\\projects\\slate-tile-roof-install.jpg": {
+    "publicId": "images/projects/slate-tile-roof-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/slate-tile-roof-install.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1260492
+  },
+  "images\\projects\\solar-battery-storage-system-installation.jpg": {
+    "publicId": "images/projects/solar-battery-storage-system-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/solar-battery-storage-system-installation.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1121219
+  },
+  "images\\projects\\solar-battery-storage-inverter.jpg": {
+    "publicId": "images/projects/solar-battery-storage-inverter",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/solar-battery-storage-inverter.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 839363
+  },
+  "images\\projects\\siding-wood-tone-modern-complete.jpg": {
+    "publicId": "images/projects/siding-wood-tone-modern-complete",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/siding-wood-tone-modern-complete.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 186832
+  },
+  "images\\projects\\siding-installation-worker-action.jpg": {
+    "publicId": "images/projects/siding-installation-worker-action",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/siding-installation-worker-action.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 140568
+  },
+  "images\\projects\\solar-commercial-installation-progress.jpg": {
+    "publicId": "images/projects/solar-commercial-installation-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488622/images/projects/solar-commercial-installation-progress.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1128888
+  },
+  "images\\projects\\storm-emergency-response-crew.jpg": {
+    "publicId": "images/projects/storm-emergency-response-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/storm-emergency-response-crew.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 216900
+  },
+  "images\\projects\\storm-emergency-tarp-installation.jpg": {
+    "publicId": "images/projects/storm-emergency-tarp-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/storm-emergency-tarp-installation.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1185331
+  },
+  "images\\projects\\storm-damaged-roof-before.jpg": {
+    "publicId": "images/projects/storm-damaged-roof-before",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/storm-damaged-roof-before.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 867474
+  },
+  "images\\projects\\solar-panel-maintenance-and-cleaning.jpg": {
+    "publicId": "images/projects/solar-panel-maintenance-and-cleaning",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/solar-panel-maintenance-and-cleaning.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1112895
+  },
+  "images\\projects\\storm-damage-residential-1.jpg": {
+    "publicId": "images/projects/storm-damage-residential-1",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/storm-damage-residential-1.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1681524
+  },
+  "images\\projects\\storm-emergency-utility-response.jpg": {
+    "publicId": "images/projects/storm-emergency-utility-response",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/storm-emergency-utility-response.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1160079
+  },
+  "images\\projects\\storm-restored-home-golden-hour.jpg": {
+    "publicId": "images/projects/storm-restored-home-golden-hour",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/storm-restored-home-golden-hour.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1183348
+  },
+  "images\\projects\\solar-residential-aerial-installation.jpg": {
+    "publicId": "images/projects/solar-residential-aerial-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/solar-residential-aerial-installation.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1164727
+  },
+  "images\\projects\\storm-damage-residential-2.jpg": {
+    "publicId": "images/projects/storm-damage-residential-2",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488625/images/projects/storm-damage-residential-2.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3827849
+  },
+  "images\\projects\\storm-hail-damage-closeup.png": {
+    "publicId": "images/projects/storm-hail-damage-closeup",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488624/images/projects/storm-hail-damage-closeup.png",
+    "format": "png",
+    "width": 1024,
+    "height": 683,
+    "bytes": 1300378
+  },
+  "images\\projects\\storm-roof-safety-ladder.jpg": {
+    "publicId": "images/projects/storm-roof-safety-ladder",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/storm-roof-safety-ladder.jpg",
+    "format": "jpg",
+    "width": 530,
+    "height": 390,
+    "bytes": 60285
+  },
+  "images\\projects\\storm-roof-damage-inspection.jpg": {
+    "publicId": "images/projects/storm-roof-damage-inspection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/storm-roof-damage-inspection.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 825449
+  },
+  "images\\projects\\victorian-mansion-restored.jpg": {
+    "publicId": "images/projects/victorian-mansion-restored",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/victorian-mansion-restored.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1237255
+  },
+  "images\\projects\\storm-restored-suburban-home.jpg": {
+    "publicId": "images/projects/storm-restored-suburban-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/storm-restored-suburban-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 246192
+  },
+  "images\\projects\\victorian-under-restoration.jpg": {
+    "publicId": "images/projects/victorian-under-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/victorian-under-restoration.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1756561
+  },
+  "images\\projects\\storm-tree-damage-street.jpg": {
+    "publicId": "images/projects/storm-tree-damage-street",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/storm-tree-damage-street.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1293731
+  },
+  "images\\projects\\victorian-restoration-progress.jpg": {
+    "publicId": "images/projects/victorian-restoration-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/victorian-restoration-progress.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1756561
+  },
+  "images\\projects\\storm-tarped-roofs-aerial.png": {
+    "publicId": "images/projects/storm-tarped-roofs-aerial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/storm-tarped-roofs-aerial.png",
+    "format": "png",
+    "width": 1600,
+    "height": 800,
+    "bytes": 2430611
+  },
+  "images\\projects\\victorian-fully-restored.jpg": {
+    "publicId": "images/projects/victorian-fully-restored",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488627/images/projects/victorian-fully-restored.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1237255
+  },
+  "images\\projects\\storm-tree-fallen-street.jpg": {
+    "publicId": "images/projects/storm-tree-fallen-street",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488628/images/projects/storm-tree-fallen-street.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 139309
+  },
+  "insurance-documentation-commercial.jpg": {
+    "publicId": "insurance-documentation-commercial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/insurance-documentation-commercial.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 184503
+  },
+  "logo.png": {
+    "publicId": "logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/logo.png",
+    "format": "png",
+    "width": 1255,
+    "height": 323,
+    "bytes": 244859
+  },
+  "insurance-documentation-exterior.jpg": {
+    "publicId": "insurance-documentation-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/insurance-documentation-exterior.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "johns-creek-neighborhood.jpg": {
+    "publicId": "johns-creek-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/johns-creek-neighborhood.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 261222
+  },
+  "insurance-documentation-storm-damage.jpg": {
+    "publicId": "insurance-documentation-storm-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/insurance-documentation-storm-damage.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 112994
+  },
+  "james-hardie-preferred-contractor-logo.jpg": {
+    "publicId": "james-hardie-preferred-contractor-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/james-hardie-preferred-contractor-logo.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 52498
+  },
+  "industrial-facility-exterior.jpg": {
+    "publicId": "industrial-facility-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/industrial-facility-exterior.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 81119
+  },
+  "marietta-multi-family-storm-recovery.jpg": {
+    "publicId": "marietta-multi-family-storm-recovery",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/marietta-multi-family-storm-recovery.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "luxury-home-slate-roof.png": {
+    "publicId": "luxury-home-slate-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488629/luxury-home-slate-roof.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1140613
+  },
+  "industrial-facility-exterior.png": {
+    "publicId": "industrial-facility-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488630/industrial-facility-exterior.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1067758
+  },
+  "multi-family-apartment-complex.jpg": {
+    "publicId": "multi-family-apartment-complex",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/multi-family-apartment-complex.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 141477
+  },
+  "marietta-neighborhood.jpg": {
+    "publicId": "marietta-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/marietta-neighborhood.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 205682
+  },
+  "modified-bitumen-torch-down-roof.jpg": {
+    "publicId": "modified-bitumen-torch-down-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/modified-bitumen-torch-down-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 165658
+  },
+  "modern-energy-efficient-windows-installation-on-ho.jpg": {
+    "publicId": "modern-energy-efficient-windows-installation-on-ho",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/modern-energy-efficient-windows-installation-on-ho.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 153305
+  },
+  "modern-siding-installation-on-residential-home-ext.jpg": {
+    "publicId": "modern-siding-installation-on-residential-home-ext",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/modern-siding-installation-on-residential-home-ext.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 209382
+  },
+  "modern-window-install.png": {
+    "publicId": "modern-window-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/modern-window-install.png",
+    "format": "png",
+    "width": 1024,
+    "height": 681,
+    "bytes": 879562
+  },
+  "national-map-locations.png": {
+    "publicId": "national-map-locations",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488633/national-map-locations.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1105120
+  },
+  "national-service-map.png": {
+    "publicId": "national-service-map",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/national-service-map.png",
+    "format": "png",
+    "width": 1024,
+    "height": 635,
+    "bytes": 620644
+  },
+  "marietta-storm-recovery.png": {
+    "publicId": "marietta-storm-recovery",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488632/marietta-storm-recovery.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "modern-metal-roof-home.png": {
+    "publicId": "modern-metal-roof-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488633/modern-metal-roof-home.png",
+    "format": "png",
+    "width": 1024,
+    "height": 662,
+    "bytes": 1061136
+  },
+  "ohio-after-commercial-restoration.jpg": {
+    "publicId": "ohio-after-commercial-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/ohio-after-commercial-restoration.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "nrca-member-logo.jpg": {
+    "publicId": "nrca-member-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/nrca-member-logo.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 67359
+  },
+  "ohio-after-siding-replacement.jpg": {
+    "publicId": "ohio-after-siding-replacement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/ohio-after-siding-replacement.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-before-commercial-restoration.jpg": {
+    "publicId": "ohio-before-commercial-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/ohio-before-commercial-restoration.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-after-storm-damage-roof.jpg": {
+    "publicId": "ohio-after-storm-damage-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/ohio-after-storm-damage-roof.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "natural-slate-roof-luxury-home.jpg": {
+    "publicId": "natural-slate-roof-luxury-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/natural-slate-roof-luxury-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 251899
+  },
+  "office-building-exterior.jpg": {
+    "publicId": "office-building-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/office-building-exterior.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 214818
+  },
+  "new-employee-orientation-training-welcome.jpg": {
+    "publicId": "new-employee-orientation-training-welcome",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/new-employee-orientation-training-welcome.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 139555
+  },
+  "newly-sided-home.png": {
+    "publicId": "newly-sided-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/newly-sided-home.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1206621
+  },
+  "office-building-exterior.png": {
+    "publicId": "office-building-exterior",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488635/office-building-exterior.png",
+    "format": "png",
+    "width": 1024,
+    "height": 681,
+    "bytes": 943882
+  },
+  "ohio-before-storm-damage-roof.jpg": {
+    "publicId": "ohio-before-storm-damage-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-before-storm-damage-roof.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-branded-trucks-equipment.jpg": {
+    "publicId": "ohio-branded-trucks-equipment",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-branded-trucks-equipment.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-cleveland-skyline-hero.jpg": {
+    "publicId": "ohio-cleveland-skyline-hero",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-cleveland-skyline-hero.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 164152
+  },
+  "ohio-crew-safety-meeting.jpg": {
+    "publicId": "ohio-crew-safety-meeting",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-crew-safety-meeting.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-office-building.jpg": {
+    "publicId": "ohio-office-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-office-building.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 154785
+  },
+  "ohio-lake-effect-snow.jpg": {
+    "publicId": "ohio-lake-effect-snow",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-lake-effect-snow.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 180662
+  },
+  "ohio-equipment-trucks-fleet.jpg": {
+    "publicId": "ohio-equipment-trucks-fleet",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-equipment-trucks-fleet.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 188008
+  },
+  "ohio-before-siding-replacement.jpg": {
+    "publicId": "ohio-before-siding-replacement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488638/ohio-before-siding-replacement.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-hail-damage.jpg": {
+    "publicId": "ohio-hail-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-hail-damage.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 277130
+  },
+  "ohio-commercial-project-progress.jpg": {
+    "publicId": "ohio-commercial-project-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488637/ohio-commercial-project-progress.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 198353
+  },
+  "ohio-project-2-commercial.jpg": {
+    "publicId": "ohio-project-2-commercial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-project-2-commercial.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-team-training-session.jpg": {
+    "publicId": "ohio-team-training-session",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-team-training-session.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-project-1-before-after.jpg": {
+    "publicId": "ohio-project-1-before-after",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-project-1-before-after.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-roofing-installation.jpg": {
+    "publicId": "ohio-roofing-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-roofing-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 212862
+  },
+  "ohio-team-working-cleveland.jpg": {
+    "publicId": "ohio-team-working-cleveland",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-team-working-cleveland.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 240394
+  },
+  "ohio-siding-installation-team.jpg": {
+    "publicId": "ohio-siding-installation-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-siding-installation-team.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 275876
+  },
+  "ohio-project-3-storm-damage.jpg": {
+    "publicId": "ohio-project-3-storm-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-project-3-storm-damage.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "ohio-office.png": {
+    "publicId": "ohio-office",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-office.png",
+    "format": "png",
+    "width": 1024,
+    "height": 679,
+    "bytes": 911274
+  },
+  "ohio-storm-damage-response.jpg": {
+    "publicId": "ohio-storm-damage-response",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-storm-damage-response.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 259981
+  },
+  "ohio-residential-roofing-crew.jpg": {
+    "publicId": "ohio-residential-roofing-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488640/ohio-residential-roofing-crew.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 214706
+  },
+  "owens-corning-preferred-contractor-logo.jpg": {
+    "publicId": "owens-corning-preferred-contractor-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488642/owens-corning-preferred-contractor-logo.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 51163
+  },
+  "ongoing-support-customer.jpg": {
+    "publicId": "ongoing-support-customer",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488642/ongoing-support-customer.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "photorealistic-aerial-view-of-suburban-residential.jpg": {
+    "publicId": "photorealistic-aerial-view-of-suburban-residential",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488643/photorealistic-aerial-view-of-suburban-residential.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 306022
+  },
+  "ohio-wind-damage.jpg": {
+    "publicId": "ohio-wind-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488642/ohio-wind-damage.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "person-testimonial.png": {
+    "publicId": "person-testimonial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488643/person-testimonial.png",
+    "format": "png",
+    "width": 1024,
+    "height": 624,
+    "bytes": 758848
+  },
+  "partnership-header.png": {
+    "publicId": "partnership-header",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488643/partnership-header.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 956259
+  },
+  "partner-testimonial-3.png": {
+    "publicId": "partner-testimonial-3",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488643/partner-testimonial-3.png",
+    "format": "png",
+    "width": 1024,
+    "height": 681,
+    "bytes": 770779
+  },
+  "partner-testimonial-2.png": {
+    "publicId": "partner-testimonial-2",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488643/partner-testimonial-2.png",
+    "format": "png",
+    "width": 801,
+    "height": 841,
+    "bytes": 763598
+  },
+  "partnership-application-header.png": {
+    "publicId": "partnership-application-header",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488643/partnership-application-header.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 930275
+  },
+  "partner-testimonial-1.png": {
+    "publicId": "partner-testimonial-1",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488642/partner-testimonial-1.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 861091
+  },
+  "professional-construction-director-portrait.jpg": {
+    "publicId": "professional-construction-director-portrait",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488644/professional-construction-director-portrait.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 104872
+  },
+  "professional-coo-portrait.png": {
+    "publicId": "professional-coo-portrait",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488645/professional-coo-portrait.png",
+    "format": "png",
+    "width": 1024,
+    "height": 681,
+    "bytes": 826118
+  },
+  "preventative-maintenance-team.png": {
+    "publicId": "preventative-maintenance-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488644/preventative-maintenance-team.png",
+    "format": "png",
+    "width": 1024,
+    "height": 353,
+    "bytes": 466500
+  },
+  "portal-header-image.png": {
+    "publicId": "portal-header-image",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488644/portal-header-image.png",
+    "format": "png",
+    "width": 1024,
+    "height": 509,
+    "bytes": 408284
+  },
+  "professional-ceo-portrait.png": {
+    "publicId": "professional-ceo-portrait",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488645/professional-ceo-portrait.png",
+    "format": "png",
+    "width": 1024,
+    "height": 679,
+    "bytes": 796122
+  },
+  "placeholder-logo.svg": {
+    "publicId": "placeholder-logo",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488644/placeholder-logo.svg",
+    "format": "svg",
+    "width": 215,
+    "height": 48,
+    "bytes": 3208
+  },
+  "placeholder.svg": {
+    "publicId": "placeholder",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488644/placeholder.svg",
+    "format": "svg",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 3253
+  },
+  "professional-restoration-team-working-on-modern-ho.jpg": {
+    "publicId": "professional-restoration-team-working-on-modern-ho",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/professional-restoration-team-working-on-modern-ho.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 150047
+  },
+  "quality-control-roof-inspection.jpg": {
+    "publicId": "quality-control-roof-inspection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/quality-control-roof-inspection.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 167106
+  },
+  "property-restoration.jpg": {
+    "publicId": "property-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/property-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 192663
+  },
+  "professional-restoration-team-in-front-of-company-.jpg": {
+    "publicId": "professional-restoration-team-in-front-of-company-",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/professional-restoration-team-in-front-of-company-.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 140468
+  },
+  "property-restoration-work.jpg": {
+    "publicId": "property-restoration-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/property-restoration-work.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 161794
+  },
+  "replacement-windows-installation.jpg": {
+    "publicId": "replacement-windows-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/replacement-windows-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 143116
+  },
+  "residential-home-solar-panel-installation-crew.jpg": {
+    "publicId": "residential-home-solar-panel-installation-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/residential-home-solar-panel-installation-crew.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 143425
+  },
+  "residential-home-with-solar-panels-on-roof-sunny-d.jpg": {
+    "publicId": "residential-home-with-solar-panels-on-roof-sunny-d",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/residential-home-with-solar-panels-on-roof-sunny-d.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 185124
+  },
+  "professional-roofing-installation-on-residential-h.jpg": {
+    "publicId": "professional-roofing-installation-on-residential-h",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/professional-roofing-installation-on-residential-h.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 302796
+  },
+  "residential-roof-install.png": {
+    "publicId": "residential-roof-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488647/residential-roof-install.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1496667
+  },
+  "restoration-completion-inspection.jpg": {
+    "publicId": "restoration-completion-inspection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-completion-inspection.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 73796
+  },
+  "restoration-emergency-response.jpg": {
+    "publicId": "restoration-emergency-response",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-emergency-response.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 161825
+  },
+  "restoration-equipment-setup.jpg": {
+    "publicId": "restoration-equipment-setup",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-equipment-setup.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 186602
+  },
+  "residential-solar-installation-aerial-view.jpg": {
+    "publicId": "residential-solar-installation-aerial-view",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/residential-solar-installation-aerial-view.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 289811
+  },
+  "restoration-company-founder-with-team.jpg": {
+    "publicId": "restoration-company-founder-with-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-company-founder-with-team.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 151412
+  },
+  "residential-solar-panel-installation-crew-on-roof.jpg": {
+    "publicId": "residential-solar-panel-installation-crew-on-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/residential-solar-panel-installation-crew-on-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 234500
+  },
+  "restoration-adjuster-meeting.jpg": {
+    "publicId": "restoration-adjuster-meeting",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-adjuster-meeting.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 104549
+  },
+  "restoration-documentation.jpg": {
+    "publicId": "restoration-documentation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-documentation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 101474
+  },
+  "restoration-damage-assessment.jpg": {
+    "publicId": "restoration-damage-assessment",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-damage-assessment.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 94676
+  },
+  "restoration-crew.png": {
+    "publicId": "restoration-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488650/restoration-crew.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1288169
+  },
+  "restoration-ongoing-support.jpg": {
+    "publicId": "restoration-ongoing-support",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/restoration-ongoing-support.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 120990
+  },
+  "restoration-team-emergency-response.jpg": {
+    "publicId": "restoration-team-emergency-response",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/restoration-team-emergency-response.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 196273
+  },
+  "restoration-work-in-progress.jpg": {
+    "publicId": "restoration-work-in-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/restoration-work-in-progress.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 230752
+  },
+  "restoration-work-siding.jpg": {
+    "publicId": "restoration-work-siding",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/restoration-work-siding.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "roof-damage-before-repair.jpg": {
+    "publicId": "roof-damage-before-repair",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/roof-damage-before-repair.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 318102
+  },
+  "restored-roof-after-storm.png": {
+    "publicId": "restored-roof-after-storm",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/restored-roof-after-storm.png",
+    "format": "png",
+    "width": 1024,
+    "height": 765,
+    "bytes": 1315096
+  },
+  "restored-historic-home.png": {
+    "publicId": "restored-historic-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/restored-historic-home.png",
+    "format": "png",
+    "width": 1024,
+    "height": 850,
+    "bytes": 1609004
+  },
+  "retail-center-restoration.png": {
+    "publicId": "retail-center-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/retail-center-restoration.png",
+    "format": "png",
+    "width": 1024,
+    "height": 677,
+    "bytes": 1088682
+  },
+  "restored-home-complete.jpg": {
+    "publicId": "restored-home-complete",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488652/restored-home-complete.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1722346
+  },
+  "retail-center-restoration.jpg": {
+    "publicId": "retail-center-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488653/retail-center-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 162708
+  },
+  "roof-inspector-documenting-damage.jpg": {
+    "publicId": "roof-inspector-documenting-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roof-inspector-documenting-damage.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 152034
+  },
+  "roofing-crew-installing-shingles.jpg": {
+    "publicId": "roofing-crew-installing-shingles",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roofing-crew-installing-shingles.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 220426
+  },
+  "roof-replacement-in-progress.jpg": {
+    "publicId": "roof-replacement-in-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roof-replacement-in-progress.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 178566
+  },
+  "roof-replacement-day.png": {
+    "publicId": "roof-replacement-day",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roof-replacement-day.png",
+    "format": "png",
+    "width": 1024,
+    "height": 713,
+    "bytes": 1495204
+  },
+  "roof-inspection-team.png": {
+    "publicId": "roof-inspection-team",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roof-inspection-team.png",
+    "format": "png",
+    "width": 1024,
+    "height": 544,
+    "bytes": 898210
+  },
+  "roofing-crew-install.png": {
+    "publicId": "roofing-crew-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roofing-crew-install.png",
+    "format": "png",
+    "width": 1024,
+    "height": 765,
+    "bytes": 1486488
+  },
+  "roof-repair-after-storm.png": {
+    "publicId": "roof-repair-after-storm",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roof-repair-after-storm.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1319130
+  },
+  "roofing-crew-silhouette.jpg": {
+    "publicId": "roofing-crew-silhouette",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488656/roofing-crew-silhouette.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3223872
+  },
+  "roof-restoration-crew.png": {
+    "publicId": "roof-restoration-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488655/roof-restoration-crew.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1053978
+  },
+  "roofing-crew-restoration.jpg": {
+    "publicId": "roofing-crew-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488656/roofing-crew-restoration.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3094193
+  },
+  "roofing-team-working-on-residential-roof.jpg": {
+    "publicId": "roofing-team-working-on-residential-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/roofing-team-working-on-residential-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 216804
+  },
+  "roswell-homes.jpg": {
+    "publicId": "roswell-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/roswell-homes.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 229270
+  },
+  "seamless-gutter-installation.jpg": {
+    "publicId": "seamless-gutter-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/seamless-gutter-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 231267
+  },
+  "sales-team-meeting-training-session-professional-o.jpg": {
+    "publicId": "sales-team-meeting-training-session-professional-o",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/sales-team-meeting-training-session-professional-o.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 91115
+  },
+  "seamless-gutter-installation-on-residential-home.jpg": {
+    "publicId": "seamless-gutter-installation-on-residential-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/seamless-gutter-installation-on-residential-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 199550
+  },
+  "satisfied-homeowner-new-roof.jpg": {
+    "publicId": "satisfied-homeowner-new-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/satisfied-homeowner-new-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 133100
+  },
+  "seamless-gutter-install.png": {
+    "publicId": "seamless-gutter-install",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/seamless-gutter-install.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 891520
+  },
+  "sales-training-presentation-professional-developme.jpg": {
+    "publicId": "sales-training-presentation-professional-developme",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/sales-training-presentation-professional-developme.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 101392
+  },
+  "severe-roof-damage.jpg": {
+    "publicId": "severe-roof-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488659/severe-roof-damage.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 3827849
+  },
+  "seamless-gutter-installation.png": {
+    "publicId": "seamless-gutter-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488658/seamless-gutter-installation.png",
+    "format": "png",
+    "width": 1024,
+    "height": 676,
+    "bytes": 872570
+  },
+  "siding-before-damaged.jpg": {
+    "publicId": "siding-before-damaged",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-before-damaged.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 209777
+  },
+  "siding-installation-crew-working.jpg": {
+    "publicId": "siding-installation-crew-working",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-installation-crew-working.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 178639
+  },
+  "solar-battery-powerwall.jpg": {
+    "publicId": "solar-battery-powerwall",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/solar-battery-powerwall.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "siding-after-fiber-cement.jpg": {
+    "publicId": "siding-after-fiber-cement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-after-fiber-cement.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "siding-before-faded-wood.jpg": {
+    "publicId": "siding-before-faded-wood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-before-faded-wood.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "siding-after-new-vinyl.jpg": {
+    "publicId": "siding-after-new-vinyl",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-after-new-vinyl.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "siding-before-old-damaged.jpg": {
+    "publicId": "siding-before-old-damaged",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-before-old-damaged.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "siding-installation-progress.jpg": {
+    "publicId": "siding-installation-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-installation-progress.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 235785
+  },
+  "siding-after-beautiful.jpg": {
+    "publicId": "siding-after-beautiful",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-after-beautiful.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 219847
+  },
+  "siding-repair-work.jpg": {
+    "publicId": "siding-repair-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488661/siding-repair-work.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-battery-storage-system.jpg": {
+    "publicId": "solar-battery-storage-system",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-battery-storage-system.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 141033
+  },
+  "solar-consultation-site-assessment.jpg": {
+    "publicId": "solar-consultation-site-assessment",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-consultation-site-assessment.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 177482
+  },
+  "solar-commercial-office-250kw.jpg": {
+    "publicId": "solar-commercial-office-250kw",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-commercial-office-250kw.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-battery-storage-inverter-system.jpg": {
+    "publicId": "solar-battery-storage-inverter-system",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-battery-storage-inverter-system.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 146471
+  },
+  "solar-battery-storage-commercial.jpg": {
+    "publicId": "solar-battery-storage-commercial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-battery-storage-commercial.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-commercial-building-installation.jpg": {
+    "publicId": "solar-commercial-building-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-commercial-building-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 268155
+  },
+  "solar-carport-installation.jpg": {
+    "publicId": "solar-carport-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-carport-installation.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-energy-audit-consultation.jpg": {
+    "publicId": "solar-energy-audit-consultation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-energy-audit-consultation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 123797
+  },
+  "solar-financing-consultation.jpg": {
+    "publicId": "solar-financing-consultation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-financing-consultation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 94408
+  },
+  "solar-battery-storage-system-installation.jpg": {
+    "publicId": "solar-battery-storage-system-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488663/solar-battery-storage-system-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 283872
+  },
+  "solar-monitoring-dashboard.jpg": {
+    "publicId": "solar-monitoring-dashboard",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-monitoring-dashboard.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 141534
+  },
+  "solar-inspection-activation.jpg": {
+    "publicId": "solar-inspection-activation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-inspection-activation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 126529
+  },
+  "solar-panel-installation-on-residential-roof.jpg": {
+    "publicId": "solar-panel-installation-on-residential-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-panel-installation-on-residential-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 281116
+  },
+  "solar-panel-close-up.jpg": {
+    "publicId": "solar-panel-close-up",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-panel-close-up.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-installation-technicians-work.jpg": {
+    "publicId": "solar-installation-technicians-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-installation-technicians-work.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-inverter-installation.jpg": {
+    "publicId": "solar-inverter-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-inverter-installation.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-ground-mount-array.jpg": {
+    "publicId": "solar-ground-mount-array",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-ground-mount-array.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-monitoring-maintenance-support.jpg": {
+    "publicId": "solar-monitoring-maintenance-support",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-monitoring-maintenance-support.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 112950
+  },
+  "solar-panel-installation-crew.jpg": {
+    "publicId": "solar-panel-installation-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-panel-installation-crew.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 216148
+  },
+  "solar-panel-installation-aerial.jpg": {
+    "publicId": "solar-panel-installation-aerial",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488665/solar-panel-installation-aerial.png",
+    "format": "png",
+    "width": 1600,
+    "height": 896,
+    "bytes": 2770770
+  },
+  "solar-residential-neighborhood.jpg": {
+    "publicId": "solar-residential-neighborhood",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-residential-neighborhood.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-permitting-utility-coordination.jpg": {
+    "publicId": "solar-permitting-utility-coordination",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-permitting-utility-coordination.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 106754
+  },
+  "solar-residential-black-on-black.jpg": {
+    "publicId": "solar-residential-black-on-black",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-residential-black-on-black.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-residential-home-installation.jpg": {
+    "publicId": "solar-residential-home-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-residential-home-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 182333
+  },
+  "solar-professional-installation-crew.jpg": {
+    "publicId": "solar-professional-installation-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-professional-installation-crew.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 303913
+  },
+  "solar-quality-installation-warranty.jpg": {
+    "publicId": "solar-quality-installation-warranty",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-quality-installation-warranty.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 123790
+  },
+  "solar-panels-on-residential-roof-installation.jpg": {
+    "publicId": "solar-panels-on-residential-roof-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-panels-on-residential-roof-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 251781
+  },
+  "solar-panels-on-roof.png": {
+    "publicId": "solar-panels-on-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-panels-on-roof.png",
+    "format": "png",
+    "width": 1024,
+    "height": 597,
+    "bytes": 1000307
+  },
+  "solar-panel-maintenance-and-cleaning.jpg": {
+    "publicId": "solar-panel-maintenance-and-cleaning",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-panel-maintenance-and-cleaning.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 193487
+  },
+  "solar-panel-installation.png": {
+    "publicId": "solar-panel-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488668/solar-panel-installation.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1316641
+  },
+  "solar-warehouse-rooftop.jpg": {
+    "publicId": "solar-warehouse-rooftop",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/solar-warehouse-rooftop.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-after-beautiful-siding.jpg": {
+    "publicId": "st-louis-after-beautiful-siding",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/st-louis-after-beautiful-siding.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-after-beautiful-roof.jpg": {
+    "publicId": "st-louis-after-beautiful-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/st-louis-after-beautiful-roof.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-team-installation.jpg": {
+    "publicId": "solar-team-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/solar-team-installation.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "solar-residential-rooftop-installation.jpg": {
+    "publicId": "solar-residential-rooftop-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/solar-residential-rooftop-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 162349
+  },
+  "st-louis-before-damaged-roof.jpg": {
+    "publicId": "st-louis-before-damaged-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/st-louis-before-damaged-roof.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-before-damaged-siding.jpg": {
+    "publicId": "st-louis-before-damaged-siding",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/st-louis-before-damaged-siding.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "southern-california-office.png": {
+    "publicId": "southern-california-office",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/southern-california-office.png",
+    "format": "png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 998036
+  },
+  "st-louis-clayton-modern-buildings.jpg": {
+    "publicId": "st-louis-clayton-modern-buildings",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/st-louis-clayton-modern-buildings.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 192862
+  },
+  "solar-system-design-proposal.jpg": {
+    "publicId": "solar-system-design-proposal",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488670/solar-system-design-proposal.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 115111
+  },
+  "st-louis-office-building.jpg": {
+    "publicId": "st-louis-office-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-office-building.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 155174
+  },
+  "st-louis-ladue-luxury-homes.jpg": {
+    "publicId": "st-louis-ladue-luxury-homes",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-ladue-luxury-homes.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 239526
+  },
+  "st-louis-ofallon-hoa-project.jpg": {
+    "publicId": "st-louis-ofallon-hoa-project",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-ofallon-hoa-project.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-gutter-installation.jpg": {
+    "publicId": "st-louis-gutter-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-gutter-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 210902
+  },
+  "st-louis-inspection-documentation.jpg": {
+    "publicId": "st-louis-inspection-documentation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-inspection-documentation.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-downtown-commercial-roof.jpg": {
+    "publicId": "st-louis-downtown-commercial-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-downtown-commercial-roof.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-roof-replacement.jpg": {
+    "publicId": "st-louis-roof-replacement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-roof-replacement.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 286009
+  },
+  "st-louis-hail-damage.jpg": {
+    "publicId": "st-louis-hail-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488673/st-louis-hail-damage.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-siding-installation.jpg": {
+    "publicId": "st-louis-siding-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-siding-installation.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 224314
+  },
+  "st-louis-equipment-trucks.jpg": {
+    "publicId": "st-louis-equipment-trucks",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488672/st-louis-equipment-trucks.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-soulard-townhome-project.jpg": {
+    "publicId": "st-louis-soulard-townhome-project",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-soulard-townhome-project.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-team-working-roof.jpg": {
+    "publicId": "st-louis-team-working-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-team-working-roof.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-summer-heat.jpg": {
+    "publicId": "st-louis-summer-heat",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-summer-heat.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-warehouse-facility.jpg": {
+    "publicId": "st-louis-warehouse-facility",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-warehouse-facility.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 135112
+  },
+  "st-louis-siding-progress.jpg": {
+    "publicId": "st-louis-siding-progress",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-siding-progress.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 207782
+  },
+  "st-louis-storm-damage-response.jpg": {
+    "publicId": "st-louis-storm-damage-response",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-storm-damage-response.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 246693
+  },
+  "st-louis-team-at-office.jpg": {
+    "publicId": "st-louis-team-at-office",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-team-at-office.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 100598
+  },
+  "st-louis-water-fire-restoration.jpg": {
+    "publicId": "st-louis-water-fire-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-water-fire-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 205224
+  },
+  "st-louis-st-peters-residential.jpg": {
+    "publicId": "st-louis-st-peters-residential",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-st-peters-residential.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 253741
+  },
+  "st-louis-team-meeting-client.jpg": {
+    "publicId": "st-louis-team-meeting-client",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488674/st-louis-team-meeting-client.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 101225
+  },
+  "st-louis-winter-ice.jpg": {
+    "publicId": "st-louis-winter-ice",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488676/st-louis-winter-ice.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "standing-seam-metal-roof-modern-home.jpg": {
+    "publicId": "standing-seam-metal-roof-modern-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488676/standing-seam-metal-roof-modern-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 157458
+  },
+  "st-louis-wind-damage.jpg": {
+    "publicId": "st-louis-wind-damage",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488676/st-louis-wind-damage.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "st-louis-wentzville-development.jpg": {
+    "publicId": "st-louis-wentzville-development",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488676/st-louis-wentzville-development.png",
+    "format": "png",
+    "width": 1200,
+    "height": 1200,
+    "bytes": 11265
+  },
+  "storm-damaged-home-restoration.png": {
+    "publicId": "storm-damaged-home-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488677/storm-damaged-home-restoration.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1372003
+  },
+  "storm-damaged-home-severe.jpg": {
+    "publicId": "storm-damaged-home-severe",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488677/storm-damaged-home-severe.jpg",
+    "format": "jpg",
+    "width": 3200,
+    "height": 1792,
+    "bytes": 1681524
+  },
+  "st-louis-wildwood-developments.jpg": {
+    "publicId": "st-louis-wildwood-developments",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488676/st-louis-wildwood-developments.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 263271
+  },
+  "steel-gutters-installation.png": {
+    "publicId": "steel-gutters-installation",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488677/steel-gutters-installation.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 787947
+  },
+  "storm-damage-restoration-crew.jpg": {
+    "publicId": "storm-damage-restoration-crew",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488676/storm-damage-restoration-crew.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 283429
+  },
+  "storm-damaged-home-roof.jpg": {
+    "publicId": "storm-damaged-home-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488676/storm-damaged-home-roof.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 867474
+  },
+  "successful-sales-rep-with-commission-check-celebra.jpg": {
+    "publicId": "successful-sales-rep-with-commission-check-celebra",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/successful-sales-rep-with-commission-check-celebra.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 129677
+  },
+  "structural-repair-work.jpg": {
+    "publicId": "structural-repair-work",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/structural-repair-work.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 263787
+  },
+  "synthetic-composite-slate-roof-modern-home.jpg": {
+    "publicId": "synthetic-composite-slate-roof-modern-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/synthetic-composite-slate-roof-modern-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 157527
+  },
+  "successful-sales-rep-with-client-handshake-profess.jpg": {
+    "publicId": "successful-sales-rep-with-client-handshake-profess",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/successful-sales-rep-with-client-handshake-profess.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 77542
+  },
+  "suburban-garage-organization.png": {
+    "publicId": "suburban-garage-organization",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/suburban-garage-organization.png",
+    "format": "png",
+    "width": 1024,
+    "height": 555,
+    "bytes": 761463
+  },
+  "storm-damaged-house.png": {
+    "publicId": "storm-damaged-house",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/storm-damaged-house.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1357526
+  },
+  "storm-damaged-roof-tarping.png": {
+    "publicId": "storm-damaged-roof-tarping",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/storm-damaged-roof-tarping.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 999172
+  },
+  "suburban-backyard-gathering.png": {
+    "publicId": "suburban-backyard-gathering",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/suburban-backyard-gathering.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1176650
+  },
+  "storm-damaged-roof.png": {
+    "publicId": "storm-damaged-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/storm-damaged-roof.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1258450
+  },
+  "storm-damaged-home.png": {
+    "publicId": "storm-damaged-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488679/storm-damaged-home.png",
+    "format": "png",
+    "width": 1600,
+    "height": 896,
+    "bytes": 2148216
+  },
+  "tpo-white-membrane-flat-roof.jpg": {
+    "publicId": "tpo-white-membrane-flat-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/tpo-white-membrane-flat-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 112866
+  },
+  "team-lunch-celebration-company-culture.jpg": {
+    "publicId": "team-lunch-celebration-company-culture",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/team-lunch-celebration-company-culture.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 128310
+  },
+  "team-celebrating-success-high-five-office-environm.jpg": {
+    "publicId": "team-celebrating-success-high-five-office-environm",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/team-celebrating-success-high-five-office-environm.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 161843
+  },
+  "team-awards-ceremony-recognition-achievement.jpg": {
+    "publicId": "team-awards-ceremony-recognition-achievement",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/team-awards-ceremony-recognition-achievement.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 135558
+  },
+  "texas-dallas-skyline-hero.jpg": {
+    "publicId": "texas-dallas-skyline-hero",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/texas-dallas-skyline-hero.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 155082
+  },
+  "texas-team-working-residential.jpg": {
+    "publicId": "texas-team-working-residential",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/texas-team-working-residential.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 184596
+  },
+  "texas-commercial-roofing-project.jpg": {
+    "publicId": "texas-commercial-roofing-project",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/texas-commercial-roofing-project.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 280387
+  },
+  "team-meeting-collaboration-whiteboard-planning.jpg": {
+    "publicId": "team-meeting-collaboration-whiteboard-planning",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/team-meeting-collaboration-whiteboard-planning.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 119151
+  },
+  "vinyl-siding-traditional-home.jpg": {
+    "publicId": "vinyl-siding-traditional-home",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/vinyl-siding-traditional-home.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 258077
+  },
+  "texas-hail-damage-inspection.jpg": {
+    "publicId": "texas-hail-damage-inspection",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488681/texas-hail-damage-inspection.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 159892
+  },
+  "workers-installing-solar-panels-on-commercial-roof.jpg": {
+    "publicId": "workers-installing-solar-panels-on-commercial-roof",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488683/workers-installing-solar-panels-on-commercial-roof.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 288165
+  },
+  "washington-dc-monuments-capitol.jpg": {
+    "publicId": "washington-dc-monuments-capitol",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488683/washington-dc-monuments-capitol.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 304661
+  },
+  "water-damage-restoration.jpg": {
+    "publicId": "water-damage-restoration",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488683/water-damage-restoration.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 170727
+  },
+  "washington-dc-office-building.jpg": {
+    "publicId": "washington-dc-office-building",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488683/washington-dc-office-building.jpg",
+    "format": "jpg",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 212152
+  },
+  "washington-dc-capitol.jpg": {
+    "publicId": "washington-dc-capitol",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488683/washington-dc-capitol.jpg",
+    "format": "jpg",
+    "width": 1600,
+    "height": 896,
+    "bytes": 1008043
+  },
+  "weathered-asphalt-texture.png": {
+    "publicId": "weathered-asphalt-texture",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488683/weathered-asphalt-texture.png",
+    "format": "png",
+    "width": 1024,
+    "height": 680,
+    "bytes": 1732033
+  },
+  "washington-dc-office.png": {
+    "publicId": "washington-dc-office",
+    "url": "https://res.cloudinary.com/dhegnhnyn/image/upload/v1762488683/washington-dc-office.png",
+    "format": "png",
+    "width": 1024,
+    "height": 679,
+    "bytes": 765270
+  }
+}

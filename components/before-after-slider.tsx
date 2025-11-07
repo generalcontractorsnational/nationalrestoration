@@ -26,9 +26,9 @@ export default function BeforeAfterSlider({
   const containerRef = useRef<HTMLDivElement>(null)
 
   // Ensure we have valid image sources
-  const beforeSrc = beforeImage && beforeImage.trim() !== "" ? beforeImage : "/damaged-house-exterior.png"
+  const beforeSrc = beforeImage && beforeImage.trim() !== "" ? beforeImage : "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/damaged-house-exterior"
 
-  const afterSrc = afterImage && afterImage.trim() !== "" ? afterImage : "/restored-historic-home.png"
+  const afterSrc = afterImage && afterImage.trim() !== "" ? afterImage : "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restored-historic-home"
 
   const handleMouseDown = () => {
     setIsDragging(true)
@@ -78,7 +78,7 @@ export default function BeforeAfterSlider({
     >
       {/* Before image (full width) */}
       <div className="absolute inset-0">
-        <Image src={beforeSrc || "/placeholder.svg"} alt={beforeAlt} fill className="object-cover" sizes="100vw" />
+        <Image src={beforeSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"} alt={beforeAlt} fill className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-black/20" />
         <div className="absolute bottom-8 left-8 bg-black/70 text-white px-4 py-2 rounded-lg font-bold">BEFORE</div>
       </div>
@@ -87,7 +87,7 @@ export default function BeforeAfterSlider({
       <div className="absolute inset-0 overflow-hidden" style={{ width: `${sliderPosition}%` }}>
         <div className="absolute inset-0" style={{ width: "100vw" }}>
           <Image
-            src={afterSrc || "/placeholder.svg"}
+            src={afterSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
             alt={afterAlt}
             fill
             className="object-cover"

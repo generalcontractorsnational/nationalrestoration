@@ -29,7 +29,7 @@ export default function StormDamageHighlight() {
             {/* Fixed image container with proper margins */}
             <div className="relative w-full h-[200px] mb-6 rounded-lg overflow-hidden">
               <Image
-                src="/storm-damaged-roof-tarping.png"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof-tarping"
                 alt="Emergency storm damage response"
                 fill
                 className="object-cover"
@@ -148,7 +148,7 @@ export default function StormDamageHighlight() {
               <div className="relative rounded-lg overflow-hidden tablet-card-hover">
                 <div className="aspect-[4/3] relative">
                   <Image
-                    src="/storm-damaged-roof-tarping.png"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof-tarping"
                     alt="Emergency storm damage response"
                     fill
                     className="object-cover rounded-lg"
@@ -286,7 +286,7 @@ export default function StormDamageHighlight() {
             {/* Fixed image container with proper margins */}
             <div className="relative rounded-lg overflow-hidden h-full">
               <Image
-                src="/storm-damaged-roof-tarping.png"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof-tarping"
                 alt="Emergency storm damage response"
                 fill
                 className="object-cover"

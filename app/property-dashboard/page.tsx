@@ -21,7 +21,7 @@ export default function PropertyDashboardPage() {
       <PageHeader
         title="Property Dashboard"
         description="Manage your properties and assessments in one centralized dashboard"
-        backgroundImage="/building-exterior-inspection.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/building-exterior-inspection"
       />
       <PropertyDashboard />
     </>

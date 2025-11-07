@@ -23,7 +23,7 @@ export default function NewAssessmentPage() {
       <PageHeader
         title="New Storm Damage Assessment"
         description="Create a new assessment for your property"
-        backgroundImage="/storm-damaged-roof.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-roof"
       />
       <Suspense fallback={<div className="container py-12">Loading assessment form...</div>}>
         <NewAssessmentForm />

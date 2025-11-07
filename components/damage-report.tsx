@@ -267,7 +267,7 @@ export default function DamageReport({ assessmentData, onSubmit }: DamageReportP
                           <p className="font-medium">Photo</p>
                           <div className="mt-1 h-20 overflow-hidden rounded">
                             <img
-                              src={item.content || "/placeholder.svg"}
+                              src={item.content || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
                               alt="Damage documentation"
                               className="w-full h-full object-cover"
                             />

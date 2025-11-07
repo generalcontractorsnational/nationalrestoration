@@ -77,7 +77,7 @@ export default function StormDamagePage() {
 
               <div className="relative aspect-video rounded-lg overflow-hidden">
                 <Image
-                  src="/roofing-crew-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/roofing-crew-restoration"
                   alt="Emergency storm damage response"
                   fill
                   className="object-cover"
@@ -591,7 +591,7 @@ export default function StormDamagePage() {
 
               <div className="relative aspect-square rounded-lg overflow-hidden">
                 <Image
-                  src="/storm-damaged-home-roof.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/storm-damaged-home-roof"
                   alt="Emergency storm damage response team"
                   fill
                   className="object-cover"

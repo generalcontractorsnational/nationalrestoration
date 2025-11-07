@@ -7,7 +7,7 @@ export default function EmployeeTestimonials() {
       name: "Michael Rodriguez",
       role: "Project Manager",
       location: "Atlanta, GA",
-      image: "/employee-michael.jpg",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/employee-michael",
       quote:
         "I've been with National Restoration for 3 years, and the growth opportunities have been incredible. The company truly invests in its employees.",
       rating: 5,
@@ -16,7 +16,7 @@ export default function EmployeeTestimonials() {
       name: "Sarah Johnson",
       role: "Restoration Technician",
       location: "Washington D.C.",
-      image: "/employee-sarah.jpg",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/employee-sarah",
       quote:
         "The team culture here is amazing. Everyone supports each other, and I feel valued every day. Best decision I ever made.",
       rating: 5,
@@ -25,7 +25,7 @@ export default function EmployeeTestimonials() {
       name: "David Chen",
       role: "Sales Representative",
       location: "Dallas, TX",
-      image: "/employee-david.jpg",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/employee-david",
       quote:
         "The compensation and benefits are top-notch. Plus, the training program helped me develop skills I never thought I'd have.",
       rating: 5,
@@ -39,7 +39,7 @@ export default function EmployeeTestimonials() {
           <div className="flex items-center gap-4 mb-4">
             <div className="relative w-16 h-16 rounded-full overflow-hidden bg-muted">
               <Image
-                src={testimonial.image || "/placeholder.svg"}
+                src={testimonial.image || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
                 alt={testimonial.name}
                 fill
                 className="object-cover"

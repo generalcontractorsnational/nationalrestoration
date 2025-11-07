@@ -35,11 +35,11 @@ export default function ResponsiveImage({
   }
 
   // Handle empty src values
-  const imageSrc = src.trim() !== "" ? src : "/abstract-geometric-placeholder.png"
+  const imageSrc = src.trim() !== "" ? src : "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/abstract-geometric-placeholder"
 
   // If it's a placeholder image, adjust the query for mobile
   let mobileOptimizedSrc = imageSrc
-  if (imageSrc.includes("/placeholder.svg") && isMobile) {
+  if (imageSrc.includes("https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder") && isMobile) {
     // Extract the query parameter
     const queryMatch = imageSrc.match(/query=([^&]+)/)
     if (queryMatch && queryMatch[1]) {
@@ -54,7 +54,7 @@ export default function ResponsiveImage({
     return (
       <div className={cn("relative", className)}>
         <Image
-          src={mobileOptimizedSrc || "/placeholder.svg"}
+          src={mobileOptimizedSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
           alt={alt}
           fill
           sizes={sizes}
@@ -68,7 +68,7 @@ export default function ResponsiveImage({
 
   return (
     <Image
-      src={mobileOptimizedSrc || "/placeholder.svg"}
+      src={mobileOptimizedSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
       alt={alt}
       width={width || 1200}
       height={height || 800}

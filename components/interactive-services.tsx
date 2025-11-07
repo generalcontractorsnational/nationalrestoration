@@ -198,7 +198,7 @@ export default function InteractiveServices() {
           caption: "Battery Storage",
         },
         {
-          src: "/photorealistic-aerial-view-of-suburban-residential.jpg",
+          src: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/photorealistic-aerial-view-of-suburban-residential",
           alt: "Residential home in DC metro area with professional solar panel installation",
           caption: "Residential Solar",
         },
@@ -273,7 +273,7 @@ export default function InteractiveServices() {
               >
                 <div className="relative h-48 sm:h-56 md:h-64">
                   <Image
-                    src={services[activeService].image || "/placeholder.svg"}
+                    src={services[activeService].image || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
                     alt={services[activeService].title}
                     fill
                     className="object-cover"
@@ -312,7 +312,7 @@ export default function InteractiveServices() {
                       {services[activeService].gallery.map((image, idx) => (
                         <div key={idx} className="relative group overflow-hidden rounded-lg aspect-square">
                           <Image
-                            src={image.src || "/placeholder.svg"}
+                            src={image.src || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
                             alt={image.alt}
                             fill
                             className="object-cover transition-transform duration-300 group-hover:scale-110"

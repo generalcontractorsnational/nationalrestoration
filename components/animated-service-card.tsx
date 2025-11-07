@@ -54,7 +54,7 @@ export function AnimatedServiceCard({
     >
       <div className="relative h-48 overflow-hidden">
         <Image
-          src={imageSrc || "/placeholder.svg"}
+          src={imageSrc || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"}
           alt={imageAlt}
           fill
           className={`object-cover transition-transform duration-700 ${isHovered ? "scale-110" : "scale-100"}`}

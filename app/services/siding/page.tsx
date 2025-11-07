@@ -21,7 +21,7 @@ export default function SidingPage() {
       benefits: "Affordable, fade-resistant, maintenance-free (no painting required)",
       lifespan: "20–40 years with proper care",
       features: "Dozens of colors and textures, compatible with insulated backing for improved energy efficiency",
-      image: "/vinyl-siding-traditional-home.jpg",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/vinyl-siding-traditional-home",
     },
     {
       name: "Fiber Cement Siding",
@@ -31,7 +31,7 @@ export default function SidingPage() {
       lifespan: "40–50 years or more",
       features:
         "James Hardie® and CertainTeed® certified. Holds paint exceptionally well, withstands extreme temperatures",
-      image: "/fiber-cement-siding-modern-home.jpg",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/fiber-cement-siding-modern-home",
     },
     {
       name: "Engineered Wood Siding",
@@ -40,7 +40,7 @@ export default function SidingPage() {
       benefits: "Warm, authentic look; impact-resistant; eco-friendly manufacturing",
       lifespan: "30+ years",
       features: "LP® SmartSide and similar products. Natural aesthetic without traditional maintenance",
-      image: "/engineered-wood-siding-craftsman-home.jpg",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/engineered-wood-siding-craftsman-home",
     },
     {
       name: "Composite & Specialty Siding",
@@ -49,7 +49,7 @@ export default function SidingPage() {
       benefits: "Architectural appeal, exceptional longevity, unique textures",
       lifespan: "30–50+ years",
       features: "Custom finishes, metal panels, stone veneer, decorative elements",
-      image: "/composite-specialty-siding-commercial.jpg",
+      image: "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/composite-specialty-siding-commercial",
     },
   ]
 
@@ -58,7 +58,7 @@ export default function SidingPage() {
       <PageHeader
         title="Siding & Exteriors"
         description="Full-service exterior renovation partner. Transform and protect your property with durable, beautiful siding solutions."
-        backgroundImage="/siding-installation-crew-working.jpg"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-installation-crew-working"
       />
 
       {/* Introduction Section */}
@@ -85,7 +85,7 @@ export default function SidingPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
               <Image
-                src="/siding-before-damaged.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-before-damaged"
                 alt="Damaged siding before repair"
                 fill
                 className="object-cover"
@@ -93,17 +93,17 @@ export default function SidingPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
               <Image
-                src="/siding-installation-progress.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-installation-progress"
                 alt="Siding installation in progress"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-              <Image src="/siding-after-beautiful.jpg" alt="Beautiful completed siding" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-after-beautiful" alt="Beautiful completed siding" fill className="object-cover" />
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-              <Image src="/exterior-trim-detail.jpg" alt="Exterior trim detail work" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/exterior-trim-detail" alt="Exterior trim detail work" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function SidingPage() {
             {sidingTypes.map((type, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="relative aspect-video">
-                  <Image src={type.image || "/placeholder.svg"} alt={type.name} fill className="object-cover" />
+                  <Image src={type.image || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"} alt={type.name} fill className="object-cover" />
                 </div>
                 <CardHeader className="pb-3">
                   <CardTitle className="text-xl">{type.name}</CardTitle>
@@ -248,7 +248,7 @@ export default function SidingPage() {
           <div className="grid grid-cols-3 gap-4 mt-6">
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/exterior-trim-installation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/exterior-trim-installation"
                 alt="Exterior trim installation"
                 fill
                 className="object-cover"
@@ -256,7 +256,7 @@ export default function SidingPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/replacement-windows-installation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/replacement-windows-installation"
                 alt="Replacement windows"
                 fill
                 className="object-cover"
@@ -264,7 +264,7 @@ export default function SidingPage() {
             </div>
             <div className="relative aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/seamless-gutter-installation.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/seamless-gutter-installation"
                 alt="Seamless gutter installation"
                 fill
                 className="object-cover"
@@ -305,21 +305,21 @@ export default function SidingPage() {
               />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
-              <Image src="/adjuster-meeting-exterior.jpg" alt="Adjuster meeting" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/adjuster-meeting-exterior" alt="Adjuster meeting" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
-              <Image src="/restoration-work-siding.jpg" alt="Restoration work" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/restoration-work-siding" alt="Restoration work" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
               <Image
-                src="/completion-warranty-exterior.jpg"
+                src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/completion-warranty-exterior"
                 alt="Completion and warranty"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="relative aspect-square rounded-lg overflow-hidden">
-              <Image src="/ongoing-support-customer.jpg" alt="Ongoing support" fill className="object-cover" />
+              <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/ongoing-support-customer" alt="Ongoing support" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -386,21 +386,21 @@ export default function SidingPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative aspect-square rounded-lg overflow-hidden">
                 <Image
-                  src="/insurance-documentation-exterior.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/insurance-documentation-exterior"
                   alt="Insurance documentation"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
-                <Image src="/adjuster-meeting-siding-damage.jpg" alt="Adjuster meeting" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/adjuster-meeting-siding-damage" alt="Adjuster meeting" fill className="object-cover" />
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
-                <Image src="/siding-repair-work.jpg" alt="Siding repair work" fill className="object-cover" />
+                <Image src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-repair-work" alt="Siding repair work" fill className="object-cover" />
               </div>
               <div className="relative aspect-square rounded-lg overflow-hidden">
                 <Image
-                  src="/completed-exterior-restoration.jpg"
+                  src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/completed-exterior-restoration"
                   alt="Completed restoration"
                   fill
                   className="object-cover"
@@ -430,7 +430,7 @@ export default function SidingPage() {
               <CardContent className="space-y-3">
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/siding-before-old-damaged.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-before-old-damaged"
                     alt="Before: Old damaged siding"
                     fill
                     className="object-cover"
@@ -441,7 +441,7 @@ export default function SidingPage() {
                 </div>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/siding-after-new-vinyl.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-after-new-vinyl"
                     alt="After: New vinyl siding"
                     fill
                     className="object-cover"
@@ -460,7 +460,7 @@ export default function SidingPage() {
               <CardContent className="space-y-3">
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/siding-before-faded-wood.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-before-faded-wood"
                     alt="Before: Faded wood siding"
                     fill
                     className="object-cover"
@@ -471,7 +471,7 @@ export default function SidingPage() {
                 </div>
                 <div className="relative aspect-video rounded-lg overflow-hidden">
                   <Image
-                    src="/siding-after-fiber-cement.jpg"
+                    src="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/siding-after-fiber-cement"
                     alt="After: New fiber cement siding"
                     fill
                     className="object-cover"

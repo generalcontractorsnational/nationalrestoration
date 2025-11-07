@@ -62,7 +62,7 @@ export default function ParallaxImageGallery({
               direction="up"
               className="relative overflow-hidden rounded-lg aspect-[3/4]"
             >
-              <img src={image.src || "/placeholder.svg"} alt={image.alt} className="w-full h-full object-cover" />
+              <img src={image.src || "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/placeholder"} alt={image.alt} className="w-full h-full object-cover" />
             </ParallaxElement>
           ))}
         </div>

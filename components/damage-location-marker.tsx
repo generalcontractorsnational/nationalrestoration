@@ -92,19 +92,19 @@ export default function DamageLocationMarker({ damageTypes, locations, onLocatio
   const getAreaImage = (area: string) => {
     switch (area) {
       case "exterior":
-        return "/newly-sided-home.png"
+        return "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/newly-sided-home"
       case "roof":
-        return "/residential-roof-install.png"
+        return "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/residential-roof-install"
       case "interior":
-        return "/cozy-reading-nook.png"
+        return "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cozy-reading-nook"
       case "basement":
-        return "/cozy-basement-living.png"
+        return "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/cozy-basement-living"
       case "garage":
-        return "/suburban-garage-organization.png"
+        return "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/suburban-garage-organization"
       case "yard":
-        return "/suburban-backyard-gathering.png"
+        return "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/suburban-backyard-gathering"
       default:
-        return "/newly-sided-home.png"
+        return "https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/newly-sided-home"
     }
   }
 

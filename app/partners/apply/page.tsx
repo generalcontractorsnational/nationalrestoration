@@ -13,7 +13,7 @@ export default function PartnerApplicationPage() {
       <PageHeader
         title="Partnership Application"
         description="Join our network of trusted partners and start growing your business"
-        backgroundImage="/partnership-application-header.png"
+        backgroundImage="https://res.cloudinary.com/dhegnhnyn/image/upload/f_auto,q_auto/partnership-application-header"
       />
 
       <section className="py-12 md:py-16 bg-white">
