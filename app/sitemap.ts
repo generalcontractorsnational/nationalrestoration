@@ -39,6 +39,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/partnerships',
     '/partnerships/apply',
     '/partnerships/portal',
+    '/partners/apply',
+    '/partners/portal',
     '/portals',
     '/property-dashboard',
     '/blog/atlanta-storm-preparation',
@@ -47,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'daily' : route.includes('/blog/') ? 'weekly' : 'monthly',
+    changeFrequency: route === '' ? 'daily' as const : route.includes('/blog/') ? 'weekly' as const : 'monthly' as const,
     priority: route === '' ? 1.0 : route.includes('/services') || route.includes('/locations') ? 0.8 : 0.6,
   }))
 }
